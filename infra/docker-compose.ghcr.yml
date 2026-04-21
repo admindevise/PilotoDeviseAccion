@@ -1,0 +1,87 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: fidu-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - '5433:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-extensions.sql:/docker-entrypoint-initdb.d/init-extensions.sql
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres -d ${POSTGRES_DB}']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    networks:
+      - fidu-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: fidu-redis
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - fidu-net
+
+  api:
+    image: ghcr.io/${GHCR_OWNER}/fidu-api:${IMAGE_TAG:-latest}
+    container_name: fidu-api
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      REDIS_URL: redis://redis:6379
+      API_PORT: 4000
+      PORT: 4000
+      CORS_ORIGIN: ${CORS_ORIGIN:-http://localhost:3000}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: sh -c "pnpm --filter @fideicomiso/api exec prisma generate && pnpm --filter @fideicomiso/api exec prisma db push && pnpm --filter @fideicomiso/api dev"
+    ports:
+      - '4000:4000'
+    networks:
+      - fidu-net
+
+  web:
+    image: ghcr.io/${GHCR_OWNER}/fidu-web:${IMAGE_TAG:-latest}
+    container_name: fidu-web
+    restart: unless-stopped
+    environment:
+      NODE_ENV: ${NODE_ENV:-production}
+      DEBUG: ${DEBUG:-false}
+      NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost:3000}
+      NEXTAUTH_URL_INTERNAL: ${NEXTAUTH_URL_INTERNAL:-http://localhost:3000}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+      AUTH_TRUST_HOST: ${AUTH_TRUST_HOST:-true}
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:4000/api/v1}
+    depends_on:
+      api:
+        condition: service_started
+    command: sh -c "pnpm --filter @fideicomiso/web exec next dev --hostname 0.0.0.0 --port 3000"
+    ports:
+      - '3000:3000'
+    networks:
+      - fidu-net
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  fidu-net:
+    driver: bridge

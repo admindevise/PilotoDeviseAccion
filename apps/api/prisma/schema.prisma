@@ -1,0 +1,690 @@
+// Plataforma de Conciliación Integral de Fideicomisos - MVP
+// Schema: PostgreSQL + Prisma ORM
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// USUARIOS Y ROLES
+// ============================================================
+
+enum UserRole {
+  ADMIN
+  GERENTE_FIDEICOMISO
+  ANALISTA_CONTABLE
+  DIRECTOR_FINANCIERO
+  AUDITOR
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String
+  role      UserRole
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  hallazgosAsignados Hallazgo[]          @relation("HallazgoAsignado")
+  resoluciones       ResolucionHallazgo[]
+  documentosCargados Documento[]
+  auditLogs          AuditLog[]
+  cambiosHallazgo    HistorialCambioHallazgo[] @relation("CambiosHallazgo")
+
+  @@map("users")
+}
+
+// ============================================================
+// FIDEICOMISOS Y CONFIGURACIÓN
+// ============================================================
+
+enum TipologiaFideicomiso {
+  FA // Fideicomisos de Administración
+  MR // Fiducia Mercantil de Preventas
+  MG // Fiducia Mercantil de Garantías
+}
+
+model Fideicomiso {
+  id                   String                @id @default(uuid())
+  codigoPrincipal      String                @unique // e.g., "FA-5999"
+  nombre               String
+  fiduciariaAdmin      String
+  fechaConstitucion    DateTime
+  tipologia            TipologiaFideicomiso
+  estado               String                @default("ACTIVO") // ACTIVO, TERMINADO, LIQUIDACION
+  descripcion          String?
+  createdAt            DateTime              @default(now())
+  updatedAt            DateTime              @updatedAt
+
+  // Relations
+  codigosSuperintendencia CodigoFideicomiso[]
+  contratos               Contrato[]
+  documentos              Documento[]
+  reglasComision          ReglaComision[]
+  movimientosContables    MovimientoContable[]
+  facturas                Factura[]
+  conciliaciones          Conciliacion[]
+  hallazgos               Hallazgo[]
+  convenciones            ConvencionFideicomiso[]
+  conocimiento            EntradaConocimiento[]
+  fideicomitentes         Fideicomitente[]
+  eventosTimeline         EventoTimeline[]
+
+  @@map("fideicomisos")
+}
+
+model CodigoFideicomiso {
+  id             String    @id @default(uuid())
+  fideicomisoId  String
+  codigo         String    // e.g., "FA-658" or "13527"
+  tipo           String    // PRINCIPAL, ALIAS
+  vigenciaDesde  DateTime
+  vigenciaHasta  DateTime?
+  motivoCambio   String?
+  createdAt      DateTime  @default(now())
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+
+  @@unique([codigo])
+  @@map("codigos_fideicomiso")
+}
+
+model Fideicomitente {
+  id             String    @id @default(uuid())
+  fideicomisoId  String
+  nombre         String
+  nit            String
+  tipo           String    // FIDEICOMITENTE, BENEFICIARIO, CESIONARIO
+  vigenciaDesde  DateTime
+  vigenciaHasta  DateTime?
+  documentoFuente String?  // ID del documento de cesión o contrato
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+
+  @@map("fideicomitentes")
+}
+
+// ============================================================
+// CONTRATOS Y REGLAS DE COMISIONES
+// ============================================================
+
+enum TipoContrato {
+  CONTRATO_FIDUCIA
+  OTROSI_FIDUCIA
+  CONTRATO_PARALELO
+  OTROSI_PARALELO
+  CESION_DERECHOS
+}
+
+model Contrato {
+  id              String       @id @default(uuid())
+  fideicomisoId   String
+  tipo            TipoContrato
+  numero          String?      // e.g., "Otrosí No. 1"
+  fechaFirma      DateTime
+  fechaVigencia   DateTime
+  partes          Json         // Array of parties
+  resumen         String?
+  documentoId     String?      @unique
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  fideicomiso    Fideicomiso    @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+  documento      Documento?     @relation(fields: [documentoId], references: [id])
+  reglasComision ReglaComision[]
+
+  @@map("contratos")
+}
+
+enum TipoComision {
+  ADMINISTRACION_MENSUAL
+  INICIAL_ESTRUCTURACION
+  CESION_DERECHOS
+  SUSCRIPCION_OTROSI
+  ASISTENCIA_COMITE
+  VARIABLE_MONETIZACION
+  COMISION_FONDOS
+  ACOMPANAMIENTO_PROCESAL
+  PRORROGA
+  OTRA
+}
+
+enum PeriodicidadComision {
+  MENSUAL
+  TRIMESTRAL
+  SEMESTRAL
+  ANUAL
+  POR_EVENTO
+  UNICA
+}
+
+model ReglaComision {
+  id                 String               @id @default(uuid())
+  fideicomisoId      String
+  contratoId         String
+  tipo               TipoComision
+  nombre             String               // e.g., "Comisión de administración mensual"
+  formula            String               // e.g., "4 SMMLV"
+  formulaDetalle     Json                 // { base: "SMMLV", multiplicador: 4, tipo: "fijo" }
+  periodicidad       PeriodicidadComision
+  condiciones        String?              // Condiciones de activación
+  clausulaFuente     String               // Cláusula del contrato
+  vigenciaDesde      DateTime
+  vigenciaHasta      DateTime?
+  confianzaExtraccion Float               @default(1.0)
+  notaRevision       String?              // Nota si confianza < 0.7
+  validada           Boolean              @default(false)
+  validadaPor        String?
+  validadaEn         DateTime?
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+
+  fideicomiso        Fideicomiso          @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+  contrato           Contrato             @relation(fields: [contratoId], references: [id])
+  resultadosConciliacion ResultadoConciliacion[]
+
+  @@map("reglas_comision")
+}
+
+// ============================================================
+// DOCUMENTOS
+// ============================================================
+
+enum TipoDocumento {
+  CONTRATO_FIDUCIA
+  OTROSI_FIDUCIA
+  AUXILIAR_CONTABLE
+  ESTADO_CUENTA_COMISIONES
+  RENDICION_SEMESTRAL
+  CESION_DERECHOS
+  CORREO_ELECTRONICO
+  CONTRATO_PARALELO
+  OTROSI_PARALELO
+  ACTA_COMITE
+  INSTRUCCION_PAGO
+  OTRO
+}
+
+enum FormatoOriginal {
+  PDF
+  PDF_ZIP
+  MSG
+  EML
+  XLSX
+  XLS
+  TSV
+  CSV
+  DOCX
+}
+
+model Documento {
+  id                String          @id @default(uuid())
+  fideicomisoId     String
+  tipo              TipoDocumento
+  formatoOriginal   FormatoOriginal
+  nombreArchivo     String
+  rutaAlmacenamiento String        // S3/MinIO path
+  fechaCarga        DateTime        @default(now())
+  fechaDocumento    DateTime?
+  contextoUsuario   String?         // Manual context from user
+  textoExtraido     String?         // Full extracted text
+  clasificacion     Json?           // { confidence, method, keywords[] }
+  metadatos         Json?           // Type-specific metadata
+  procesado         Boolean         @default(false)
+  cargadoPorId      String
+
+  fideicomiso       Fideicomiso     @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+  cargadoPor        User            @relation(fields: [cargadoPorId], references: [id])
+  contrato          Contrato?
+
+  @@map("documentos")
+}
+
+// ============================================================
+// DATOS CONTABLES
+// ============================================================
+
+enum OrigenERP {
+  LEGACY
+  SIFI
+  OTRO
+}
+
+model MovimientoContable {
+  id               String     @id @default(uuid())
+  fideicomisoId    String
+  documentoOrigenId String?   // Which uploaded document this came from
+  origenERP        OrigenERP
+  fecha            DateTime
+  cuenta           String     // PUC account code
+  nombreCuenta     String?
+  terceroNit       String?
+  terceroNombre    String?
+  tipoComprobante  String?
+  numeroComprobante String?
+  concepto         String?
+  debito           Float      @default(0)
+  credito          Float      @default(0)
+  saldo            Float?
+  periodoContable  String     // e.g., "2024-10"
+  lineaOriginal    Int?       // Line number in source document
+  createdAt        DateTime   @default(now())
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+
+  @@index([fideicomisoId, periodoContable])
+  @@index([fideicomisoId, cuenta])
+  @@map("movimientos_contables")
+}
+
+model Factura {
+  id              String    @id @default(uuid())
+  fideicomisoId   String
+  numeroFactura   String    // e.g., "FC85-8037"
+  fecha           DateTime
+  concepto        String?
+  monto           Float
+  iva             Float     @default(0)
+  total           Float
+  estado          String    @default("PENDIENTE") // PENDIENTE, PARCIAL, PAGADA
+  periodoContable String
+  codigoSuper     String?   // Code used in the billing record
+  createdAt       DateTime  @default(now())
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+  recaudos    Recaudo[]
+
+  @@unique([fideicomisoId, numeroFactura])
+  @@map("facturas")
+}
+
+model Recaudo {
+  id           String   @id @default(uuid())
+  facturaId    String
+  fecha        DateTime
+  monto        Float
+  referencia   String?
+  medioPago    String?
+  createdAt    DateTime @default(now())
+
+  factura Factura @relation(fields: [facturaId], references: [id], onDelete: Cascade)
+
+  @@map("recaudos")
+}
+
+// ============================================================
+// CONCILIACIÓN
+// ============================================================
+
+enum EstadoConciliacion {
+  EN_PROGRESO
+  COMPLETADA
+  ERROR
+}
+
+model Conciliacion {
+  id              String             @id @default(uuid())
+  fideicomisoId   String
+  periodo         String             // e.g., "2024-Q4" or "2024-10"
+  tipo            String             // AUDITORIA_INICIAL, PERIODICA, INCREMENTAL
+  estado          EstadoConciliacion @default(EN_PROGRESO)
+  iniciadaEn      DateTime           @default(now())
+  completadaEn    DateTime?
+  resumen         Json?              // Summary statistics
+  createdAt       DateTime           @default(now())
+
+  fideicomiso Fideicomiso            @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+  resultados  ResultadoConciliacion[]
+
+  @@map("conciliaciones")
+}
+
+enum EstadoResultado {
+  CONCILIADO
+  DISCREPANCIA
+  NO_ENCONTRADO
+  NO_FACTURADO
+  OPORTUNIDAD_REVENUE
+  ANOMALIA
+}
+
+model ResultadoConciliacion {
+  id                String         @id @default(uuid())
+  conciliacionId    String
+  reglaComisionId   String?
+  periodo           String
+  estado            EstadoResultado
+  montoEsperado     Float?
+  montoRegistrado   Float?
+  discrepancia      Float?
+  confianza         Float          @default(1.0)
+  evidencia         Json           // { fuenteRegla, fuenteContable, lineaAuxiliar, etc. }
+  razonamiento      String?        // AI reasoning explanation
+  variableMacro     Json?          // { codigo, valor, anio }
+  createdAt         DateTime       @default(now())
+
+  conciliacion   Conciliacion   @relation(fields: [conciliacionId], references: [id], onDelete: Cascade)
+  reglaComision  ReglaComision? @relation(fields: [reglaComisionId], references: [id])
+  hallazgo       Hallazgo?
+
+  @@map("resultados_conciliacion")
+}
+
+// ============================================================
+// HALLAZGOS Y GESTIÓN DE EVENTOS
+// ============================================================
+
+enum TipoHallazgo {
+  COMISION_NO_FACTURADA
+  COMISION_NO_RECAUDADA
+  DISCREPANCIA_MONTO
+  INCONSISTENCIA_FUENTES
+  PAGO_PARCIAL_INCOMPLETO
+  GAP_TEMPORAL
+  CESION_INCONSISTENTE
+  ANOMALIA_CONTABLE
+  OPORTUNIDAD_REVENUE
+  INFORMATIVO
+}
+
+enum SeveridadHallazgo {
+  CRITICO
+  ALTO
+  MEDIO
+  BAJO
+  INFORMATIVO
+}
+
+enum CategoriaHallazgo {
+  CONCILIACION
+  REVENUE
+  ANOMALIA
+  CONSISTENCIA
+}
+
+enum SubcategoriaHallazgo {
+  REVENUE_NO_CAPTURADO
+  CARTERA_VENCIDA
+  RIESGO_NEGATIVO
+  ANOMALIA
+}
+
+enum AreaHallazgo {
+  LEGAL
+  CONTABILIDAD
+  FACTURACION
+  COMERCIAL
+  OPERATIVA
+}
+
+enum EstadoHallazgo {
+  ABIERTO
+  EN_GESTION
+  RESUELTO
+  DESCARTADO
+  EXCEPCION
+}
+
+enum ValidacionHallazgo {
+  PENDIENTE
+  CONFIRMADO
+  PARCIALMENTE_CONFIRMADO
+  FALSO_POSITIVO
+}
+
+enum TipoCambioBitacora {
+  CAMBIO_SEVERIDAD
+  CAMBIO_CATEGORIA
+  CAMBIO_SUBCATEGORIA
+  CAMBIO_AREA
+  CAMBIO_IMPACTO_ECONOMICO
+  CAMBIO_ESTADO
+  CAMBIO_VALIDACION
+  RESOLUCION
+  COMENTARIO
+  NOTA_GESTION
+}
+
+model Hallazgo {
+  id                    String            @id @default(uuid())
+  fideicomisoId         String
+  resultadoConciliacionId String?         @unique
+  tipo                  TipoHallazgo
+  severidad             SeveridadHallazgo
+  categoria             CategoriaHallazgo
+  subcategoria          SubcategoriaHallazgo?
+  area                  AreaHallazgo?
+  titulo                String
+  descripcion           String
+  razonamiento          String            // Step-by-step AI reasoning
+  fuentes               Json              // Array of source references
+  reglaAplicada         Json?             // { version, clausula, formula }
+  variableMacro         Json?             // { codigo, valor, anio }
+  impactoEconomico      Float?
+  estado                EstadoHallazgo    @default(ABIERTO)
+  validacion            ValidacionHallazgo @default(PENDIENTE)
+  confianzaIA           Int?              // 1-5 rating of AI detection quality
+  notasRevisor          String?           // General reviewer notes
+  etiquetas             Json?             // Custom tags array ["revisar_con_cliente", etc.]
+  asignadoAId           String?
+  createdAt             DateTime          @default(now())
+  updatedAt             DateTime          @updatedAt
+
+  fideicomiso            Fideicomiso            @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+  resultadoConciliacion  ResultadoConciliacion? @relation(fields: [resultadoConciliacionId], references: [id])
+  asignadoA              User?                  @relation("HallazgoAsignado", fields: [asignadoAId], references: [id])
+  resoluciones           ResolucionHallazgo[]
+  historialCambios       HistorialCambioHallazgo[]
+
+  @@index([fideicomisoId, estado])
+  @@index([fideicomisoId, categoria])
+  @@index([fideicomisoId, subcategoria])
+  @@map("hallazgos")
+}
+
+enum TipoResolucion {
+  DESCARTADO
+  RESUELTO_CON_EXPLICACION
+  RESUELTO_CON_ADJUNTOS
+  GESTION_EXTERNA
+  ESCALADO
+  EXCEPCION_ACEPTADA
+}
+
+model ResolucionHallazgo {
+  id           String         @id @default(uuid())
+  hallazgoId   String
+  tipo         TipoResolucion
+  explicacion  String
+  adjuntos     Json?          // Array of document references
+  resueltoPorId String
+  createdAt    DateTime       @default(now())
+
+  hallazgo   Hallazgo @relation(fields: [hallazgoId], references: [id], onDelete: Cascade)
+  resueltoPor User     @relation(fields: [resueltoPorId], references: [id])
+
+  @@map("resoluciones_hallazgo")
+}
+
+model HistorialCambioHallazgo {
+  id            String             @id @default(uuid())
+  hallazgoId    String
+  tipo          TipoCambioBitacora
+  campo         String?            // Field name modified (e.g. "severidad")
+  valorAnterior String?            // Value before change
+  valorNuevo    String?            // Value after change
+  justificacion String             // Required explanation for the change
+  metadata      Json?              // Additional data (attachments, context)
+  userId        String
+  createdAt     DateTime           @default(now())
+
+  hallazgo      Hallazgo           @relation(fields: [hallazgoId], references: [id], onDelete: Cascade)
+  user          User               @relation("CambiosHallazgo", fields: [userId], references: [id])
+
+  @@index([hallazgoId, createdAt])
+  @@map("historial_cambios_hallazgo")
+}
+
+// ============================================================
+// VARIABLES MACROECONÓMICAS
+// ============================================================
+
+enum PeriodicidadVariable {
+  ANUAL
+  MENSUAL
+  DIARIA
+}
+
+model VariableMacroeconomica {
+  id               String               @id @default(uuid())
+  codigo           String               @unique // SMMLV, IVA, TRM, UVR, IBR, IPC
+  nombre           String
+  periodicidad     PeriodicidadVariable
+  unidad           String               // COP, %, COP/USD, puntos
+  fuenteOficial    String
+  createdAt        DateTime             @default(now())
+
+  valores ValorHistoricoVariable[]
+
+  @@map("variables_macroeconomicas")
+}
+
+model ValorHistoricoVariable {
+  id             String    @id @default(uuid())
+  variableId     String
+  valor          Float
+  vigenciaDesde  DateTime
+  vigenciaHasta  DateTime?
+  normaLegal     String?   // e.g., "Decreto 2292 de 2023"
+  registradoPor  String?
+  createdAt      DateTime  @default(now())
+
+  variable VariableMacroeconomica @relation(fields: [variableId], references: [id], onDelete: Cascade)
+
+  @@index([variableId, vigenciaDesde])
+  @@map("valores_historicos_variable")
+}
+
+// ============================================================
+// CONVENCIONES DEL FIDEICOMISO
+// ============================================================
+
+enum TipoConvencion {
+  CONTABLE
+  COMERCIAL
+  OPERATIVA
+  REGISTRO
+  REGULATORIA
+}
+
+model ConvencionFideicomiso {
+  id                String         @id @default(uuid())
+  fideicomisoId     String
+  tipo              TipoConvencion
+  nombre            String
+  descripcion       String
+  parametros        Json?          // { cuentaComision, cuentaAnticipo, flujoContable, ... }
+  vigenciaDesde     DateTime
+  vigenciaHasta     DateTime?
+  fuenteDocumental  String?
+  registradoPor     String
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+
+  @@index([fideicomisoId, tipo])
+  @@map("convenciones_fideicomiso")
+}
+
+// ============================================================
+// BASE DE CONOCIMIENTO
+// ============================================================
+
+enum TipoConocimiento {
+  REGLA_NEGOCIO
+  RESOLUCION_HALLAZGO
+  CONTEXTO_OPERATIVO
+  PRECEDENTE_CONTABLE
+  DOCUMENTO_FUENTE
+}
+
+model EntradaConocimiento {
+  id              String            @id @default(uuid())
+  fideicomisoId   String
+  tipo            TipoConocimiento
+  titulo          String
+  contenido       String
+  metadatos       Json?
+  embedding       String?           // Will be used with pgvector extension
+  fuentes         Json?             // Source references
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+
+  @@index([fideicomisoId, tipo])
+  @@map("entradas_conocimiento")
+}
+
+// ============================================================
+// LÍNEA TEMPORAL
+// ============================================================
+
+enum TipoEvento {
+  CONSTITUCION
+  OTROSI
+  CESION
+  CAMBIO_CODIGO
+  CAMBIO_FIDEICOMITENTE
+  NUEVA_REGLA
+  ACTUALIZACION_DATOS
+  CONCILIACION_EJECUTADA
+  HALLAZGO_DETECTADO
+  HALLAZGO_RESUELTO
+}
+
+model EventoTimeline {
+  id              String     @id @default(uuid())
+  fideicomisoId   String
+  tipo            TipoEvento
+  fecha           DateTime
+  titulo          String
+  descripcion     String?
+  referenciaId    String?    // ID of related entity
+  referenciaTipo  String?    // Type of related entity
+  metadatos       Json?
+  createdAt       DateTime   @default(now())
+
+  fideicomiso Fideicomiso @relation(fields: [fideicomisoId], references: [id], onDelete: Cascade)
+
+  @@index([fideicomisoId, fecha])
+  @@map("eventos_timeline")
+}
+
+// ============================================================
+// AUDITORÍA
+// ============================================================
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  userId     String?
+  accion     String
+  entidad    String
+  entidadId  String
+  cambios    Json?
+  ip         String?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([entidad, entidadId])
+  @@map("audit_logs")
+}

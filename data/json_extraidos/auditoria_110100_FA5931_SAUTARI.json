@@ -1,0 +1,162 @@
+{
+  "resumen_hallazgos": {
+    "fideicomiso": "FA-5931 FIDEICOMISO SAUTARI",
+    "total_hallazgos": 5,
+    "severidad": {
+      "ALTA": 2,
+      "MEDIA": 2,
+      "BAJA": 0,
+      "INFORMATIVO": 1
+    },
+    "impacto_economico_total": 3391926
+  },
+  "hallazgos": [
+    {
+      "id": "HST-001",
+      "severidad": "MEDIA",
+      "area": "FACTURACION",
+      "titulo": "Factura FC20-71576 (nov-2025) con pago parcial pendiente de $3,391,926",
+      "descripcion_operativa": "La factura de administración mensual de noviembre 2025 (FC20-71576) fue emitida por $8,469,825 (5 SMMLV 2025 + IVA 19%). Al corte del Estado de Cuentas (24-nov-2025), solo se registran dos recaudos parciales: $5,030,959 el 07-nov-2025 (RCJ-415329) y $46,940 el 12-nov-2025 (RCJ-416314), totalizando $5,077,899 recaudados. Queda un saldo pendiente de $3,391,926 que representa el 40% de la factura. La Rendición de Cuentas H1-2025 reporta cero comisiones pendientes al 30-jun-2025, confirmando que este saldo surgió exclusivamente en el segundo semestre 2025. Dado que la comisión mensual se factura por mes anticipado y el corte del Estado de Cuentas es 24-nov-2025, es posible que el saldo se regularice con el descuento automático FIDUSAP posterior a esa fecha. Sin embargo, si persiste, la fiduciaria debe gestionar el cobro y evaluar la aplicación de intereses moratorios conforme al precedente de feb-2023.",
+      "regla_citada": "Contrato de Fiducia Mercantil, Cláusula Séptima, numeral 2: 'La Fiduciaria cobrará como comisión por la administración del Fideicomiso, una comisión fija mensual equivalente a 5 SMMLV más IVA, pagadera de forma mensual anticipada, la cual incluye hasta 10 giros y operaciones de monetización hasta por USD $2,000,000 mensuales.'",
+      "variable_aplicada": "SMMLV 2025 = $1,423,500 (Decreto 2292 de 2024); IVA = 19% (Ley 1819 de 2016)",
+      "calculo_esperado": {
+        "comisión": "5 × $1,423,500 × 1.19",
+        "recaudo_esperado": "$8,469,825",
+        "recaudo_real": "$5,030,959 + $46,940 = $5,077,899",
+        "pendiente": "$8,469,825 - $5,077,899 = $3,391,926"
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas: FC20-71576 fecha 2025-11 por $8,469,825",
+        "Recaudo RCJ-415329 por $5,030,959 (07-nov-2025)",
+        "Recaudo RCJ-416314 por $46,940 (12-nov-2025)",
+        "Saldo pendiente columna: $3,391,926",
+        "Rendición H1-2025: 'Para el periodo objeto de la presente rendición de cuentas no hay comisión pendiente'",
+        "Resumen anual 2025: causado $93,168,075 vs recaudado $89,776,149, diferencia = $3,391,926."
+      ],
+      "conclusion": "Pago parcial confirmado en la última factura emitida. El saldo de $3,391,926 es el único monto pendiente de cobro en todo el histórico del fideicomiso. Es probable que se regularice con el próximo ciclo de descuento FIDUSAP. Se recomienda monitorear y, si no se cobra dentro de 30 días, evaluar facturación de intereses moratorios.",
+      "riesgo": "PAGO_PARCIAL_INCOMPLETO",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_110100.xlsx - Causación FC20-71576 y Recaudos RCJ-415329, RCJ-416314",
+        "110100_FA5931_FIDEICOMISO_SAUTARI_FB_901430849.pdf - Rendición H1-2025, sección comisiones pendientes",
+        "Contrato_de_fiducia_mercantil.pdf - Cláusula Séptima, numeral 2",
+        "Reporte Devise Auditor - Hallazgo #3 (validado, complementario)"
+      ],
+      "impacto_economico": 3391926
+    },
+    {
+      "id": "HST-002",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Sin datos de volúmenes de monetización mensual para 18 meses (jul-2023 a dic-2024) — riesgo de revenue variable no facturado",
+      "descripcion_operativa": "La comisión variable por monetización se activa cuando las operaciones mensuales exceden USD 2,000,000. Para validar si esta comisión fue correctamente facturada se requiere el detalle mensual de monetizaciones. Sin embargo, solo se dispone de datos para junio 2023 (USD 2,149,725.10 — correo MONETIZACION.html) y H1 2025 (USD 1,563,630.12 — rendición semestral). Esto deja un vacío de 18 meses (jul-2023 a dic-2024) donde no se puede determinar si algún mes superó el umbral de USD 2M. En todo el período auditado, solo existe 1 factura de comisión variable (FC20-45099 por $4,141,200 en junio 2023). Si en alguno de los 18 meses sin datos se monetizó más de USD 2M sin facturar comisión variable, existe revenue no cobrado que podría ascender a $4,641,000 por mes (mínimo, con SMMLV 2024 para un tramo). La rendición semestral H1-2025 confirma que los 6 meses de ene-jun 2025 estuvieron todos debajo de USD 2M, validando que no se facturó variable para ese semestre.",
+      "regla_citada": "Contrato de Fiducia Mercantil, Cláusula Séptima, numeral 3: comisión variable escalonada sobre monetizaciones que excedan USD 2,000,000 mensuales. Escala: USD 2.01M-6M = 3 SMMLV/millón; USD 6.01M-8M = 3.25 SMMLV/millón; USD 8.01M-11M = 3.5 SMMLV/millón; USD 11.01M-15M = 4 SMMLV/millón. Todas + IVA 19%. Cobra por fracción de millón completa.",
+      "variable_aplicada": "SMMLV 2023 = $1,160,000; SMMLV 2024 = $1,300,000. Umbral base = USD 2,000,000/mes incluido en comisión fija.",
+      "calculo_esperado": {
+        "para_cada_mes_sin_datos": "SI monetización > USD 2M → comisión variable = (tramos de millón excedente) × factor SMMLV × 1.19",
+        "ejemplo_mínimo_con_smmlv_2024": "1 tramo × 3 × $1,300,000 × 1.19 = $4,641,000 por mes",
+        "con_18_meses_sin_validar,_impacto_potencial_máximo_teórico": "18 × $4,641,000 = $83,538,000."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas: solo 1 factura variable en 37 meses (FC20-45099, jun-2023, $4,141,200)",
+        "Correo MONETIZACION.html: confirma USD 2,149,725.10 en junio 2023",
+        "Rendición H1-2025: detalla 11 operaciones Spot por USD 1,563,630.12 (ningún mes >USD 2M)",
+        "No hay documentación de monetizaciones para jul-2023 a dic-2024."
+      ],
+      "conclusion": "RIESGO DE REVENUE NO FACTURADO. La probabilidad de que en 18 meses NINGUNO haya superado USD 2M es razonable dada la tendencia de H1-2025 (máx. USD 384K/mes), pero no es verificable sin datos. Se requiere solicitar el reporte de monetizaciones mensuales al área de operaciones cambiarias para el período jul-2023 a dic-2024. Si todos los meses estuvieron debajo de USD 2M, el hallazgo se cierra. Si alguno superó el umbral sin factura variable, se tipifica como COMISIÓN_NO_FACTURADA con severidad CRÍTICA.",
+      "riesgo": "GAP_TEMPORAL",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_110100.xlsx - Única factura variable: FC20-45099 (jun-2023)",
+        "MONETIZACION.html - Correo con detalle monetización junio 2023 (USD 2,149,725.10)",
+        "110100_FA5931_FIDEICOMISO_SAUTARI_FB_901430849.pdf - Rendición H1-2025, detalle monetizaciones",
+        "Contrato_de_fiducia_mercantil.pdf - Cláusula Séptima, numeral 3"
+      ],
+      "impacto_economico": 0
+    },
+    {
+      "id": "HST-003",
+      "severidad": "INFORMATIVO",
+      "area": "FACTURACION",
+      "titulo": "Intereses de mora facturados y recaudados en feb-2023 por pagos tardíos de comisiones iniciales — precedente operativo establecido",
+      "descripcion_operativa": "Las primeras 5 facturas del fideicomiso (estructuración + administración nov-dic 2022 + ene 2023) fueron emitidas entre noviembre 2022 y enero 2023, pero todas se pagaron el 31 de enero de 2023 con moras de entre 25 y 82 días. Como consecuencia, la fiduciaria facturó intereses moratorios el 01-feb-2023 mediante 5 notas separadas (FC20-40395 a FC20-40399), cada una con dos líneas de causación: intereses sobre capital e intereses sobre IVA. El total cobrado fue $1,214,612. Todos los intereses fueron recaudados el mismo día. Este evento tiene relevancia como precedente operativo: confirma que la fiduciaria aplica cobro de intereses moratorios y que los factura con separación de capital vs. IVA. Adicionalmente, este episodio explica por qué no existen registros contables con fecha 2022 en el auxiliar Legacy: las facturas se causaron en el ERP en la fecha de pago (31-ene-2023), no en la fecha de emisión. El auxiliar Legacy confirma que su primer registro operativo es del 30-ene-2023 y los cierres contables del 31-oct-2022 tienen valores en cero.",
+      "regla_citada": "Intereses de mora implícitos en condiciones contractuales de pago anticipado (Cláusula Séptima, numeral 2: 'pagadera de forma mensual anticipada'). La mora se genera desde la fecha de exigibilidad de cada factura.",
+      "variable_aplicada": "Facturas en mora: FC20-38146 (82 días), FC20-38147 (82 días), FC20-38150 (81 días), FC20-38943 (53 días), FC20-39796 (25 días). Tasa de mora: calculada por el sistema ERP sobre capital e IVA.",
+      "calculo_esperado": {
+        "intereses_por_factura": "FC20-40395=$441,977 (capital $381,126 + IVA interés $60,851); FC20-40396=$383,048 ($330,309 + $52,739); FC20-40397=$58,121 ($50,119 + $8,002); FC20-40398=$254,794 ($219,714 + $35,080); FC20-40399=$77,671 ($66,977 + $10,694)",
+        "total": "$1,215,611",
+        "recaudado": "$1,214,612 (diferencia de $999 dentro de tolerancia de redondeo)."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas: 10 líneas de causación (5 facturas × 2 líneas cada una) y 10 líneas de recaudo en feb-2023",
+        "Auxiliar Legacy: registros tipo 62 (CAUSACION DE PAGOS) del 31/01/2023 para FC20-38146 ($6,391,977 = capital+intereses), FC20-38147, FC20-38150, FC20-38943",
+        "Tipo 2 (EGRESOS) para pagos al Fondo Común",
+        "Auxiliar Legacy: primer registro con fecha 31/10/2022 son solo cierres contables (tipo 18 CIERRES) con montos $0 en cuentas 39150001001 y 39200001001."
+      ],
+      "conclusion": "Hallazgo resuelto. Los intereses fueron correctamente cobrados y documentan el precedente de que la fiduciaria sí cobra mora. Desde abril 2024, el mecanismo de descuento automático FIDUSAP mitiga este riesgo. La ausencia de registros contables 2022 queda explicada por la práctica del ERP de causar las facturas en la fecha de pago.",
+      "riesgo": "INFORMATIVO",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_110100.xlsx - Facturas FC20-40395 a FC20-40399 y recaudos RCJ-301612 a RCJ-301620",
+        "AuxiliarContable110100.txt - Registros tipo 62 del 31/01/2023 y cierres tipo 18 del 31/10/2022",
+        "Contrato_de_fiducia_mercantil.pdf - Cláusula Séptima, condiciones de pago anticipado",
+        "Reporte Devise Auditor - Hallazgo #4 (parcialmente válido, complementario: confirma 0 registros 2022)"
+      ],
+      "impacto_economico": 1214612
+    },
+    {
+      "id": "HST-004",
+      "severidad": "ALTA",
+      "area": "LEGAL",
+      "titulo": "Comisión por otorgamiento de poderes y memoriales (Cláusula Séptima num. 4) sin evidencia de facturación en 37 meses",
+      "descripcion_operativa": "El contrato de fiducia mercantil establece tres conceptos de comisión por eventos legales que nunca han sido facturados en los 37 meses de operación del fideicomiso: (1) Poderes: 3 SMMLV + IVA por cada poder otorgado (numeral 4); (2) Memoriales: 3 SMMLV + IVA por cada memorial elaborado (numeral 4); (3) Asistencia a actuaciones judiciales o administrativas: 3 SMMLV + IVA por cada asistencia (numeral 8). La búsqueda exhaustiva en las 46 facturas del Estado de Cuentas (nov-2022 a nov-2025) arroja cero facturas con conceptos relacionados a poderes, memoriales o asistencias. La clasificación de las 46 facturas es: 36 de administración mensual fija, 5 de intereses de mora, 1 de estructuración, 1 de comisión variable por monetización, 1 de otrosí, y 2 facturas de administración que conforman el split de noviembre 2022. Dado que el fideicomiso opera monetizaciones cambiarias con contrapartes internacionales (KUNDAN REFINERY PRIVATE LTD, JBG & CO DMCC) y ha involucrado procesos de restitución de aportes (ej. GOLD MINER D&P SAS por $250,000,000 registrado en SIFI), es razonable que se hayan requerido poderes o memoriales durante la vigencia. Si estos se otorgaron sin facturar, existe revenue no cobrado con valor de $5,081,895 por evento a tarifas 2025.",
+      "regla_citada": "Contrato de Fiducia Mercantil, Cláusula Séptima: Numeral 4 — 'PODERES/MEMORIALES: La Fiduciaria cobrará al fideicomiso una comisión equivalente a tres (3) SMMLV más IVA por cada poder o memorial que en desarrollo del presente contrato deba otorgar la Fiduciaria.' Numeral 8 — 'ASISTENCIA A ACTUACIONES: La Fiduciaria cobrará una comisión equivalente a tres (3) SMMLV más IVA por la asistencia a actuaciones judiciales o administrativas.'",
+      "variable_aplicada": "SMMLV por año: 2022=$1,000,000; 2023=$1,160,000; 2024=$1,300,000; 2025=$1,423,500. IVA=19%. Tarifa por evento: 2022=$3,570,000; 2023=$4,141,200; 2024=$4,641,000; 2025=$5,081,895.",
+      "calculo_esperado": {
+        "explicacion": "Impacto depende del número de eventos no facturados.",
+        "escenarios": "(A) Si 0 poderes otorgados → $0, hallazgo descartado. (B) Si 1 poder por año (3 eventos 2023-2025) → $4,141,200 + $4,641,000 + $5,081,895 = $13,864,095. (C) Si se otorgaron poderes para cada contraparte activa por año → potencialmente 6-12 eventos → $24M-$50M."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas: búsqueda con keywords PODER, MEMORIAL, OTORGAR, ASISTENCIA, ACTUACION → 0 facturas encontradas",
+        "Rendición H1-2025: no reporta comisiones por poderes ni memoriales",
+        "Auxiliar contable Legacy + SIFI: no existen comprobantes con descripción que incluya 'poder' o 'memorial'",
+        "Contrato: Cláusula Séptima numerales 4 y 8 establecen claramente estas tarifas",
+        "Reporte Devise Auditor Evidencia #3: confirma estructura contractual (poderes: 3 SMMLV, cesiones: 2 SMMLV)."
+      ],
+      "conclusion": "REQUIERE VALIDACIÓN OPERATIVA INMEDIATA. Solicitar al área jurídica de la fiduciaria un inventario completo de: (a) poderes otorgados ante notario o entidad, (b) memoriales elaborados para tribunales, juzgados o entidades administrativas, (c) asistencias a audiencias o actuaciones judiciales/administrativas, desde la constitución del fideicomiso (31-oct-2022). Cruzar cada evento con el Estado de Cuentas. Si se confirma al menos 1 evento sin facturar, reclasificar este hallazgo como COMISIÓN_NO_FACTURADA con severidad CRÍTICA y gestionar el cobro retroactivo.",
+      "riesgo": "OPORTUNIDAD_REVENUE",
+      "documentos_fuente": [
+        "Contrato_de_fiducia_mercantil.pdf - Cláusula Séptima, numerales 4 y 8",
+        "ESTADO_CUENTAS_110100.xlsx - 46 facturas analizadas, 0 por concepto de poderes/memoriales/asistencia",
+        "AuxiliarContable110100.txt + AuxiliarContable110100_sifi.txt - Sin movimientos por poderes",
+        "110100_FA5931_FIDEICOMISO_SAUTARI_FB_901430849.pdf - Rendición H1-2025 sin mención de estos conceptos",
+        "Reporte Devise Auditor - Evidencia #3 Hallazgo #1 (estructura contractual de comisiones)",
+        "Comunicación del usuario referenciando Cláusula 10.2.D"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "HST-005",
+      "severidad": "MEDIA",
+      "area": "FACTURACION",
+      "titulo": "Comisión por giros adicionales (>10/mes) sin evidencia de control ni facturación en 37 meses",
+      "descripcion_operativa": "La Cláusula Séptima numeral 2 establece que la comisión fija mensual de 5 SMMLV incluye hasta 10 giros mensuales. Cada giro adicional genera un cargo de $50,000 más IVA ($59,500 a tarifa 2022), ajustable anualmente por IPC acumulado. En las 46 facturas del Estado de Cuentas no existe ninguna factura ni línea con concepto 'giro adicional'. Esto puede significar que: (A) nunca se superaron los 10 giros/mes; o (B) la fiduciaria no ha controlado ni facturado los giros excedentes. Dado que el fideicomiso realiza operaciones de monetización cambiaria con múltiples contrapartes y procesa restituciones de aportes, es razonable que en algunos meses se hayan procesado más de 10 giros. La rendición H1-2025 muestra 11 operaciones Spot en 6 meses, pero no discrimina giros de pago separados de las operaciones de monetización. El contrato no establece un mecanismo formal de notificación cuando se exceden los 10 giros, lo que incrementa el riesgo de no-facturación.",
+      "regla_citada": "Contrato de Fiducia Mercantil, Cláusula Séptima, numeral 2, segundo párrafo: 'Por cada giro adicional que exceda los 10 giros mensuales incluidos, la Fiduciaria cobrará $50,000 más IVA, ajustable anualmente según la variación del IPC del año inmediatamente anterior.'",
+      "variable_aplicada": "Base 2022: $50,000 + IVA = $59,500/giro. Ajuste acumulativo por IPC: IPC 2022=13.12%, IPC 2023=9.28%, IPC 2024=5.20%. Tarifa estimada 2025: $50,000 × 1.1312 × 1.0928 × 1.052 × 1.19 = aprox. $77,523/giro adicional.",
+      "calculo_esperado": {
+        "detalle_calculo": "Sin datos de volumen de giros, el impacto no es cuantificable.",
+        "si_en_promedio_se_excedieron_2_giros/mes_durante_12_meses": "~$1.5M"
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas: búsqueda con keywords GIRO, ADICIONAL, EXCEDENTE → 0 facturas encontradas",
+        "Rendición H1-2025: no reporta giros adicionales como concepto separado",
+        "El contrato no define un mecanismo de alerta automática para giros excedentes."
+      ],
+      "conclusion": "Se requiere obtener del sistema de operaciones (FIDUSAP o equivalente) el log de giros procesados por mes desde la constitución del fideicomiso, y cruzarlo contra el cupo de 10 giros incluidos. Si se identifican meses con más de 10 giros sin facturación de excedentes, se tipifica como COMISIÓN_NO_FACTURADA.",
+      "riesgo": "OPORTUNIDAD_REVENUE",
+      "documentos_fuente": [
+        "Contrato_de_fiducia_mercantil.pdf - Cláusula Séptima, numeral 2, segundo párrafo",
+        "ESTADO_CUENTAS_110100.xlsx - 0 facturas por giros adicionales",
+        "110100_FA5931_FIDEICOMISO_SAUTARI_FB_901430849.pdf - Rendición H1-2025, sección operaciones"
+      ],
+      "impacto_economico": null
+    }
+  ]
+}

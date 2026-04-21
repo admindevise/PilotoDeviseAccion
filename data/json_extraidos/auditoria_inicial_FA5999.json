@@ -1,0 +1,742 @@
+{
+  "fideicomiso": {
+    "codigoPrincipal": "FA-5999",
+    "nombre": "FA-5999 FIDEICOMISO DE ADMINISTRACION Y PAGOS VIMARSA COLOMBIA",
+    "fiduciariaAdmin": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+    "fechaConstitucion": "2022-12-26",
+    "tipologia": "FA",
+    "estado": "ACTIVO",
+    "descripcion": "El fideicomiso FA-5999, originalmente constituido como 'Monte Ruitoque' por Ciudad Ruitoque S.A.S. en diciembre 2022, experimentó una transformación significativa en 2024: cesión total de posición contractual a Vimarsa Colombia S.A.S. (junio 2024), Otrosí No.1 que renombró el fideicomiso, incluyó a Bloom Crowdfunding como beneficiario condicionado por $4,200M COP, y duplicó la comisión fiduciaria. La fiduciaria Acción S.A. administra los recursos en su Fondo Común Ordinario. Los principales destinatarios de giros son Monere Capital, Marianela Velilla e Iván Fernando Mustafa. Las comisiones fiduciarias están al día ($189.4M causados y pagados al corte Nov-2025). El disponible al 30/06/2025 era $42.3M. No se identifican irregularidades graves, pero se recomienda: (1) verificar el estado de los compromisos con Bloom Crowdfunding post Otrosí, (2) confirmar la correcta aplicación del Fondo de Reserva, y (3) validar que los cuadros cronológicos de giros estén actualizados."
+  },
+  "codigosFideicomiso": [
+    {
+      "codigo": "111528",
+      "tipo": "PRINCIPAL",
+      "vigenciaDesde": "2022-12-26",
+      "vigenciaHasta": null,
+      "motivoCambio": null
+    },
+    {
+      "codigo": "FA-5999",
+      "tipo": "ALIAS",
+      "vigenciaDesde": "2022-12-26",
+      "vigenciaHasta": null,
+      "motivoCambio": "Código interno alfanumérico"
+    }
+  ],
+  "fideicomitentes": [
+    {
+      "nombre": "VIMARSA COLOMBIA S.A.S.",
+      "nit": "900.506.010-1",
+      "tipo": "FIDEICOMITENTE",
+      "vigenciaDesde": "2024-09-13",
+      "documentoFuente": "Cesión de Derechos Fiduciarios"
+    },
+    {
+      "nombre": "CIUDAD RUITOQUE S.A.S.",
+      "nit": "901.062.783-2",
+      "tipo": "FIDEICOMITENTE",
+      "vigenciaDesde": "2022-12-26",
+      "documentoFuente": "Contrato original"
+    }
+  ],
+  "documentos": [
+    {
+      "tipo": "CONTRATO_FIDUCIA",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "Contrato de Fiducia Mercantil.zip",
+      "rutaAlmacenamiento": "/mnt/project/Contrato de Fiducia Mercantil.zip",
+      "contextoUsuario": "Buena (OCR exitoso)",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "OTROSI_FIDUCIA",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "Otrosí No.1 FA-5999.zip",
+      "rutaAlmacenamiento": "/mnt/project/Otrosí No.1 FA-5999.zip",
+      "contextoUsuario": "Buena",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "OTRO",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "Cesión de Derechos Fiduciarios.zip",
+      "rutaAlmacenamiento": "/mnt/project/Cesión de Derechos Fiduciarios.zip",
+      "contextoUsuario": "Buena",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "RENDICION_SEMESTRAL",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "Rendición Semestral 111528.zip",
+      "rutaAlmacenamiento": "/mnt/project/Rendición Semestral 111528.zip",
+      "contextoUsuario": "Buena",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "ESTADO_CUENTA_COMISIONES",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "Estado de Cuenta Comisiones 111528.xlsx",
+      "rutaAlmacenamiento": "/mnt/project/Estado de Cuenta Comisiones 111528.xlsx",
+      "contextoUsuario": null,
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "CSV",
+      "nombreArchivo": "Auxiliar Contable 111528 (principal).txt",
+      "rutaAlmacenamiento": "/mnt/project/Auxiliar Contable 111528 (principal).txt",
+      "contextoUsuario": "Ene 2023 - Ago 2024",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "CSV",
+      "nombreArchivo": "Auxiliar Contable 111528 (SIFI).txt",
+      "rutaAlmacenamiento": "/mnt/project/Auxiliar Contable 111528 (SIFI).txt",
+      "contextoUsuario": "Ago 2024 en adelante",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    }
+  ],
+  "contratos": [
+    {
+      "tipo": "CONTRATO_FIDUCIA",
+      "numero": "FA-5999",
+      "fechaFirma": "2022-12-26",
+      "fechaVigencia": "2022-12-26",
+      "resumen": "Contrato de fiducia mercantil de administración y pagos original",
+      "partes": [
+        {
+          "nombre": "CIUDAD RUITOQUE S.A.S.",
+          "rol": "FIDEICOMITENTE"
+        },
+        {
+          "nombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+          "rol": "FIDUCIARIA"
+        }
+      ]
+    },
+    {
+      "tipo": "OTROSI_FIDUCIA",
+      "numero": "Otrosí No.1",
+      "fechaFirma": "2024-09-01",
+      "fechaVigencia": "2024-09-01",
+      "resumen": "Otrosí No.1 al Contrato de Fiducia Mercantil. Cambio de nombre del fideicomiso: MONTE RUITOQUE → VIMARSA COLOMBIA; Cambio de fideicomitente: CIUDAD RUITOQUE S.A.S. → VIMARSA COLOMBIA S.A.S.; Inclusión de BLOOM CROWDFUNDING S.A. como BENEFICIARIO CONDICIONADO hasta $4,200,000,000; Creación de FONDO DE RESERVA para pagos periódicos; Modificación de cuentas recaudadoras: cuenta independiente por proyecto inmobiliario; Cuadro cronológico de giros separado: MONERE (Monte Ruitoque) / BLOOM (Habitat, Bonaterra, Valle Ruitoque); Recursos ampliados a incluir ingresos de proyectos: Monte Ruitoque, Habitat, Bonaterra, Valle Ruitoque",
+      "partes": [
+        {
+          "nombre": "VIMARSA COLOMBIA S.A.S.",
+          "rol": "FIDEICOMITENTE"
+        },
+        {
+          "nombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+          "rol": "FIDUCIARIA"
+        }
+      ]
+    }
+  ],
+  "reglasComision": [
+    {
+      "tipo": "ADMINISTRACION_MENSUAL",
+      "nombre": "Comisión mensual original",
+      "formula": "1.2 SMMLV (aprox)",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 1.18,
+        "tipo": "VARIABLE_MACRO"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Cálculo aproximado en base a montos reportados",
+      "clausulaFuente": "Contrato original",
+      "documentoFuente": "Contrato original",
+      "vigenciaDesde": "2022-12-26",
+      "vigenciaHasta": "2024-08-31",
+      "confianzaExtraccion": 0.8
+    },
+    {
+      "tipo": "ADMINISTRACION_MENSUAL",
+      "nombre": "Comisión mensual Otrosí 1",
+      "formula": "2.3 SMMLV (aprox)",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 2.38,
+        "tipo": "VARIABLE_MACRO"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Cálculo aproximado post otrosí",
+      "clausulaFuente": "Otrosí No. 1",
+      "documentoFuente": "Otrosí No. 1",
+      "vigenciaDesde": "2024-09-01",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.8
+    }
+  ],
+  "convencionesFideicomiso": [
+    {
+      "tipo": "CONTABLE",
+      "nombre": "Flujo contable",
+      "descripcion": "Cuentas principales identificadas: {\"13020501001\":\"Fondo Común Ordinario 1 (Inversiones/Disponible)\",\"35050501001\":\"Aportes en Dinero\",\"35100501001\":\"Restitución de Aportes (Giros a terceros)\",\"35101002009\":\"Comisión Fiduciaria\",\"25110501001\":\"Proveedores (Cuentas por pagar giros)\",\"25011501001\":\"Comisión por Administración\",\"41080501001\":\"Rendimientos - Incremento valor de mercado\",\"51080501001\":\"Rendimientos negativos - Disminución valor razonable\",\"51151201001\":\"Servicios Bancarios\",\"51400501005\":\"Gravamen Movimientos Financieros (4x1000)\",\"16320001001\":\"Contratos (usada en reversiones dic-2023)\",\"16909501005\":\"Anticipos de Utilidades (ajustes de saldo)\"}",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "25011501001",
+        "cuentaAnticipo": "35101002009"
+      },
+      "vigenciaDesde": "2023-01-01",
+      "vigenciaHasta": null,
+      "registradoPor": "Auditoría"
+    }
+  ],
+  "movimientosContables": [],
+  "facturas": [],
+  "conciliaciones": [],
+  "hallazgos": [
+    {
+      "id": "H-001",
+      "severidad": "ALTA",
+      "area": "Contractual / Facturación",
+      "titulo": "Inconsistencia textual en Otrosí No.1: discrepancia entre cifra en letras y cifra parentética de comisión mínima",
+      "descripcion_operativa": "El Otrosí No.1 (Cláusula Quinta) establece la nueva comisión mínima con una contradicción interna: en letras dice 'CUATRO SALARIOS MÍNIMOS MENSUALES LEGALES VIGENTES' pero en la cifra parentética indica '(2 SMMLV)'. La diferencia entre aplicar 2 o 4 SMMLV es del 100% en el valor de la comisión mensual. Adicionalmente, el porcentaje variable se escribe como 'CERO PUNTO CONCO' en lugar de 'CERO PUNTO CINCO'. La Rendición Semestral (Sec.14) corrige el paréntesis a '(4 SMMLV)' y la facturación efectiva confirma la aplicación de 4 SMMLV desde septiembre 2024. Sin embargo, la fuente primaria firmada (Otrosí) sigue conteniendo la inconsistencia, lo que podría generar un riesgo jurídico de interpretación adversa.",
+      "regla_citada": "Otrosí No.1, Cláusula QUINTA — Modificación de Cláusula Décima Novena del Contrato Original. Numeral 2: 'La FIDUCIARIA recibirá por su gestión y la administración de recursos una comisión mensual equivalente al CERO PUNTO CONCO PORCIENTO (0.5%) de la totalidad de los giros que se realicen de forma mensual, que en ningún caso podrá ser inferior a la suma de CUATRO SALARIOS MINIMOS MENSUALES LEGALES VIGENTES (2 SMMLV) pagaderos mes anticipado dentro de los primeros cinco (5) días de cada mes.'",
+      "variable_aplicada": "N_SMMLV = 4 (según interpretación por letras y confirmación por facturación)",
+      "calculo_esperado": {
+        "si_2_SMMLV_2024": "2 × $1,300,000 = $2,600,000 + IVA(19%) = $3,094,000/mes",
+        "si_4_SMMLV_2024": "4 × $1,300,000 = $5,200,000 + IVA(19%) = $6,188,000/mes",
+        "diferencia_mensual": "$3,094,000/mes",
+        "diferencia_anual": "$37,128,000/año",
+        "si_2_SMMLV_2025": "2 × $1,423,500 = $2,847,000 + IVA(19%) = $3,387,930/mes",
+        "si_4_SMMLV_2025": "4 × $1,423,500 = $5,694,000 + IVA(19%) = $6,775,860/mes"
+      },
+      "evidencia_encontrada": [
+        "Otrosí No.1 firmado: cifra '(2 SMMLV)' en texto contractual vinculante",
+        "Otrosí No.1 firmado: typo 'CONCO' en lugar de 'CINCO' en porcentaje variable",
+        "Rendición Semestral Sec.14: corrige paréntesis a '(4 SMMLV)'",
+        "Rendición Semestral Sec.14: corrige typo porcentaje a 'CERO PUNTO CINCO'",
+        "FC85-8024 (Sep 2024): $6,188,000 = 4×$1,300,000×1.19 — confirma 4 SMMLV",
+        "FC85-8975 (Ene 2025): $6,775,860 = 4×$1,423,500×1.19 — confirma 4 SMMLV",
+        "43 facturas consecutivas sin excepción confirman la fórmula de 4 SMMLV post-Otrosí"
+      ],
+      "conclusion": "La fiduciaria aplica 4 SMMLV como comisión mínima, coherente con la cifra en letras del Otrosí y la corrección de la Rendición Semestral. Sin embargo, el documento firmado contiene '(2 SMMLV)', lo que genera un riesgo jurídico latente: si el fideicomitente impugnara la comisión, podría argumentar que la cifra parentética (2 SMMLV) es la correcta. Se recomienda formalizar una fe de erratas o un Otrosí aclaratorio que elimine la ambigüedad. Impacto potencial de la disputa: $3,094,000/mes × meses desde Sep 2024.",
+      "riesgo": "ALTO — Ambigüedad contractual con impacto económico significativo en caso de disputa",
+      "documentos_fuente": [
+        "OTROSI_No__1__FIRMADO_FA5999_VIMARSA_COLOMBIA.pdf — Cláusula Quinta",
+        "RENDICIO_N_SEMESTRAL__111528_FA5999 — Sección 14",
+        "ESTADO_CUENTAS_111528_1.xlsx — Sección Causación"
+      ],
+      "impacto_economico": 3094000
+    },
+    {
+      "id": "H-002",
+      "severidad": "ALTA",
+      "area": "Facturación / Control Interno",
+      "titulo": "Cuádruple facturación de comisión en noviembre 2024 por transición de fideicomitente",
+      "descripcion_operativa": "En noviembre 2024, la fiduciaria generó 4 facturas por comisión mensual mínima para el mismo período, cada una por $6,188,000, totalizando $24,752,000 cuando solo debía causarse $6,188,000. Tres de las cuatro facturas fueron anuladas mediante notas crédito (NC2). Este incidente se produce en el contexto de la transición contractual: el cambio de fideicomitente de Ciudad Ruitoque a Vimarsa Colombia (cesión registrada Sep 2024) y la entrada en vigor del Otrosí No.1. De hecho, también en septiembre 2024 se generó doble factura (FC85-8024 a nombre de Ciudad Ruitoque y FC85-8038 a nombre de Vimarsa Colombia), corregida con NC2-5414.",
+      "regla_citada": "Cláusula Décima Novena (modificada por Otrosí No.1, Cláusula Quinta): la comisión mensual es UNA factura por período mensual. Parágrafo Segundo: 'Las comisiones podrán ser descontadas directamente de los recursos del FIDEICOMISO.' El descuento automático de múltiples facturas por el mismo concepto constituye un débito no autorizado.",
+      "variable_aplicada": "Facturas_por_mes = 1 (esperado)",
+      "calculo_esperado": {
+        "esperado_nov_2024": "1 × $6,188,000 = $6,188,000",
+        "causado_nov_2024": "4 × $6,188,000 = $24,752,000",
+        "exceso_bruto": "$18,564,000 (3 facturas de más)",
+        "corregido_via_NC2": "$18,564,000 (NC2-5600: $6,188,000 + NC2-5601: $6,188,000 + NC2-5610: $6,188,000)",
+        "neto_despues_correccion": "$6,188,000 (correcto)"
+      },
+      "evidencia_encontrada": [
+        "FC85-8477 (15/11/2024): $6,188,000 — PAGADA vía SAF-22478 (18/11/2024)",
+        "FC85-8483 (15/11/2024): $6,188,000 — ANULADA con NC2-5600 (15/11/2024)",
+        "FC85-8489 (15/11/2024): $6,188,000 — ANULADA con NC2-5601 (15/11/2024)",
+        "FC85-8500 (19/11/2024): $6,188,000 — ANULADA con NC2-5610 (19/11/2024)",
+        "Antecedente Sep 2024: FC85-8024 (Ciudad Ruitoque) anulada con NC2-5414, coexistiendo con FC85-8038 (Vimarsa)",
+        "Estado de cuenta confirma saldo deuda = $0 al 24/11/2025"
+      ],
+      "conclusion": "El incidente fue corregido mediante notas crédito y el saldo final es correcto ($0 deuda). Sin embargo, revela una debilidad en el control de facturación durante transiciones contractuales: el sistema generó facturas automáticas bajo los parámetros del fideicomitente saliente (Ciudad Ruitoque) simultáneamente con los del entrante (Vimarsa Colombia). Se recomienda implementar un procedimiento de bloqueo de facturación duplicada durante transiciones y una verificación mensual obligatoria de que solo se causa UNA factura por concepto regular por período.",
+      "riesgo": "ALTO — Debilidad de control interno. Si las NC2 no se hubieran emitido, se habría debitado $18.6M de más al patrimonio",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_111528_1.xlsx — Causación filas 38-41 + Recaudos filas 65-68",
+        "Auxiliar Contable SIFI — Movimientos tipo 904 noviembre 2024"
+      ],
+      "impacto_economico": 18564000
+    },
+    {
+      "id": "H-003",
+      "severidad": "MEDIA",
+      "area": "Facturación",
+      "titulo": "Doble facturación de comisión mensual en septiembre 2024 por coexistencia de fideicomitentes",
+      "descripcion_operativa": "En septiembre 2024, se generaron DOS facturas de comisión mensual por el mismo período: FC85-8024 (12/09/2024, NIT 901062783 — Ciudad Ruitoque) y FC85-8038 (16/09/2024, NIT 900506010 — Vimarsa Colombia), ambas por $6,188,000. La cesión de posición contractual de Ciudad Ruitoque a Vimarsa Colombia se registró el 13/09/2024, lo que generó un breve período de coexistencia de ambos NITs en el sistema. La factura de Ciudad Ruitoque fue anulada mediante NC2-5414. Adicionalmente, en este mismo mes se generó la factura de estructuración del Otrosí FC85-8037 por $3,570,000.",
+      "regla_citada": "Contrato de Cesión: 'frente a ACCIÓN SOCIEDAD FIDUCIARIA S.A., como administradora del FIDEICOMISO, sólo produce efectos a partir del registro de la misma.' (Cláusula CUARTA). Registro: 13-Sep-2024. Factura Ciudad Ruitoque: 12-Sep-2024 (un día antes del registro).",
+      "variable_aplicada": "Facturas_comision_mensual_sep_2024 = 1 (esperado)",
+      "calculo_esperado": {
+        "esperado": "1 × $6,188,000 + $3,570,000 (estructuración) = $9,758,000",
+        "causado": "2 × $6,188,000 + $3,570,000 = $15,946,000",
+        "exceso": "$6,188,000",
+        "corregido": "NC2-5414 anula FC85-8024 → neto = $9,758,000 (correcto)"
+      },
+      "evidencia_encontrada": [
+        "FC85-8024 (12/09/2024, NIT 901062783): $6,188,000 — generada 1 día ANTES del registro de cesión",
+        "FC85-8038 (16/09/2024, NIT 900506010): $6,188,000 — generada 3 días DESPUÉS del registro",
+        "FC85-8037 (16/09/2024, NIT 900506010): $3,570,000 — estructuración Otrosí",
+        "NC2-5414 (16/09/2024): anula FC85-8024 por $6,188,000",
+        "RCJ-364258 + RCJ-364631 = $4,342,332 + $1,845,668 = $6,188,000 (pago FC85-8038 en 2 partes)"
+      ],
+      "conclusion": "La factura FC85-8024 se emitió correctamente el 12/Sep bajo Ciudad Ruitoque (la cesión aún no estaba registrada), pero al registrarse la cesión al día siguiente (13/Sep), debió anularse y re-emitirse a nombre de Vimarsa Colombia. La corrección se ejecutó el 16/Sep con NC2-5414 y la nueva factura FC85-8038. El procedimiento de corrección fue adecuado, pero confirma que los períodos de transición contractual generan facturas duplicadas que requieren control manual.",
+      "riesgo": "MEDIO — Corregido, pero confirma patrón recurrente de duplicación en transiciones",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_111528_1.xlsx — Causación filas 34-36 + Recaudos filas 61-63, 108",
+        "CESION_CIUDAD_RUITOQUE_A_VIMARSA.pdf — Cláusula Cuarta (efectos de la cesión)"
+      ],
+      "impacto_economico": 6188000
+    },
+    {
+      "id": "H-004",
+      "severidad": "MEDIA",
+      "area": "Facturación / Contractual",
+      "titulo": "Comisión por apertura de cuenta bancaria sin cláusula contractual expresa",
+      "descripcion_operativa": "En octubre 2025 se facturó FC85-11085 por $1,190,000 con concepto 'COMISIÓN FIDUCIARIA POR APERTURA DE CUENTA BANCARIA'. Este valor corresponde exactamente a $1,000,000 + IVA 19% = $1,190,000. Sin embargo, ni el contrato original ni el Otrosí No.1 establecen una comisión específica por apertura de cuenta bancaria. Las comisiones eventuales enumeradas taxativamente son: (3.1) suscripción de otrosí = 1 SMMLV, (3.2) registro de cesión = 0.5 SMMLV, (3.3) acompañamiento procesal = 3 SMMLV, (3.4) asistencia a comités = 3 SMMLV, (3.5) comisión de fondo de inversión. La apertura de cuenta no está en esta lista.",
+      "regla_citada": "Contrato Original, Cláusula Décima Novena, numeral 3 (Comisiones Eventuales): lista taxativa de 5 conceptos (3.1 a 3.5), ninguno contempla apertura de cuentas bancarias. Otrosí No.1, Cláusula Quinta: reproduce la misma lista sin añadir apertura de cuentas. Parágrafo Primero: 'El desarrollo por parte de ACCIÓN de gestiones diferentes a las establecidas en el presente contrato podrá ser adelantado, previo acuerdo entre las partes incluyendo el acuerdo sobre la remuneración específica para estos eventos.'",
+      "variable_aplicada": "Comision_apertura_cuenta = $1,000,000 + IVA = $1,190,000",
+      "calculo_esperado": {
+        "segun_clausulas_eventuales": "No aplica (concepto no enumerado)",
+        "posible_base_legal": "Parágrafo Primero — requiere 'previo acuerdo entre las partes'",
+        "facturado": "$1,190,000 ($1,000,000 + 19% IVA)",
+        "nota": "La base $1,000,000 no corresponde a ningún múltiplo de SMMLV 2025 ($1,423,500)"
+      },
+      "evidencia_encontrada": [
+        "FC85-11085 (22/10/2025): $1,190,000 — 'COMISION FIDUCIARIA POR APERTURA DE CUENTA BANCARIA OCT 2025'",
+        "RCJ-413547 (23/10/2025): $1,190,000 — pago al día siguiente",
+        "Auxiliar SIFI Oct 2025: movimiento tipo 904 con débito $1,190,000 a cuenta 25011501001",
+        "No se encontró en auxiliares contables ni en documentación contractual un acuerdo previo de las partes autorizando esta comisión",
+        "La base de $1,000,000 no es múltiplo de SMMLV 2025 ($1,423,500) → parece un valor acordado ad-hoc"
+      ],
+      "conclusion": "La comisión podría estar amparada por el Parágrafo Primero de la Cláusula 19, que permite 'gestiones diferentes previo acuerdo entre las partes'. Sin embargo, no se encontró evidencia documental del acuerdo previo. Se recomienda solicitar a la fiduciaria el soporte del acuerdo escrito entre las partes que autoriza esta comisión y su monto específico ($1,000,000 + IVA). En ausencia de dicho soporte, la factura podría ser objetable.",
+      "riesgo": "MEDIO — Posible cobro sin base contractual expresa; requiere soporte documental",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_111528_1.xlsx — Causación fila 53 + Recaudos fila 81",
+        "CONTRATO_DE_FIDUCIA_MERCANTIL — Cláusula 19, numeral 3 y Parágrafo Primero",
+        "OTROSI_No__1__FIRMADO — Cláusula Quinta"
+      ],
+      "impacto_economico": 1190000
+    },
+    {
+      "id": "H-005",
+      "severidad": "MEDIA",
+      "area": "Facturación / Tesorería",
+      "titulo": "Pagos fraccionados de comisión mensual en 4 períodos — insuficiencia temporal de recursos",
+      "descripcion_operativa": "Se identificaron 4 facturas de comisión mensual que no fueron pagadas en un solo acto sino en múltiples parcialidades, lo que sugiere insuficiencia momentánea de recursos en el fideicomiso al momento del descuento automático. Los casos son: FC85-4339 (Mar 2023) pagada en 2 partes con 3 días entre ellas; FC85-5862 (Nov 2023) pagada en 3 partes con 8 días entre primera y última, incluyendo un pago de $11,516 que evidencia un 'raspado' de saldo disponible; FC85-8038 (Sep 2024) pagada en 2 partes con 3 días de diferencia; FC85-10844 (Sep 2025) pagada en 2 partes con 5 días entre ellas.",
+      "regla_citada": "Cláusula Décima Novena, numeral 2: comisión 'pagadera mes anticipado dentro de los primeros cinco (5) días de cada mes'. Parágrafo Segundo: 'Las comisiones podrán ser descontadas directamente de los recursos del FIDEICOMISO. En caso de no existir recursos para atender la comisión, ésta deberá ser asumida de inmediato por EL FIDEICOMITENTE. En caso de mora, se reconocerán intereses de mora a la tasa máxima legal vigente.'",
+      "variable_aplicada": "Pagos_por_factura = 1 (esperado, descuento automático completo)",
+      "calculo_esperado": {
+        "FC85-4339_mar_2023": {
+          "total": 2760800,
+          "pago_1": {
+            "doc": "RCJ-306510",
+            "fecha": "2023-03-13",
+            "valor": 1147347
+          },
+          "pago_2": {
+            "doc": "RCJ-306813",
+            "fecha": "2023-03-16",
+            "valor": 1613453
+          },
+          "dias_para_completar": 3
+        },
+        "FC85-5862_nov_2023": {
+          "total": 2760800,
+          "pago_1": {
+            "doc": "RCJ-332332",
+            "fecha": "2023-11-16",
+            "valor": 1480980
+          },
+          "pago_2": {
+            "doc": "RCJ-332773",
+            "fecha": "2023-11-21",
+            "valor": 11516
+          },
+          "pago_3": {
+            "doc": "RCJ-333089",
+            "fecha": "2023-11-24",
+            "valor": 1268304
+          },
+          "dias_para_completar": 8,
+          "nota": "Segundo pago de $11,516 sugiere disponible casi agotado"
+        },
+        "FC85-8038_sep_2024": {
+          "total": 6188000,
+          "pago_1": {
+            "doc": "RCJ-364258",
+            "fecha": "2024-09-17",
+            "valor": 4342332
+          },
+          "pago_2": {
+            "doc": "RCJ-364631",
+            "fecha": "2024-09-20",
+            "valor": 1845668
+          },
+          "dias_para_completar": 3
+        },
+        "FC85-10844_sep_2025": {
+          "total": 6775860,
+          "pago_1": {
+            "doc": "RCJ-409504",
+            "fecha": "2025-09-12",
+            "valor": 2900063
+          },
+          "pago_2": {
+            "doc": "RCJ-409668",
+            "fecha": "2025-09-17",
+            "valor": 3875797
+          },
+          "dias_para_completar": 5
+        }
+      },
+      "evidencia_encontrada": [
+        "4 de 43 facturas (9.3%) pagadas en múltiples parcialidades",
+        "FC85-5862: pago intermedio de $11,516 evidencia recursos del fondo casi agotados",
+        "Patrón recurrente: septiembre aparece 2 veces (2024, 2025) como mes con pago fraccionado",
+        "Estado de cuenta no registra intereses de mora ($0), lo que indica que la fiduciaria no los liquidó",
+        "Los 4 incidentes se resolvieron en un plazo máximo de 8 días calendario"
+      ],
+      "conclusion": "Aunque todos los pagos se completaron sin intereses de mora, los pagos fraccionados revelan momentos de iliquidez del fideicomiso. El caso más crítico es noviembre 2023, donde la comisión de $2.76M tardó 8 días y 3 parcialidades en completarse, con un pago intermedio de apenas $11,516. Se recomienda monitorear la suficiencia del Fondo de Reserva (Cláusula 11 del Otrosí) y verificar que el fideicomitente esté cumpliendo con su obligación de aportar recursos cuando el fideicomiso sea insuficiente (Parágrafo Segundo, Cláusula 19).",
+      "riesgo": "MEDIO — Iliquidez temporal recurrente; sin mora liquidada pero vulnera la cláusula de pago anticipado",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_111528_1.xlsx — Recaudos: filas 87-88, 96-98, 62-63, 78-79"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "H-006",
+      "severidad": "MEDIA",
+      "area": "Facturación / Cumplimiento",
+      "titulo": "Comisión de mayo 2025 facturada con 17 días de retraso y pagada 19 días después",
+      "descripcion_operativa": "La factura FC85-9900 correspondiente a mayo 2025 fue emitida el 22 de mayo, cuando el contrato establece que la comisión es 'pagadera mes anticipado dentro de los primeros cinco (5) días de cada mes'. Esto representa un retraso de 17 días hábiles en la emisión respecto al plazo contractual. Además, el primer recaudo (RCJ-396873) se registró el 10 de junio de 2025, 19 días después de la factura y ya en el mes siguiente al período facturado. Este es el mayor retraso de pago de toda la serie histórica (promedio general: 2 días).",
+      "regla_citada": "Cláusula Décima Novena (modificada), numeral 2: comisión 'pagadera mes anticipado dentro de los primeros cinco (5) días de cada mes. Esta comisión se causará desde la constitución hasta la liquidación del FIDEICOMISO.' Parágrafo Séptimo: 'El no recibo de la factura no exime a EL FIDEICOMITENTE del pago de la comisión fiduciaria.'",
+      "variable_aplicada": "Dia_maximo_emision = 5 (día del mes), Dia_maximo_pago = 5 (del mes)",
+      "calculo_esperado": {
+        "emision_esperada": "Entre el 1 y 5 de mayo de 2025",
+        "emision_real": "22 de mayo de 2025 (día 22, retraso de 17 días)",
+        "pago_esperado": "Dentro de los primeros 5 días de mayo 2025 (anticipado)",
+        "pago_real": "10 de junio de 2025 (19 días después de factura, mes siguiente)",
+        "promedio_historico_pago": "2 días después de factura",
+        "desviacion_estandar": "Este caso = 9.5 sigma sobre el promedio"
+      },
+      "evidencia_encontrada": [
+        "FC85-9900 (22/05/2025): $6,775,860 — emitida día 22 del mes",
+        "RCJ-396873 (10/06/2025): $6,775,860 — pagada 19 días después, ya en junio",
+        "Ninguna otra factura regular presenta un retraso mayor a 4 días en su pago",
+        "Facturas anteriores y posteriores pagadas dentro de 1-3 días: FC85-9637 (14/04→14/04) y FC85-10179 (13/06→16/06)",
+        "No se registraron intereses de mora por este retraso en el estado de cuenta"
+      ],
+      "conclusion": "El retraso de 19 días en el pago de FC85-9900 es una anomalía aislada en la serie histórica. Aunque el contrato establece pago anticipado en los primeros 5 días del mes, la factura misma se emitió el día 22, lo que sugiere que el retraso se originó en la propia fiduciaria (emisión tardía) y no en el fideicomitente. No se liquidaron intereses de mora. Se recomienda investigar la causa del retraso en la emisión de esta factura específica y verificar que no haya afectado la cascada de prelación de giros.",
+      "riesgo": "MEDIO — Incumplimiento de plazo contractual; anomalía aislada sin mora liquidada",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_111528_1.xlsx — Causación fila 47 + Recaudos fila 74"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "H-007",
+      "severidad": "MEDIA",
+      "area": "Contabilidad / Contractual",
+      "titulo": "Discrepancia en valor de comisión de estructuración entre Rendición Semestral y Otrosí firmado",
+      "descripcion_operativa": "La Rendición Semestral (Sección 14) declara que la comisión por estructuración del Otrosí No.1 es 'equivalente a TRES MILLONES DE PESOS ($2.000.000)'. Hay una contradicción interna: el texto en letras dice 'TRES MILLONES' pero la cifra en paréntesis dice '$2.000.000'. El Otrosí No.1 firmado (Cláusula Quinta, numeral 1) establece la comisión como 'TRES MILLONES DE PESOS MONEDA CORRIENTE ($3.000.000 M/CTE)'. La factura real FC85-8037 fue por $3,570,000 ($3,000,000 + IVA 19%), consistente con el Otrosí pero no con la Rendición Semestral.",
+      "regla_citada": "Otrosí No.1, Cláusula Quinta, numeral 1: 'Una comisión por estructuración del presente Otrosí No. 1 equivalente a la suma de TRES MILLONES DE PESOS MONEDA CORRIENTE ($3.000.000 M/CTE) que se pagará al momento de la suscripción del presente Otrosí No. 1.' vs. Rendición Semestral Sec.14 numeral 1: 'Una comisión por estructuración del otrosi 1 equivalente a TRES MILLONES DE PESOS ($2.000.000).'",
+      "variable_aplicada": "Comision_estructuracion_otrosi = $3,000,000 + IVA",
+      "calculo_esperado": {
+        "segun_otrosi_firmado": "$3,000,000 + IVA(19%) = $3,570,000",
+        "segun_rendicion_semestral_letras": "$3,000,000 + IVA(19%) = $3,570,000",
+        "segun_rendicion_semestral_cifra": "$2,000,000 + IVA(19%) = $2,380,000",
+        "facturado_real_FC85_8037": "$3,570,000"
+      },
+      "evidencia_encontrada": [
+        "Otrosí No.1 firmado: '$3.000.000 M/CTE' — fuente primaria vinculante",
+        "Rendición Semestral Sec.14: 'TRES MILLONES ($2.000.000)' — discrepancia interna",
+        "FC85-8037 (16/09/2024): $3,570,000 — coincide con Otrosí ($3M + IVA)",
+        "RCJ-364257 (17/09/2024): $3,570,000 — pagada al día siguiente",
+        "El error en la Rendición puede ser un residuo del contrato original cuya estructuración sí fue de $2M"
+      ],
+      "conclusion": "La facturación real ($3,570,000 = $3M + IVA) es correcta según el Otrosí No.1 firmado. La Rendición Semestral contiene un error tipográfico en la cifra parentética ('$2.000.000' en vez de '$3.000.000'), posiblemente por copiar la estructura del contrato original cuya comisión de estructuración sí fue de $2,000,000 (FC85-4188: $2,380,000 = $2M + IVA). Impacto: error documental sin efecto económico, pero afecta la confiabilidad de la Rendición Semestral como documento de control. Se recomienda solicitar corrección a la fiduciaria.",
+      "riesgo": "MEDIO — Error documental en Rendición oficial; sin impacto económico pero afecta confiabilidad",
+      "documentos_fuente": [
+        "RENDICIO_N_SEMESTRAL__111528_FA5999 — Sección 14, numeral 1",
+        "OTROSI_No__1__FIRMADO — Cláusula Quinta, numeral 1",
+        "ESTADO_CUENTAS_111528_1.xlsx — Causación fila 35"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "H-008",
+      "severidad": "MEDIA",
+      "area": "Contabilidad",
+      "titulo": "Reclasificación contable masiva dic-2023: cambio de cuenta 35100501001 a 16320001001",
+      "descripcion_operativa": "El 12 de diciembre de 2023, el usuario contable YRAIGOSA ejecutó una operación de reversión masiva (tipo movimiento 63 — REVERSION DE DOCUMENTOS) seguida de re-causación (tipo 62) para los giros de diciembre. Los movimientos originales usaban la cuenta 35100501001 (RESTITUCIÓN DE APORTES) como contrapartida, pero fueron revertidos y re-causados contra la cuenta 16320001001 (CONTRATOS). Los beneficiarios afectados fueron MONERE CAPITAL ($3,766,500 × 3 giros) y MARIANELA VELILLA ($4,464,000). Este cambio reclasifica la naturaleza contable del giro: de 'restitución de aporte al fideicomitente' a 'ejecución de contrato con tercero', con implicaciones tributarias y de presentación de estados financieros.",
+      "regla_citada": "Plan Único de Cuentas para Fiduciarias (Circular Básica Contable y Financiera de la SFC): Cuenta 35100501001 (Restitución de Aportes) = disminución patrimonial por devolución al fideicomitente. Cuenta 16320001001 (Contratos) = activo por derechos contractuales. El uso de una u otra cuenta cambia la naturaleza de la operación: patrimonio vs. activo.",
+      "variable_aplicada": "Cuenta_contrapartida_giros = 35100501001 (patrón estándar en >95% de giros)",
+      "calculo_esperado": {
+        "patron_estandar": "DB 35100501001 (Restitución Aportes) / CR 25110501001 (Proveedores)",
+        "patron_dic_2023": "DB 16320001001 (Contratos) / CR 25110501001 (Proveedores)",
+        "movimientos_afectados": [
+          {
+            "beneficiario": "MONERE CAPITAL S.A.S.",
+            "NIT": "900599869",
+            "valor": 3766500,
+            "cantidad": 3
+          },
+          {
+            "beneficiario": "MARIANELA VELILLA OROZCO",
+            "CC": "1129579218",
+            "valor": 4464000,
+            "cantidad": 1
+          }
+        ],
+        "total_reclasificado": 15763500
+      },
+      "evidencia_encontrada": [
+        "Auxiliar Contable 111528 (sistema antiguo): movimientos tipo 63 del 12/12/2023 con prefijo 'ANULACIONANULA 111528-FA-5999'",
+        "Re-causaciones tipo 62 del 12/12/2023 contra cuenta 16320001001",
+        "Usuario contable: YRAIGOSA",
+        "Giros de enero a noviembre 2023 usan consistentemente cuenta 35100501001",
+        "Giros post-migración SIFI (Sep 2024+) regresan a usar 35100501001 como estándar"
+      ],
+      "conclusion": "La reclasificación fue un evento aislado de diciembre 2023 que no se repitió en períodos posteriores. No se identificó instrucción del fideicomitente que motivara el cambio de cuenta. El uso de la cuenta 16320001001 (Contratos) implica registrar el giro como un activo contractual en lugar de una disminución patrimonial, lo que podría afectar la presentación de estados financieros del fideicomiso y la declaración de retenciones. Se recomienda verificar con la fiduciaria la motivación de esta reclasificación y confirmar su tratamiento tributario.",
+      "riesgo": "MEDIO — Cambio de naturaleza contable de giros sin instrucción documentada; potencial impacto tributario",
+      "documentos_fuente": [
+        "AuxiliarContable111528.txt — Movimientos tipo 62/63 del 12/12/2023"
+      ],
+      "impacto_economico": 15763500
+    },
+    {
+      "id": "H-009",
+      "severidad": "BAJA",
+      "area": "Facturación / Contractual",
+      "titulo": "Facturación inicial retroactiva: 4 facturas por 3 meses + estructuración emitidas el mismo día",
+      "descripcion_operativa": "Las primeras 4 facturas del fideicomiso fueron emitidas todas el 21 de febrero de 2023, cubriendo: comisión de diciembre 2022 (proporcional $396,666), enero 2023 ($2,760,800), febrero 2023 ($2,760,800), y estructuración ($2,380,000), por un total de $8,298,266. Esto indica que el fideicomiso operó casi 2 meses (26-Dic-2022 a 21-Feb-2023) sin facturación de comisiones, contraviniendo la cláusula de pago anticipado en los primeros 5 días de cada mes. Las 4 facturas fueron pagadas en bloque al día siguiente (22-Feb-2023).",
+      "regla_citada": "Cláusula Décima Novena, numeral 2: 'pagaderos mes anticipado dentro de los primeros cinco (5) días de cada mes. Esta comisión se causará desde la constitución hasta la liquidación.' Numeral 1: comisión de estructuración 'se pagará por una sola vez, al momento de suscripción.'",
+      "variable_aplicada": "Fecha_primera_factura_esperada = primera semana enero 2023",
+      "calculo_esperado": {
+        "dic_2022_proporcional": {
+          "formula": "(2 × SMMLV_2022 × 1.19) / 6 = ($2,000,000 × 1.19) / 6",
+          "calculo": "$2,380,000 / 6 = $396,666.67",
+          "facturado": "$396,666 (FC85-4187)"
+        },
+        "ene_2023": "$2,320,000 × 1.19 = $2,760,800 (FC85-4189)",
+        "feb_2023": "$2,320,000 × 1.19 = $2,760,800 (FC85-4186)",
+        "estructuracion": "$2,000,000 × 1.19 = $2,380,000 (FC85-4188)",
+        "total_retroactivo": "$8,298,266"
+      },
+      "evidencia_encontrada": [
+        "FC85-4186 (21/02/2023): $2,760,800 — Feb 2023",
+        "FC85-4187 (21/02/2023): $396,666 — Dic 2022 proporcional",
+        "FC85-4188 (21/02/2023): $2,380,000 — Estructuración",
+        "FC85-4189 (21/02/2023): $2,760,800 — Ene 2023",
+        "RCJ-304061 a RCJ-304064 (22/02/2023): 4 pagos por el total $8,298,266 al día siguiente"
+      ],
+      "conclusion": "El retraso en la primera facturación (casi 2 meses) es atribuible al período de alistamiento operativo normal al constituir un nuevo fideicomiso. Los valores son correctos. Sin embargo, se detecta una inconsistencia menor en FC85-4187: el texto descriptivo indica base SMMLV de $2,320,000 (correspondiente a SMMLV 2023), pero el cálculo aritmético ($396,666 = $2,380,000/6) usa SMMLV 2022 ($1,000,000). Esto es técnicamente correcto (diciembre 2022 debe usar SMMLV 2022) pero el texto de la factura es engañoso.",
+      "riesgo": "BAJO — Retraso inicial sin consecuencias; inconsistencia textual menor en FC85-4187",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_111528_1.xlsx — Causación filas 12-15 + Recaudos filas 83-86"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "H-010",
+      "severidad": "MEDIA",
+      "area": "Operativa / Riesgo",
+      "titulo": "Beneficiario condicionado BLOOM CROWDFUNDING con compromiso de $4,200M sin evidencia de giros",
+      "descripcion_operativa": "El Otrosí No.1 incluye a BLOOM CROWDFUNDING S.A. (NIT 901.558.151-8) como beneficiario condicionado con derecho a recibir giros hasta $4,200,000,000 COP, atendidos exclusivamente con recaudos de los proyectos Habitat, Bonaterra y Valle Ruitoque. En el auxiliar contable disponible (enero 2023 a octubre 2025), no se identifican giros a BLOOM CROWDFUNDING. Sin embargo, el cuadro cronológico de giros de BLOOM no fue suministrado como parte de la documentación auditada, por lo que no se puede determinar si hay obligaciones vencidas o próximas a vencer.",
+      "regla_citada": "Otrosí No.1, Cláusula Primera numeral 10: BLOOM CROWDFUNDING es BENEFICIARIO CONDICIONADO. Numeral 2.2: cuadro cronológico de giros a favor de BLOOM que incluirá valor total ($4,200M), flujo de pagos, fechas y valores. Condición: la participación 'se reduce al cancelar o reintegrar dineros'. Cláusula: cuentas recaudadoras Habitat/Bonaterra/Valle Ruitoque alimentan exclusivamente este cuadro.",
+      "variable_aplicada": "Giros_a_BLOOM = $0 (observado en auxiliares disponibles)",
+      "calculo_esperado": {
+        "compromiso_total": "$4,200,000,000",
+        "giros_observados": "$0",
+        "saldo_pendiente_posible": "Hasta $4,200,000,000",
+        "nota": "Cuadro cronológico de BLOOM no suministrado — incógnita total"
+      },
+      "evidencia_encontrada": [
+        "Otrosí No.1 firmado: BLOOM CROWDFUNDING incluido como beneficiario condicionado",
+        "Auxiliar Contable 111528 (Ene 2023 - Ago 2024): NIT 901558151 NO aparece en ningún movimiento",
+        "Auxiliar SIFI (Sep 2024 - Oct 2025): NIT 901558151 NO aparece en ningún movimiento",
+        "Rendición Semestral (Ene-Jun 2025): no menciona giros específicos a BLOOM",
+        "Se observan 5 encargos fiduciarios separados en SIFI, sugiriendo cuentas por proyecto activas",
+        "Cuadro cronológico de giros de BLOOM NO suministrado para auditoría"
+      ],
+      "conclusion": "Existen dos escenarios: (A) los proyectos Habitat/Bonaterra/Valle Ruitoque aún no generan recaudos suficientes para activar giros a BLOOM, o (B) los giros se están ejecutando pero no aparecen en los auxiliares por un desfase de registro o una cuenta separada no incluida en el alcance. El compromiso contingente de $4,200M es significativo y podría representar un pasivo oculto. Se recomienda URGENTEMENTE: (1) solicitar el cuadro cronológico de giros de BLOOM, (2) obtener estados de las cuentas recaudadoras por proyecto, (3) confirmar si hay giros pendientes o en mora con BLOOM.",
+      "riesgo": "MEDIO-ALTO — Compromiso contingente de $4,200M sin visibilidad; información crítica faltante",
+      "documentos_fuente": [
+        "OTROSI_No__1__FIRMADO — Cláusula Primera numerales 2.2 y 10",
+        "AuxiliarContable111528.txt — Búsqueda de NIT 901558151",
+        "AuxiliarContable111528_sifi.txt — Búsqueda de NIT 901558151"
+      ],
+      "impacto_economico": 4200000000
+    },
+    {
+      "id": "H-011",
+      "severidad": "BAJA",
+      "area": "Contabilidad / Operativa",
+      "titulo": "Desfase sistemático entre recaudos bancarios y registro contable por notas de adición",
+      "descripcion_operativa": "Se identifican frecuentes notas contables (tipo movimiento 3 — NOTAS CONTABLES) con descripción 'ADICION POR CONSIGNACION' que ajustan aportes y rendimientos no capturados en tiempo real. Este es un patrón mensual recurrente que indica que los recaudos bancarios (consignaciones a las cuentas del fideicomiso) no se registran automáticamente en el sistema fiduciario sino que requieren un proceso manual de 'adición' posterior. El desfase típico observado es de 1 a 5 días hábiles.",
+      "regla_citada": "Circular Básica Contable y Financiera de la SFC, Capítulo I: 'Las sociedades fiduciarias deben registrar de manera oportuna y completa todas las operaciones que realicen.' Cláusula Décima, numeral 1 del Contrato: 'Recibir los RECURSOS y administrarlos conforme a lo previsto.' El registro tardío no afecta la administración real pero sí la oportunidad de la información contable.",
+      "variable_aplicada": "Desfase_registro = 0 días (ideal)",
+      "calculo_esperado": {
+        "esperado": "Registro en D+0 (mismo día del recaudo bancario)",
+        "observado": "Registro en D+1 a D+5 mediante notas tipo 3 de adición",
+        "frecuencia": "Mensual, recurrente durante todo el período 2023-2025"
+      },
+      "evidencia_encontrada": [
+        "Auxiliar Contable 111528: múltiples movimientos tipo 3 con 'ADICION POR CONSIGNACION'",
+        "Auxiliar SIFI: patrón continúa post-migración",
+        "Cuenta afectada: 35050501001 (APORTES EN DINERO) — se adiciona retroactivamente",
+        "Cuenta 13020501001 (FONDO COMÚN ORDINARIO 1) — se ajusta correspondientemente"
+      ],
+      "conclusion": "Es una práctica operativa estándar en fiducias colombianas debido a la conciliación entre sistemas bancarios y sistemas fiduciarios. No genera impacto económico ni afecta saldos finales. Sin embargo, durante el período de desfase, los saldos contables del fideicomiso son menores a la realidad bancaria, lo que podría llevar a decisiones erróneas si se consultan antes de la conciliación. Se recomienda monitorear la oportunidad del registro y solicitar conciliación bancaria mensual.",
+      "riesgo": "BAJO — Práctica operativa estándar sin impacto económico; afecta oportunidad de información",
+      "documentos_fuente": [
+        "AuxiliarContable111528.txt — Movimientos tipo 3",
+        "AuxiliarContable111528_sifi.txt — Movimientos equivalentes"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "H-012",
+      "severidad": "INFORMATIVO",
+      "area": "Estructura Contractual",
+      "titulo": "Cesión total de posición contractual con duplicación simultánea de comisión mínima",
+      "descripcion_operativa": "El 28 de junio de 2024, CIUDAD RUITOQUE S.A.S. cedió el 100% de su posición contractual (fideicomitente + beneficiario) a VIMARSA COLOMBIA S.A.S. por un valor de $40,000,000 COP. La cesión se registró ante la fiduciaria el 13 de septiembre de 2024. Simultáneamente, el Otrosí No.1 (mismo período) duplicó la comisión mínima de 2 a 4 SMMLV y aumentó el porcentaje variable de 0.3% a 0.5%. Esto generó un incremento del 100% en la comisión fija mensual coincidente con el cambio de fideicomitente.",
+      "regla_citada": "Contrato de Cesión, Cláusula QUINTA: valor de cesión $40,000,000. Cláusula SEGUNDA: el cesionario acepta todos los derechos y obligaciones del contrato. Otrosí No.1, Cláusula QUINTA: nueva comisión = max(0.5% giros, 4 SMMLV).",
+      "variable_aplicada": "Comision_pre_cesion = 2 SMMLV, Comision_post_cesion = 4 SMMLV",
+      "calculo_esperado": {
+        "comision_mensual_antes": "$3,094,000 (2 × $1,300,000 × 1.19)",
+        "comision_mensual_despues": "$6,188,000 (4 × $1,300,000 × 1.19)",
+        "incremento_mensual": "$3,094,000 (+100%)",
+        "incremento_anual": "$37,128,000",
+        "porcentaje_variable": "0.3% → 0.5% (+66.7%)"
+      },
+      "evidencia_encontrada": [
+        "Cesión firmada 28/06/2024, registrada 13/09/2024",
+        "FC85-7826 (Ago 2024, última de Ciudad Ruitoque): $3,094,000",
+        "FC85-8038 (Sep 2024, primera de Vimarsa Colombia): $6,188,000",
+        "Salto de comisión del 100% entre agosto y septiembre 2024"
+      ],
+      "conclusion": "La cesión y el incremento de comisión son contractualmente válidos. Sin embargo, el controlador fiduciario debe notar que la cesión implicó un compromiso económico adicional: al aceptar el Otrosí No.1, el nuevo fideicomitente asumió una carga de comisión doble respecto a la original. Esto es relevante para el análisis de viabilidad financiera del fideicomiso y la capacidad de los proyectos inmobiliarios para generar recursos suficientes.",
+      "riesgo": "INFORMATIVO — Cambio contractual válido con impacto significativo en costos",
+      "documentos_fuente": [
+        "CESION_CIUDAD_RUITOQUE_A_VIMARSA.pdf",
+        "OTROSI_No__1__FIRMADO_FA5999_VIMARSA_COLOMBIA.pdf",
+        "ESTADO_CUENTAS_111528_1.xlsx"
+      ],
+      "impacto_economico": 37128000
+    },
+    {
+      "id": "H-013",
+      "severidad": "INFORMATIVO",
+      "area": "Rendimientos / Inversión",
+      "titulo": "Rendimientos netos del Fondo Común Ordinario positivos pero marginales respecto al patrimonio",
+      "descripcion_operativa": "El fideicomiso invierte sus recursos en el Fondo Abierto Acción Uno (Fondo Común Ordinario), registrando rendimientos diarios positivos (cuenta 41080501001) y negativos (cuenta 51080501001). Los rendimientos netos observados son positivos pero de bajo monto relativo al patrimonio administrado. Los rendimientos se distribuyen proporcionalmente entre los encargos fiduciarios (EF1850005652, EF1850089887, EF1850089889, EF1850089892, EF1850089893).",
+      "regla_citada": "Cláusula Décima, numeral 2: 'Invertir los RECURSOS en el Fondo Abierto ACCIÓN UNO administrado por LA FIDUCIARIA, cuyo reglamento ha sido entregado.' Cláusula 3.5 de Comisiones Eventuales: la fiduciaria cobra comisión adicional por los fondos según reglamento.",
+      "variable_aplicada": "Rendimiento_neto > 0 (esperado por inversión en fondo abierto)",
+      "calculo_esperado": {
+        "patron_observado": "Rendimientos diarios entre $500 y $15,000 por encargo fiduciario",
+        "rendimientos_negativos": "Ocasionales, generalmente revertidos en D+1",
+        "fuente_rendimientos": "Fondo Abierto Acción Uno — valoración diaria a precios de mercado"
+      },
+      "evidencia_encontrada": [
+        "Auxiliar SIFI: movimientos tipo 914 (CIERRE FONDO INVERSION) diarios",
+        "Cuenta 41080501001: 'POR INCREMENTO EN EL VALOR DE MERCADO' (crédito)",
+        "Cuenta 51080501001: 'POR DISMINUCIÓN DEL VALOR RAZONABLE' (débito)",
+        "Rendición Semestral: Fuentes y Usos muestra inversiones $1,347M en fuentes vs $1,337M en usos (rendimiento neto ~$10M)"
+      ],
+      "conclusion": "Comportamiento esperado y normal para un fondo de inversión colectiva. Los rendimientos netos son positivos pero no compensan significativamente los costos del fideicomiso (comisiones + GMF + bancarios ~$82M/año). El controlador debe monitorear que los rendimientos no sean consistentemente negativos, lo que indicaría un problema de gestión del fondo.",
+      "riesgo": "INFORMATIVO — Sin anomalía; rendimientos marginales esperados",
+      "documentos_fuente": [
+        "AuxiliarContable111528_sifi.txt — Movimientos tipo 914",
+        "RENDICIO_N_SEMESTRAL — Fuentes y Usos de Recursos"
+      ],
+      "impacto_economico": null
+    },
+    {
+      "id": "H-014",
+      "severidad": "ALTA",
+      "area": "Contabilidad / Control Interno / Migración SIFI",
+      "titulo": "Cobro automático de $6,188,000 el 13/09/2024 registrado en cuenta contable obsoleta (pre-SIFI) — fuga de ingreso",
+      "descripcion_operativa": "El 13 de septiembre de 2024 — exactamente el día del registro de la cesión — el sistema ejecutó un descuento automático por $6,188,000 correspondiente a la factura FC85-8024 (comisión Sep 2024, Ciudad Ruitoque). Este débito presenta DOS anomalías concurrentes:\n\n1) CUENTA CONTABLE INCORRECTA: El cargo se registró en la cuenta 35101002009 (COMISION FIDUCIARIA), que es la cuenta del sistema contable ANTERIOR a la migración SIFI. La cuenta correcta en SIFI es 51151801001 (NEGOCIOS FIDUCIARIOS), la cual se usa correctamente desde el 17/09/2024 en adelante. La cuenta 35101002009 solo aparece DOS veces en todo el auxiliar SIFI: (a) el 31/08/2024 para cargue de saldos iniciales de migración por usuario UMIGRA, y (b) este descuento del 13/09/2024 por usuario PROCESOS. Nunca más se vuelve a usar.\n\n2) FUGA DE EFECTIVO NO CAUSADA: El dinero salió físicamente del Fondo Común Ordinario (CR 13020501001 por $6,188,000 + $24,752 GMF + $4,500 bancarios = $6,217,252 total) para pagar una factura (FC85-8024) que fue POSTERIORMENTE anulada con NC2-5414 el 16/09/2024. Sin embargo, no se observa en el auxiliar contable un movimiento de REINGRESO de los $6,188,000 al fondo. Solo se registra una RECLASIFICACIÓN (tipo 906 NOTAS CONTABLES, usuario CNIEVES) que mueve el saldo entre encargos fiduciarios DENTRO de la misma cuenta 13020501001, pero no revierte la salida de efectivo. Cuatro días después (17/09), se ejecutan los pagos de la factura correcta FC85-8038 ($4,342,332) y FC85-8037 ($3,570,000) contra la cuenta 51151801001 (correcta).\n\nIMPACTO: Entre el 13/09 y el 17/09, el fideicomiso tuvo una descapitalización transitoria de $6.2M por un cobro que correspondía a una factura que fue anulada. Si el reintegro no se concretó vía la compensación contable interna, constituye una fuga real de ingreso del patrimonio fideicomitido.",
+      "regla_citada": "Cláusula Décima Novena, Parágrafo Segundo: 'Las comisiones podrán ser descontadas directamente de los recursos del FIDEICOMISO.' Este descuento automático debe corresponder a una factura vigente y debidamente causada. FC85-8024 fue emitida el 12/09 bajo Ciudad Ruitoque, pero al registrarse la cesión el 13/09, el NIT facturado dejó de ser el fideicomitente vigente. Circular Básica Contable SFC: las operaciones deben registrarse en las cuentas del PUC vigente.",
+      "variable_aplicada": "Cuenta_gasto_comision_SIFI = 51151801001 (NEGOCIOS FIDUCIARIOS)",
+      "calculo_esperado": {
+        "cuenta_usada_13sep": "35101002009 (COMISION FIDUCIARIA — cuenta pre-SIFI, OBSOLETA)",
+        "cuenta_correcta_SIFI": "51151801001 (NEGOCIOS FIDUCIARIOS — usada desde 17/09/2024)",
+        "apariciones_35101002009_en_SIFI": 2,
+        "aparicion_1": "31/08/2024 — CARGUE SALDOS INICIALES ($60,658,266) por UMIGRA (migración)",
+        "aparicion_2": "13/09/2024 — DESCUENTO AUTOMATICO ($6,188,000) por PROCESOS (error)",
+        "efectivo_debitado_total": "$6,188,000 + $24,752 (GMF) + $4,500 (bancarios) = $6,217,252",
+        "factura_asociada": "FC85-8024 (anulada con NC2-5414 el 16/09/2024)"
+      },
+      "evidencia_encontrada": [
+        "Auxiliar SIFI 13/09/2024, movimiento 1 tipo 904: DB 35101002009 $6,188,000 — usuario PROCESOS",
+        "Auxiliar SIFI 13/09/2024, movimiento 1 tipo 904: CR 13020501001 -$6,188,000 — salida efectiva del fondo",
+        "Auxiliar SIFI 13/09/2024, movimiento 3 tipo 906: RECLAS $6,188,000 por usuario CNIEVES — reclasificación entre EFs, NO reversión",
+        "Auxiliar SIFI 31/08/2024: cuenta 35101002009 cargada con saldo inicial $60,658,266 por UMIGRA (migración)",
+        "Auxiliar SIFI 17/09/2024: primer uso de cuenta correcta 51151801001 por $3,570,000 (FC85-8037) y $4,342,332 (FC85-8038)",
+        "Cuenta 35101002009 NO vuelve a aparecer NUNCA después del 13/09/2024",
+        "Estado de Cuenta: NC2-5414 (16/09/2024) anula FC85-8024 → la causación fue revertida pero ¿el efectivo?"
+      ],
+      "conclusion": "Este hallazgo confirma dos debilidades críticas del primer mes post-migración SIFI:\n(A) El proceso automático de descuento de comisiones no fue actualizado con el nuevo catálogo de cuentas SIFI, usando la cuenta obsoleta 35101002009 en lugar de 51151801001. Fue corregido a partir del 17/09.\n(B) El descuento se ejecutó para una factura (FC85-8024, Ciudad Ruitoque) que fue anulada 3 días después. El efectivo salió del fondo pero la reclasificación contable (RECLAS por CNIEVES) solo reubicó el saldo entre encargos fiduciarios sin evidenciar el reingreso al patrimonio. Se recomienda URGENTEMENTE:\n1. Solicitar a la fiduciaria confirmación de que los $6,188,000 fueron reintegrados al fondo.\n2. Obtener el extracto bancario de la cuenta 657043675 para el período 13-17/09/2024.\n3. Verificar que el saldo del fondo no fue doblemente afectado (pago FC85-8024 + pago FC85-8038).",
+      "riesgo": "ALTO — Posible fuga de efectivo de $6.2M + uso de cuenta contable obsoleta en primer mes SIFI",
+      "documentos_fuente": [
+        "AuxiliarContable111528_sifi.txt — Movimientos del 13/09/2024 (tipos 904 y 906)",
+        "AuxiliarContable111528_sifi.txt — Saldos iniciales 31/08/2024 (cuenta 35101002009)",
+        "ESTADO_CUENTAS_111528_1.xlsx — FC85-8024 y NC2-5414"
+      ],
+      "hallazgos_relacionados": [
+        "H-002 — Cuádruple facturación Nov 2024 (mismo patrón de duplicación por transición)",
+        "H-003 — Doble facturación Sep 2024 (contexto de la factura FC85-8024 anulada)"
+      ],
+      "impacto_economico": 6188000
+    },
+    {
+      "id": "H-015",
+      "severidad": "MEDIA",
+      "area": "Registro / Presentación / Rendición Semestral",
+      "titulo": "Triple registro de cesión en Rendición Semestral — duplicación aparente de cesión de beneficio al 200%",
+      "descripcion_operativa": "La Rendición Semestral (Sección 2.4 'Cesiones', Página 2) presenta la cesión de CIUDAD RUITOQUE a VIMARSA COLOMBIA como TRES registros separados, todos con fecha 13-09-2024 y cantidad cedida 100%:\n\n  1. Clase: Fideicomitente | 100%\n  2. Clase: Beneficio     | 100%\n  3. Clase: Beneficio     | 100%\n\nLas líneas 2 y 3 son IDÉNTICAS en todos sus campos (clase, cedente, cesionario, porcentaje, fecha), lo que genera una apariencia de duplicación: se estaría cediendo un 200% de derechos de beneficio, lo cual es jurídicamente imposible.\n\nPOSIBLE JUSTIFICACIÓN: La Sección 2.2 'Beneficiario(s)' de la misma página distingue dos tipos de derechos fiduciarios: (a) 'Derechos Fiduciarios sobre el Fideicomiso' = 100% y (b) 'Derechos Fiduciarios Sobre Utilidad del Fideicomiso' = 100%. Es posible que la fiduciaria registrara cada tipo de derecho como una cesión separada de 'Beneficio'. Sin embargo, la columna 'Clase' de la tabla de cesiones NO diferencia entre ambos tipos — ambas filas dicen simplemente 'Beneficio', haciendo imposible distinguir una de otra.\n\nCONTRASTE CON DOCUMENTO DE CESIÓN: El contrato de cesión original es UN SOLO acto que transfiere la totalidad de la posición contractual (fideicomitente + beneficiario) al 100%. No se firmaron tres documentos de cesión separados.",
+      "regla_citada": "Contrato de Cesión de Posición Contractual, Cláusula PRIMERA: 'EL CEDENTE cede a favor de EL CESIONARIO en calidad de FIDEICOMITENTE Y BENEFICIARIO... el total de derechos fiduciarios.' Es un ÚNICO acto de cesión del 100% en ambas calidades. Circular Básica Jurídica SFC, Parte II, Título II, Capítulo I, Numeral 6: la rendición de cuentas debe ser 'clara, veraz y oportuna'.",
+      "variable_aplicada": "Cesiones_registradas = 1 acto (según contrato de cesión firmado)",
+      "calculo_esperado": {
+        "cesion_real": "1 acto → 100% Fideicomitente + 100% Beneficiario = 100% posición total",
+        "registro_rendicion": "3 líneas → 100% Fideicomitente + 100% Beneficio + 100% Beneficio = aparente 200% beneficio",
+        "lineas_beneficio_duplicadas": "Filas 2 y 3 de la tabla Sección 2.4 son idénticas en TODOS los campos visibles"
+      },
+      "evidencia_encontrada": [
+        "Rendición Semestral Página 2, Sección 2.4 'Cesiones': 3 filas con fecha 13-09-2024",
+        "Filas 2 y 3: ambas dicen 'Beneficio | CIUDAD RUITOQUE SAS | VIMARSA COLOMBIA SAS | 100%'",
+        "Sección 2.2 'Beneficiario(s)': distingue 'Derechos Fiduciarios sobre el Fideicomiso' y 'Sobre Utilidad'",
+        "Contrato de Cesión firmado: UN solo documento, UN acto de cesión del 100% total",
+        "No existe un campo en la tabla de cesiones que distinga entre tipos de derechos de beneficio"
+      ],
+      "conclusion": "La presentación de la Rendición Semestral es confusa y potencialmente engañosa: un tercero que revise esta tabla interpretaría que se cedió el 200% de los derechos de beneficio, lo cual es imposible. Si la fiduciaria efectivamente registró cada tipo de derecho fiduciario (sobre fideicomiso / sobre utilidad) como una cesión separada de 'Beneficio', debería haber diferenciado las filas con un subtipo o nota aclaratoria. Sin esa diferenciación, una de las dos líneas de 'Beneficio' aparenta ser un registro duplicado.\n\nRECOMENDACIÓN: Solicitar a la fiduciaria una aclaración formal sobre por qué hay 3 registros de cesión cuando el contrato es UN solo acto. Si efectivamente son dos tipos de beneficio, solicitar corrección de la presentación para distinguirlos. Si es un duplicado de registro, solicitar su eliminación.",
+      "riesgo": "MEDIO — Error de presentación en rendición oficial que puede generar confusión regulatoria o ante terceros",
+      "documentos_fuente": [
+        "RENDICIO_N_SEMESTRAL__111528_FA5999 — Página 2, Sección 2.4 Cesiones",
+        "CESION_CIUDAD_RUITOQUE_A_VIMARSA.pdf — Documento único de cesión"
+      ],
+      "impacto_economico": null
+    }
+  ],
+  "resumen_hallazgos": {
+    "total_hallazgos": 15,
+    "distribucion_severidad": {
+      "ALTA": 3,
+      "MEDIA": 8,
+      "BAJA": 2,
+      "INFORMATIVO": 2
+    }
+  }
+}

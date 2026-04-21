@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.next/
+.turbo/
+out/
+*.tsbuildinfo
+
+# TypeScript compiled files (inline compilation)
+**/*.js
+**/*.d.ts
+**/*.js.map
+!node_modules/**/*.js
+!node_modules/**/*.d.ts
+!dist/**/*.js
+!dist/**/*.d.ts
+
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.docker
+infra/.env.docker
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+apps/api/prisma/*.db
+
+# Testing
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Uploads
+uploads/
+tmp/
+
+# Claude AI
+.claude/
+claude
+

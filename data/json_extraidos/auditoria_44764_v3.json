@@ -1,0 +1,4572 @@
+{
+  "fideicomiso": {
+    "codigoPrincipal": "FA-2594",
+    "nombre": "FIDEICOMISO HOTEL URBAN ROYAL 26",
+    "fiduciariaAdmin": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+    "fechaConstitucion": "2014-02-17",
+    "tipologia": "FA",
+    "estado": "ACTIVO",
+    "descripcion": "Fideicomiso de administración inmobiliaria constituido para la vocería del Hotel Urban Royal Calle 26, que hace parte del Edificio Takay Prisma del Conjunto Residencial Mirador de Takay. El hotel tiene 118 suites hoteleras. Los beneficiarios ceden el usufructo al fideicomiso y la operación hotelera es gestionada por SOCIEDAD OPERADORA URBAN ROYAL CALLE 26 S.A.S. mediante contrato de cuentas en participación. | RENDICIÓN H1-2025: Patrimonio autónomo con saldo $192,696 COP. Pasivo: $120,264,119 (deuda con Operador Hotelero). Patrimonio negativo: -$120,071,423. Acreedores fiduciarios: $455,059,411. Pérdidas acumuladas: $136,247,078. 11 beneficiarios registrados. Fideicomiso técnicamente insolvente."
+  },
+  "codigosFideicomiso": [
+    {
+      "codigo": "44764",
+      "tipo": "PRINCIPAL",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "motivoCambio": null
+    }
+  ],
+  "fideicomitentes": [
+    {
+      "nombre": "CONSTRUCCIONES FUTURA 2000 S.A.",
+      "nit": "800200571",
+      "tipo": "FIDEICOMITENTE",
+      "vigenciaDesde": "2014-02-17",
+      "documentoFuente": "Contrato de Fiducia Mercantil - Cláusula Primera"
+    },
+    {
+      "nombre": "BERMON SAS",
+      "nit": "9016458662",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2024-04-01",
+      "documentoFuente": "Estado de Cuentas 44764 - Facturas FC70 2024"
+    },
+    {
+      "nombre": "J ESCALLON Y CIA S EN C",
+      "nit": "8600421864",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2024-04-01",
+      "documentoFuente": "Estado de Cuentas 44764 - Facturas FC70 2024"
+    },
+    {
+      "nombre": "ESCALLON WAINWARING RICARDO",
+      "nit": "3227092",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2024-07-01",
+      "documentoFuente": "Estado de Cuentas 44764 - Facturas FC70 2024"
+    },
+    {
+      "nombre": "RAFAEL FERNANDO ALBORNOZ BUENO",
+      "nit": "79328262",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2024-09-01",
+      "documentoFuente": "Estado de Cuentas 44764 - Facturas FC70 2024"
+    },
+    {
+      "nombre": "SOCIEDAD OPERADORA URBAN ROYAL CALLE 26 SAS",
+      "nit": "900399903",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2014-02-17",
+      "documentoFuente": "Contrato Fiducia Cl. 1.8 + Rendición H1-2025 + Auxiliar SIFI (Cta 25909501009)"
+    }
+  ],
+  "documentos": [
+    {
+      "tipo": "CONTRATO_FIDUCIA",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "CONTRATO_DE_FIDUCIA_MERCANTIL_HOTEL_URAN_ROYAL_26_2.pdf",
+      "rutaAlmacenamiento": "/mnt/project/CONTRATO_DE_FIDUCIA_MERCANTIL_HOTEL_URAN_ROYAL_26_2.pdf",
+      "contextoUsuario": "Contrato principal de fiducia mercantil. PDF contiene 38 páginas escaneadas como JPEGs (19 hojas por ambas caras). Extraído mediante modelo de visión.",
+      "clasificacion": {
+        "confidence": 0.99
+      }
+    },
+    {
+      "tipo": "ESTADO_CUENTA_COMISIONES",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "ESTADO_CUENTAS_44764.xlsx",
+      "rutaAlmacenamiento": "/mnt/project/ESTADO_CUENTAS_44764.xlsx",
+      "contextoUsuario": "Estado de cuentas de comisiones generado 2025-11-27. Contiene 163 facturas causadas y 114 recaudos.",
+      "clasificacion": {
+        "confidence": 0.99
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "AuxiliarContable44764.txt",
+      "rutaAlmacenamiento": "/mnt/project/AuxiliarContable44764.txt",
+      "contextoUsuario": "Auxiliar contable sistema LEGACY, período sept 2020 - ago 2024.",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "AuxiliarContable44764_sifi.txt",
+      "rutaAlmacenamiento": "/mnt/project/AuxiliarContable44764_sifi.txt",
+      "contextoUsuario": "Auxiliar contable sistema SIFI.",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "RENDICION_SEMESTRAL",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "44764_FA2594_FIDEICOMISO_HOTEL_URBAN_ROYAL_26_BE_1090420966.pdf",
+      "rutaAlmacenamiento": "/mnt/project/44764_FA2594_FIDEICOMISO_HOTEL_URBAN_ROYAL_26_BE_1090420966.pdf",
+      "contextoUsuario": "Rendición de cuentas. PDF escaneado (ZIP de JPEGs), sin OCR.",
+      "clasificacion": {
+        "confidence": 0.9
+      }
+    },
+    {
+      "tipo": "RENDICION_SEMESTRAL",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "44764_FA2594_FIDEICOMISO_HOTEL_URBAN_ROYAL_26_BE_1090420966.pdf",
+      "rutaAlmacenamiento": "/mnt/project/44764_FA2594_FIDEICOMISO_HOTEL_URBAN_ROYAL_26_BE_1090420966.pdf",
+      "contextoUsuario": "Rendición de cuentas semestral H1-2025 (01/01/2025 - 30/06/2025). 16 páginas. Dirigida a LABRADOR LUGO JAVIER ORLANDO. Firmada por EDWARD ALFONSO GONZALEZ GONZALEZ (Rep. Legal) y JORGE ENRIQUE PARRADO RODRIGUEZ (Contador T.P. 85923-T). HALLAZGO CLAVE: Sección 14 'Remuneración' transcribe textualmente Cl. 16 del contrato incluyendo '3SMMLV mínimo mensual', confirmando que NO existe otrosí que modifique la tarifa. Las comisiones pendientes de H1-2025 se facturan a 1 SMMLV.",
+      "clasificacion": {
+        "confidence": 0.99
+      }
+    }
+  ],
+  "contratos": [
+    {
+      "tipo": "CONTRATO_FIDUCIA",
+      "numero": "FA-2594",
+      "fechaFirma": "2014-02-17",
+      "fechaVigencia": "2014-02-17",
+      "resumen": "Contrato de Fiducia Mercantil para la vocería del Hotel Urban Royal Calle 26. Constituye patrimonio autónomo con $1,500,000 iniciales. El fideicomiso recibe cesiones de usufructo de las 118 suites hoteleras. La operación hotelera se gestiona mediante contrato de cuentas en participación con SOCIEDAD OPERADORA URBAN ROYAL CALLE 26 S.A.S. Duración indefinida (hasta completar objeto). Contrato irrevocable salvo decisión de Asamblea de Beneficiarios (70%). Clausulas clave: Séptima (Beneficiarios y cesión), Décima Sexta (Remuneración), Vigésima Primera (Liquidación). Firmado ante Notaría como escritura pública.",
+      "partes": [
+        {
+          "nombre": "CONSTRUCCIONES FUTURA 2000 S.A.",
+          "rol": "FIDEICOMITENTE"
+        },
+        {
+          "nombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+          "rol": "FIDUCIARIA"
+        },
+        {
+          "nombre": "BERNARDO ESCALLON MAINWARING",
+          "rol": "REPRESENTANTE LEGAL FIDEICOMITENTE (C.C. 3.227.092)"
+        },
+        {
+          "nombre": "OMAR EDUARDO SUAREZ GOMEZ",
+          "rol": "REPRESENTANTE LEGAL FIDUCIARIA (C.C. 16.919.570)"
+        }
+      ]
+    }
+  ],
+  "reglasComision": [
+    {
+      "tipo": "INICIAL_ESTRUCTURACION",
+      "nombre": "Comisión por suscripción del contrato de fiducia",
+      "formula": "$3,000,000",
+      "formulaDetalle": {
+        "base": "VALOR_FIJO",
+        "multiplicador": 3000000,
+        "tipo": "VALOR_FIJO_COP"
+      },
+      "periodicidad": "UNICA",
+      "condiciones": "Pagadera a la fecha de suscripción del contrato de fiducia",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.1",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": "2014-02-17",
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por suscripción del Contrato de Cuentas en Participación",
+      "formula": "$3,000,000",
+      "formulaDetalle": {
+        "base": "VALOR_FIJO",
+        "multiplicador": 3000000,
+        "tipo": "VALOR_FIJO_COP"
+      },
+      "periodicidad": "UNICA",
+      "condiciones": "Por la suscripción del contrato de cuentas en participación para la operación del hotel",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.2",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "ASISTENCIA_COMITE",
+      "nombre": "Comisión por asistencia a Comité de Beneficiarios",
+      "formula": "1 × SMMLV",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 1,
+        "tipo": "VARIABLE_MACRO"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Se cobra por cada asistencia a reunión de Comité de Beneficiarios",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.3",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por asistencia a Asamblea de Beneficiarios",
+      "formula": "2 × SMMLV",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 2,
+        "tipo": "VARIABLE_MACRO"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Se cobra por cada asistencia a reunión de Asamblea de Beneficiarios",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.3",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por informe especial",
+      "formula": "0.5 × SMMLV",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 0.5,
+        "tipo": "VARIABLE_MACRO"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Para informes especiales diferentes a la rendición semestral de cuentas. A cargo del fideicomitente y/o beneficiario que lo solicite.",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.4",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "ADMINISTRACION_MENSUAL",
+      "nombre": "Comisión fiduciaria mensual (0.8% pagos a beneficiarios, mínimo 3 SMLMV)",
+      "formula": "MAX(0.8% × pagos_a_beneficiarios, 3 × SMMLV) + IVA",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 3,
+        "tipo": "MINIMO_MENSUAL_O_PORCENTAJE"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "La comisión de la fiduciaria equivale al 0.8% de los pagos realizados a los Beneficiarios del Fideicomiso, con un mínimo mensual de 3 SMMLV, durante la vigencia del fideicomiso. Autorización irrevocable de descontar del patrimonio autónomo. Si no hay recursos suficientes, se emite factura pagadera en 5 días corrientes. Intereses de mora a tasa máxima legal por incumplimiento.",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.5 + Parágrafos Primero y Segundo",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "COMISION_FONDOS",
+      "nombre": "Comisión por inversión en Fondo Abierto Acción Uno",
+      "formula": "Según reglamento del Fondo Abierto ACCION UNO",
+      "formulaDetalle": {
+        "base": "REGLAMENTO_FONDO",
+        "multiplicador": 0,
+        "tipo": "VARIABLE_EXTERNA"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Mientras existan recursos en el fideicomiso invertidos en el Fondo Abierto ACCION UNO. Los fideicomitentes manifiestan conocer y aceptar los reglamentos.",
+      "clausulaFuente": "Cláusula Décima Sexta, numeral 16.6",
+      "documentoFuente": "Contrato de Fiducia Mercantil FA-2594",
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "ADMINISTRACION_MENSUAL",
+      "nombre": "Comisión mensual EFECTIVAMENTE facturada (1 SMMLV) - Sin otrosí encontrado",
+      "formula": "1 × SMMLV + IVA",
+      "formulaDetalle": {
+        "base": "SMMLV",
+        "multiplicador": 1,
+        "tipo": "VARIABLE_MACRO"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "TARIFA OBSERVADA en facturación desde julio 2017. NO se encontró otrosí o acuerdo formal que reduzca la comisión contractual de 3 SMLMV a 1 SMLMV. Posible acuerdo comercial no documentado.",
+      "clausulaFuente": "Inferida del Estado de Cuentas 44764",
+      "documentoFuente": "Estado de Cuentas 44764 - facturas CR/FC70 desde julio 2017",
+      "vigenciaDesde": "2017-07-01",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.9
+    }
+  ],
+  "convencionesFideicomiso": [
+    {
+      "tipo": "CONTABLE",
+      "nombre": "Registro directo al gasto",
+      "descripcion": "La comisión fiduciaria se registra directamente al gasto en la cuenta PUC 51151801001 (NEGOCIOS FIDUCIARIOS) con contrapartida en 25011501001 (COMISION POR ADMINISTRACION). El pago se realiza desde 13020501005 (FONDO COMUN ORDINARIO 5). Se cobra tarifa bancaria de $4,500 por transacción.",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "51151801001",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "registradoPor": "Análisis Auxiliar Contable 44764"
+    },
+    {
+      "tipo": "COMERCIAL",
+      "nombre": "Reducción tarifaria no documentada",
+      "descripcion": "Se observan tres períodos tarifarios: (1) 3 SMLMV desde constitución hasta dic 2015, (2) 2.5 SMLMV desde ene 2016 hasta jun 2017, (3) 1 SMLMV desde jul 2017 hasta la fecha. El contrato original (Cl. 16.5) establece 3 SMLMV como mínimo mensual. No se encontró otrosí ni acuerdo formal que justifique las reducciones. Posible acuerdo comercial verbal o acta de comité no proporcionada.",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "51151801001",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2016-01-01",
+      "vigenciaHasta": null,
+      "registradoPor": "Auditoría Inicial - Análisis de visión del contrato vs Estado de Cuentas"
+    },
+    {
+      "tipo": "OPERATIVA",
+      "nombre": "IVA aplicable",
+      "descripcion": "Contrato original (Parágrafo Segundo, Cl. 16) establece IVA del 16%. Desde enero 2017 se aplica IVA 19% por cambio normativo (Ley 1819 de 2016, Reforma Tributaria).",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "N/A",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "registradoPor": "Análisis contrato + normativa tributaria"
+    },
+    {
+      "tipo": "OPERATIVA",
+      "nombre": "Gastos y costos a cargo de la operación hotelera",
+      "descripcion": "Cláusula Décima Quinta establece que todos los gastos, costos y la remuneración de la fiduciaria son de cargo del fideicomiso y operación hotelera. Intereses de mora a tasa máxima legal por impago. Si no hay recursos suficientes, se emite factura pagadera en 5 días.",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "N/A",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2014-02-17",
+      "vigenciaHasta": null,
+      "registradoPor": "Cláusula Décima Quinta del Contrato (extraída por visión)"
+    },
+    {
+      "tipo": "CONTABLE",
+      "nombre": "Migración a sistema SIFI (agosto 2024)",
+      "descripcion": "A partir de agosto 2024, la contabilidad del fideicomiso se migró del sistema LEGACY al sistema SIFI (Sistema de Información Fiduciaria Integrado). El archivo AuxiliarContable44764_sifi.txt contiene 1,402 registros desde ago-2024. Los saldos iniciales incluyen: Cta 51151801001 (Negocios Fiduciarios): $1,796,916; Cta 25909501009 (Operación Hotelera): $120,264,119 (acreedor: Sociedad Operadora); Cta 35050501001 (Aportes): $455,059,411; Cta 39100001001 (Pérdidas Acumuladas): $134,485,081. Post-migración: solo registros de CIERRE FONDO INVERSION diarios (valoración de inversiones, montos de centavos a decenas de pesos). CERO registros de comisiones post-migración.",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "51151801001",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2024-08-31",
+      "vigenciaHasta": null,
+      "registradoPor": "Análisis AuxiliarContable44764_sifi.txt"
+    }
+  ],
+  "hallazgos": [
+    {
+      "id": "H-001",
+      "tipo": "COMISION_NO_FACTURADA",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Subfacturación sistémica: contrato establece 3 SMLMV/mes pero se factura 1 SMLMV desde julio 2017",
+      "descripcion_operativa": "Desde julio 2017, la fiduciaria factura sistemáticamente 1 SMMLV/mes + IVA en lugar de los 3 SMMLV/mes + IVA establecidos en la Cláusula 16.5 del contrato. No existe otrosí ni acuerdo comercial documentado que autorice esta reducción tarifaria. La propia Rendición H1-2025 (documento oficial ante SFC, firmado por el Representante Legal Edward Alfonso González González y el Contador Jorge Enrique Parrado Rodríguez) transcribe textualmente la fórmula de 3 SMMLV como tarifa VIGENTE en su Sección 14, pero en la misma página lista 6 facturas pendientes a $1,693,965 cada una (= 1 SMMLV × 1.19 IVA), evidenciando la contradicción en un documento oficial. De 137 meses de vida del fideicomiso (feb 2014 - jun 2025), 71 meses (52.2%) no tienen factura alguna emitida, y los 66 meses restantes están facturados a tarifa reducida. El impacto acumulado del diferencial de tarifa (2 SMMLV/mes no facturados) asciende a $243.6M COP considerando 101 meses facturados a 1 SMMLV en vez de 3 SMMLV. Si se incluyen los 71 meses sin factura, el gap total frente al mínimo contractual alcanza aproximadamente $227M adicionales.",
+      "regla_citada": "Contrato FA-2594, Cláusula Décima Sexta, numeral 16.5: 'La comisión de la fiduciaria equivaldría al cero punto ocho por ciento (0.8%) de los pagos realizados a los beneficiarios del fideicomiso con un mínimo mensual de tres salarios mínimos mensuales legales vigentes (3SMMLV)'. Rendición H1-2025 pág. 6 Sección 14 transcribe la misma fórmula textual como vigente.",
+      "variable_aplicada": "SMMLV por año: 2017=$737,717 | 2018=$781,242 | 2019=$828,116 | 2020=$877,803 | 2021=$908,526 | 2022=$1,000,000 | 2023=$1,160,000 | 2024=$1,300,000 | 2025=$1,423,500. IVA: 19% desde 2017 (Ley 1819/2016).",
+      "calculo_esperado": {
+        "Comisin_esperada_mensual": "3 × SMMLV × 1.19",
+        "Ejemplo_2025_3__1423500__119": "$5,081,895/mes",
+        "Facturado_real_2025_1__1423500__119": "$1,693,965/mes",
+        "Diferencial_mensual_2025": "$3,387,930."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas 44764: 163 facturas, desde jul 2017 todas a 1 SMMLV",
+        "Rendición H1-2025 pág",
+        "6: tarifa contractual 3 SMMLV citada textualmente + 6 facturas listadas a $1,693,965",
+        "Contrato original pág",
+        "27 (visión): Cl",
+        "16.5 = 3 SMMLV mínimo",
+        "Ningún otrosí en acervo documental."
+      ],
+      "conclusion": "Subfacturación del 67% confirmada por triple fuente (contrato, rendición, estado de cuentas). La rendición es prueba definitiva de inexistencia de otrosí ya que por regulación SFC (Circular 007/1996) debe citar la tarifa vigente. Impacto: $243.6M diferencial acumulado. Requiere corrección inmediata y evaluación de recuperación retroactiva (prescripción 5 años Art. 789 C.Co.).",
+      "riesgo": "ALTA - REVENUE",
+      "documentos_fuente": [
+        "Contrato FA-2594, Cl. 16.5 (visión pág. 27)",
+        "Rendición H1-2025, Sección 14 pág. 6",
+        "Estado de Cuentas 44764 (163 facturas jul 2014 - nov 2025)",
+        "Ley 1819 de 2016 (IVA 16% → 19%)"
+      ],
+      "impacto_economico": 243594662
+    },
+    {
+      "id": "H-002",
+      "tipo": "COMISION_NO_RECAUDADA",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "69 facturas mensuales sin recaudo desde marzo 2020: $90.9M COP en cartera vencida",
+      "descripcion_operativa": "Desde marzo 2020, 69 de las 163 facturas emitidas (42.3%) permanecen completamente impagas, acumulando $90,894,362 COP en cartera vencida. El patrón de no pago se agudiza progresivamente: en H1-2025, de 6 facturas mensuales emitidas (CR-143369 a CR-148011 por $1,693,965 cada una), solo 1 fue parcialmente cubierta mediante el cobro RCJ-390665 ($3,686,639), dejando 5 facturas pendientes por $10.16M con mora entre 190 y 341 días (promedio 270 días). Esto clasifica la cartera como Categoría D (riesgo significativo) según normativa SFC. El ratio Pasivo/Activo del fideicomiso es 624:1, con disponible de $0.00, lo que configura imposibilidad material de pago sin inyección de capital por parte de los beneficiarios. El porcentaje de cumplimiento H1-2025 es apenas 14.3%. La Cláusula 16 Parágrafo 1° del contrato establece que ante incumplimiento se causan intereses de mora a la tasa máxima legal vigente, obligación que la fiduciaria no ha liquidado formalmente.",
+      "regla_citada": "Contrato FA-2594, Cl. 16 Parágrafo 1°: 'se causarán y pagarán intereses de mora liquidados a la tasa máxima legal vigente desde el día del vencimiento y hasta la fecha en la cual se registre el pago'. Cl. Décima Quinta: 'intereses de mora a la razón de la tasa comercial de mora más alta que permita la ley'.",
+      "variable_aplicada": "69 facturas × monto promedio $1,317,310 = $90,894,362. Tasa mora comercial 2024-2025: ~33.42% EA (Superfinanciera). Antigüedad promedio cartera: ~30 meses.",
+      "calculo_esperado": {
+        "Factura_pagadera_en_5_dias": "corrientes tras recibo (Cl",
+        "Paso_2": "16)",
+        "Mora_mayor_5_dias": "base para intereses",
+        "Intereses_estimados": "sobre cartera: $90.9M × 33.42% × 2.5 años ≈ $75.9M en intereses (el propio Excel del EdC liquida $69.9M en intereses de mora)."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas 44764: 69 facturas estado PENDIENTE desde FL-7099 (mar 2020) a CR-148011 (jun 2025)",
+        "Resumen EdC fila 305: Intereses de Mora = $69,919,610",
+        "Rendición H1-2025 pág",
+        "6: 5 facturas CR pendientes H1-2025",
+        "Rendición pág",
+        "4: 'Disponible total: $0.00'."
+      ],
+      "conclusion": "Cartera vencida de $90.9M + $69.9M intereses de mora (total $160.8M) es irrecuperable del patrimonio autónomo (activo $193K). La Cl. 16 obliga a facturar directamente a beneficiarios. El Estado de Cuentas ya reconoce $69.9M en intereses pero no hay gestión documentada de cobro directo a beneficiarios individuales.",
+      "riesgo": "ALTA - REVENUE",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764 (69 facturas pendientes, resumen filas 303-307)",
+        "Rendición H1-2025 pág. 4 y pág. 6",
+        "Contrato FA-2594 Cl. 16 Parágrafo 1° y Cl. Décima Quinta"
+      ],
+      "impacto_economico": 90894362
+    },
+    {
+      "id": "H-003",
+      "tipo": "ANOMALIA_CONTABLE",
+      "categoria": "ANOMALIA",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "CONTABILIDAD",
+      "titulo": "Quiebre contable masivo: solo 4.3% de facturas con registro en auxiliares (Legacy + SIFI)",
+      "descripcion_operativa": "De $232.9M en comisiones facturadas, apenas $10.1M (4.3%) tienen registro contable verificable en los auxiliares proporcionados. El sistema Legacy (sept 2020 - ago 2024) contiene 33 registros de comisión concentrados exclusivamente en 2022 por $8,257,637. El sistema SIFI (ago 2024+) migró un saldo de $1,796,916 en Cta 51151801001 pero registra CERO movimientos de comisión posteriores a la migración. Los años 2020, 2021 y 2023 del Legacy no tienen registros de comisión pese a existir facturas emitidas en el Estado de Cuentas. En SIFI, todo 2025 no tiene registros de comisión pese a que la Rendición H1-2025 reporta un cobro de $3,686,639 en abril 2025. La cuenta PUC Legacy para provisión de comisiones (25011501001 - COMISIÓN POR ADMINISTRACIÓN) no fue migrada ni mapeada a una cuenta equivalente en SIFI, perdiendo el tracking del pasivo por comisiones pendientes. Esto genera una brecha de ~$89M entre las facturas pendientes reales y lo registrado en los libros contables del nuevo sistema.",
+      "regla_citada": "PUC Fiduciario: Cta 51151801001 (Gasto - Negocios Fiduciarios) para causación. Cta 25011501001 (Pasivo - Comisión por Administración) para provisión. Cta 13020501005 (Activo - Fondo Común Ordinario 5) para pago. Normativa contable: toda factura emitida debe tener contrapartida contable en el período correspondiente.",
+      "variable_aplicada": "Legacy: 965 líneas, 33 registros comisión (solo 2022). SIFI: 1,402 líneas, 8 registros migración (saldo $1.8M), 0 registros comisión post-migración. Total contabilizado: ~$10.1M de $232.9M facturados.",
+      "calculo_esperado": {
+        "Asientos_esperados": "163 facturas emitidas deberían generar ≥163 asientos de causación (Db Gasto / Cr Provisión) + asientos de pago correspondientes por cada recaudo",
+        "Esperado_en_auxiliar": "≥326 registros de comisión",
+        "Encontrado": "33 registros (10.1% del mínimo esperado)."
+      },
+      "evidencia_encontrada": [
+        "AuxiliarContable44764.txt: Cta 51151801001 con 33 registros solo de 2022",
+        "Cta 25011501001 con movimientos solo 2022",
+        "AuxiliarContable44764_sifi.txt: Comprobante 906 migra $1,796,916 en Cta 51151801001, luego SOLO comprobantes tipo 914 (CIERRE FONDO INVERSIÓN) con montos de centavos",
+        "Cero causación de comisiones en SIFI."
+      ],
+      "conclusion": "Quiebre contable estructural en dos dimensiones: (1) histórico - auxiliares Legacy solo registraron comisiones de 2022 (los demás años o no se causaron o se registraron en otro código no proporcionado), (2) sistémico - la migración a SIFI no estableció cuenta de comisiones operativa, cortando toda trazabilidad contable desde agosto 2024. Requiere auditoría contable integral y corrección de saldos SIFI.",
+      "riesgo": "ALTA - ANOMALIA",
+      "documentos_fuente": [
+        "AuxiliarContable44764.txt (Legacy, 965 líneas, sept 2020 - ago 2024)",
+        "AuxiliarContable44764_sifi.txt (SIFI, 1,402 líneas, ago 2024+)",
+        "Estado de Cuentas 44764 (163 facturas = $232.9M)"
+      ],
+      "impacto_economico": 197841249
+    },
+    {
+      "id": "H-004",
+      "tipo": "INCONSISTENCIA_FUENTES",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "OPERATIVA",
+      "titulo": "Insolvencia patrimonial del fideicomiso: patrimonio -$120M, activo $193K, disponible $0",
+      "descripcion_operativa": "El patrimonio autónomo FA-2594 se encuentra en estado de insolvencia técnica severa al 30/06/2025. Los activos totales ($192,696 en inversiones de carteras colectivas ACCIÓN) representan apenas el 0.16% de los pasivos ($120,264,119 adeudados en su totalidad a la Sociedad Operadora Urban Royal Calle 26 SAS, NIT 900399903, por concepto de operación hotelera registrados en Cta 25909501009). El patrimonio es negativo: -$120,071,423. Las pérdidas acumuladas alcanzan $136,247,078 y la ganancia del semestre es de apenas $6,371 (solo por valoración de inversiones). El ratio Pasivo/Activo es 624:1. El disponible para cualquier pago (incluidas comisiones fiduciarias) es $0.00 como lo confirma la Rendición en su página 4. Los derechos de los acreedores fiduciarios (beneficiarios) son $455,059,411 contra restituciones de $438,890,127, evidenciando que el esquema operativo del hotel no genera retornos a los propietarios de las suites. Esta situación configura imposibilidad material de cumplir obligaciones y requiere decisión urgente sobre liquidación del fideicomiso o inyección de capital por parte de los beneficiarios.",
+      "regla_citada": "Rendición H1-2025, Estado de Situación Financiera al 30/06/2025 (pág. 9-10). Contrato FA-2594 Cl. Décima Quinta: gastos y costos a cargo del PA, y si no hay recursos suficientes, a cargo de fideicomitente y beneficiarios.",
+      "variable_aplicada": "Activo: $192,696 | Pasivo: $120,264,119 | Patrimonio: -$120,071,423 | Disponible: $0 | Pérdidas acumuladas: $136,247,078 | Ganancia semestre: $6,371 | Acreedores fiduciarios: $455,059,411 | Ratio P/A: 624:1",
+      "calculo_esperado": {
+        "Patrimonio_esperado": "positivo para operación normal",
+        "Disponible_esperado": "suficiente para cubrir al menos comisión mensual ($1.7M a tarifa actual, $5.1M a tarifa contractual)."
+      },
+      "evidencia_encontrada": [
+        "Rendición H1-2025: pág",
+        "4 'Disponible total $0.00'",
+        "Pág",
+        "9-10: balance con patrimonio negativo",
+        "Pág",
+        "11: ganancia $6,371 (solo valoración)",
+        "SIFI Cta 25909501009: $120,264,119 a favor NIT 900399903",
+        "Cta 35050501001: $455,059,411 aportes",
+        "Cta 39100001001: $134,485,081 pérdidas acumuladas."
+      ],
+      "conclusion": "El fideicomiso no tiene capacidad económica para cubrir sus obligaciones. El operador hotelero es acreedor por $120M pero simultáneamente la única fuente potencial de recursos. Círculo vicioso que impide la recuperación de comisiones. Solo es viable mediante cobro directo a los 11 beneficiarios individuales (Cl. 16 Nivel 2) o liquidación del fideicomiso.",
+      "riesgo": "ALTA - CONSISTENCIA",
+      "documentos_fuente": [
+        "Rendición H1-2025 págs. 4, 9, 10, 11",
+        "AuxiliarContable44764_sifi.txt (saldos iniciales comprobante 906)",
+        "Contrato FA-2594 Cl. Décima Quinta"
+      ],
+      "impacto_economico": 120071423
+    },
+    {
+      "id": "H-005",
+      "tipo": "OPORTUNIDAD_REVENUE",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Intereses de mora no cobrados sobre cartera vencida: $69.9M reconocidos en Estado de Cuentas",
+      "descripcion_operativa": "El propio Estado de Cuentas 44764 (fila 305, Resumen) liquida $69,919,610 COP en intereses de mora sobre las facturas vencidas. Sin embargo, no existe evidencia de gestión activa de cobro de estos intereses: no hay facturas separadas por concepto de intereses, no hay registro contable de la provisión de intereses, ni comunicaciones formales a beneficiarios exigiendo el pago de los mismos. La Cláusula 16 Parágrafo 1° del contrato establece que los intereses se causan automáticamente 'desde el día del vencimiento' a la tasa máxima legal. La Cláusula Décima Quinta refuerza el cobro a 'la tasa comercial de mora más alta que permita la ley'. El derecho de cobro de intereses es independiente del cobro del capital y subsiste hasta la liquidación del contrato.",
+      "regla_citada": "Contrato FA-2594, Cl. 16 Parágrafo 1°: 'intereses de mora liquidados a la tasa máxima legal vigente desde el día del vencimiento'. Cl. Décima Quinta: 'intereses de mora a la razón de la tasa comercial de mora más alta que permita la ley, sin perjuicio de las sanciones a que haya lugar'.",
+      "variable_aplicada": "Capital vencido: $90,894,362. Tasa mora SuperFinanciera: ~33.42% EA (2024). Antigüedad promedio: ~30 meses. Intereses liquidados por EdC: $69,919,610.",
+      "calculo_esperado": {
+        "Formula": "Intereses = Σ(capital_factura × tasa_mora_diaria × días_mora)",
+        "Total_calculado_EdC": "$69.9M, cifra consistente con $90.9M × 33% × ~2.3 años."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas 44764 fila 305: 'INTERESES DE MORA = $69,919,610'",
+        "Fila 307: 'TOTAL DEUDA = $157,825,181' (capital $90.9M + intereses $69.9M - saldo a favor $3M)",
+        "No se encontraron facturas de intereses ni asientos contables de provisión de intereses en auxiliares Legacy ni SIFI."
+      ],
+      "conclusion": "Los $69.9M de intereses están reconocidos contablemente en el EdC pero no se han gestionado para cobro. Representan un revenue adicional significativo cuyo derecho es contractualmente irrenunciable.",
+      "riesgo": "ALTA - REVENUE",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764, Resumen filas 305-307",
+        "Contrato FA-2594 Cl. 16 Par. 1° y Cl. Décima Quinta"
+      ],
+      "impacto_economico": 69919610
+    },
+    {
+      "id": "H-006",
+      "tipo": "COMISION_NO_RECAUDADA",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "4 años completos sin cobro de comisiones (2015, 2020, 2021, 2023): patrón recurrente cada 2-3 años",
+      "descripcion_operativa": "La Rendición H1-2025 reporta $0 en comisiones cobradas para los años 2015, 2020, 2021 y 2023, lo que representa 48 meses (35% de la vida del fideicomiso) sin ingresos por comisiones. Este patrón muestra una recurrencia cada 2-3 años que sugiere un problema estructural, no coyuntural. El estimado de comisiones no cobradas en esos 48 meses asciende a $72M COP (usando el mínimo de 1 SMMLV facturado, no los 3 SMMLV contractuales). Los auxiliares contables confirman cero registros para esos años. Las comisiones de 2015 y 2020 enfrentan riesgo crítico de prescripción bajo el Art. 789 del Código de Comercio (5 años para obligaciones mercantiles), especialmente las de 2015 que probablemente ya prescribieron si no se interrumpió la prescripción. Las de 2020 prescribirían entre marzo y diciembre 2025.",
+      "regla_citada": "Rendición H1-2025 pág. 7: Comisiones cobradas acumuladas por año. Art. 789 Código de Comercio de Colombia: prescripción ordinaria de 5 años para acciones derivadas del contrato mercantil.",
+      "variable_aplicada": "SMMLV×12 meses×IVA por año: 2015≈$12.9M | 2020≈$16.8M | 2021≈$17.2M | 2023≈$22.1M. Total 48 meses ≈ $72M (a tarifa de 1 SMMLV facturada). A tarifa contractual de 3 SMMLV: ≈$216M.",
+      "calculo_esperado": {
+        "Total_estimado": "12 meses × SMMLV × 1.19 × 4 años = ~$72M (tarifa reducida observada)",
+        "Si_aplicara_tarifa_contractual": "$216M."
+      },
+      "evidencia_encontrada": [
+        "Rendición pág",
+        "7: 2015=$0, 2020=$0, 2021=$0, 2023=$0",
+        "Auxiliar Legacy: 0 registros comisión para esos años",
+        "SIFI: N/A (solo desde ago 2024)",
+        "Patrón: 2015→2016 recupera, 2020-2021→2022 recupera, 2023→2024 recupera parcial."
+      ],
+      "conclusion": "Patrón sistémico de non-payment no asociado exclusivamente a COVID-19 (ya ocurría en 2015). 35% de la vida del fideicomiso sin ingresos. Riesgo de prescripción inminente para 2020 y ya consumada para 2015.",
+      "riesgo": "ALTA - REVENUE",
+      "documentos_fuente": [
+        "Rendición H1-2025 pág. 7",
+        "AuxiliarContable44764.txt (sin registros 2020-2021, 2023)",
+        "Art. 789 Código de Comercio de Colombia"
+      ],
+      "impacto_economico": 72000000
+    },
+    {
+      "id": "H-007",
+      "tipo": "INCONSISTENCIA_FUENTES",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Discrepancia entre Estado de Cuentas ($145.1M recaudos) y Rendiciones ($129.2M cobrados): $15.9M sin conciliar",
+      "descripcion_operativa": "Dos fuentes oficiales de la misma fiduciaria reportan montos de cobro histórico diferentes. El Estado de Cuentas 44764 registra $145,143,506 COP en recaudos acumulados (114 registros de cobro), mientras la Rendición H1-2025 en su Sección 14 reporta $129,171,691 COP en comisiones cobradas acumuladas (desglosadas por año: 2014=$5.6M, 2016=$48.7M, 2017=$17.8M, 2018=$15.6M, 2019=$9.9M, 2022=$8.3M, 2024=$19.6M, 2025-H1=$3.7M). La diferencia de $15,971,815 COP no tiene explicación documentada. Adicionalmente, el total facturado (causado) muestra discrepancia: el EdC resumen indica $232,955,002 mientras la Rendición no desglosa un total de facturas emitidas comparable. Esto crea incertidumbre sobre si hay cobros en el EdC no reportados en rendiciones (posible omisión regulatoria) o si hay reclasificaciones o ajustes entre notas crédito, aplicaciones de pago y recaudos bancarios que expliquen la diferencia.",
+      "regla_citada": "Circular Básica Jurídica de la SFC (Circular 007/1996): la rendición de cuentas debe incluir detalle completo de la remuneración cobrada por la fiduciaria. El total reportado en rendición debe coincidir con los recaudos efectivos del sistema de facturación.",
+      "variable_aplicada": "EdC recaudos: $145,143,506 (fila 304 Resumen, 114 registros). Rendición cobrados: $129,171,691 (Sección 14, pág. 7, desglose por año). Diferencia: $15,971,815 (10.99% del total rendición).",
+      "calculo_esperado": {
+        "Total_recaudos_EdC_debe_ser_igual_a": "Total cobros Rendición",
+        "Diferencia_esperada": "$0 ± tolerancia por redondeo."
+      },
+      "evidencia_encontrada": [
+        "EdC fila 304: 'COMISIONES PAGADAS = $145,143,505.73'",
+        "Rendición pág",
+        "7: suma anual = $129,171,691",
+        "Diferencia: $15,971,815",
+        "Los recaudos del EdC incluyen Notas Crédito (NC), Notas Ajuste (NCT) y Aplicaciones (SAF) que podrían no estar en rendición",
+        "También hay 2 recaudos por $0 (RCJ-95332, RCJ-95333)."
+      ],
+      "conclusion": "Discrepancia de $15.9M entre fuentes oficiales del mismo fideicomiso requiere conciliación. Si la rendición omite cobros, hay riesgo regulatorio ante SFC. Si el EdC incluye ajustes que no son recaudos reales, la cartera vencida real podría ser mayor a lo reportado.",
+      "riesgo": "ALTA - CONSISTENCIA",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764 (Resumen fila 304: $145,143,506)",
+        "Rendición H1-2025 pág. 7 (Comisiones cobradas acumuladas: $129,171,691)"
+      ],
+      "impacto_economico": 15971815
+    },
+    {
+      "id": "H-008",
+      "tipo": "OPORTUNIDAD_REVENUE",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Comisiones por asistencia a asambleas no facturadas desde 2020: potencial $13.8M (condicionado)",
+      "descripcion_operativa": "La Cláusula 16.3 del contrato establece una comisión de 2 SMMLV + IVA por cada asistencia a asamblea de beneficiarios. Se verificó que SÍ existen facturas de asamblea para 2017 (FL-3409: 'ASAMBLEA GENERAL DE BENEFICIARIOS 17 DE MARZO DE 2017'), 2018 (FL-4702, FL-4727: asamblea 01/03/2018) y 2019 (FC70-555, FC70-1071: asamblea 22/03/2019). Sin embargo, NO existen facturas de asamblea para los años 2014-2016 ni 2020-2025, un gap de 9 años acumulados. Bajo el supuesto de al menos 1 asamblea anual obligatoria (para aprobación de cuentas y elección de Comité de Beneficiarios per Cl. 12.2), las comisiones no cobradas 2020-2025 se estiman en $13.8M COP. ADVERTENCIA: La Rendición H1-2025 Sección 13 indica que 'no están establecidos organismos de administración y/o control' formales. Si las asambleas no se realizaron, la comisión POR EVENTO no se causa. Este hallazgo requiere verificación mediante consulta de actas de asamblea para confirmar si los eventos generadores del cobro efectivamente ocurrieron.",
+      "regla_citada": "Contrato FA-2594, Cl. 16.3: 'Por asistencia a comité de beneficiarios, 1 SMMLV + IVA. Por asistencia a asamblea de beneficiarios, 2 SMMLV + IVA'. Cl. 12.2: funciones de la Asamblea de Beneficiarios (aprobación cuentas, elección Comité, decretar cuotas).",
+      "variable_aplicada": "2 SMMLV + IVA 19% por asamblea. 2020: 2×$877,803×1.19=$2,089,171 | 2021: 2×$908,526×1.19=$2,160,292 | 2022: 2×$1,000,000×1.19=$2,380,000 | 2023: 2×$1,160,000×1.19=$2,760,800 | 2024: 2×$1,300,000×1.19=$3,094,000 | 2025: 2×$1,423,500×1.19=$3,387,930. Total: $15,872,193 (6 años × 1 asamblea mínimo).",
+      "calculo_esperado": {
+        "Si_1_asamblea_por_ao_2020_a_2025": "6 facturas × 2 SMMLV × 1.19 ≈ $15.9M",
+        "Estimado_conservador": "$13.8M considerando que algunas pudieron no realizarse."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas: facturas asamblea encontradas SOLO en 2017 (FL-3409), 2018 (FL-4702/FL-4727), 2019 (FC70-555/FC70-1071)",
+        "Cero facturas asamblea 2020-2025",
+        "Rendición pág",
+        "6 Sección 13: 'no están establecidos organismos de adm y/o control'",
+        "Auxiliares: cero registros contables de asambleas post-2019."
+      ],
+      "conclusion": "Oportunidad de revenue condicionada a verificación de realización de asambleas. Si se realizaron sin facturar, hay pérdida de ingreso de ~$13.8M. Si no se realizaron, hay incumplimiento contractual del Comité de Beneficiarios (Cl. 12) pero no hay comisión causable. Requiere cruce con actas societarias.",
+      "riesgo": "ALTA - REVENUE",
+      "documentos_fuente": [
+        "Contrato FA-2594 Cl. 16.3 y Cl. 12.2",
+        "Estado de Cuentas 44764 (facturas FL-3409, FL-4702, FL-4727, FC70-555, FC70-1071)",
+        "Rendición H1-2025 pág. 6 Sección 13"
+      ],
+      "impacto_economico": 13800000
+    },
+    {
+      "id": "H-009",
+      "tipo": "ANOMALIA_CONTABLE",
+      "categoria": "ANOMALIA",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "CONTABILIDAD",
+      "titulo": "Migración SIFI agosto 2024: cuenta de provisión de comisiones no migrada, gap de $89M en pasivos",
+      "descripcion_operativa": "En la migración del 31/08/2024 al nuevo sistema contable SIFI (comprobante tipo 906 - NOTAS CONTABLES), se cargaron saldos iniciales para 6 cuentas principales del fideicomiso pero NO se incluyó la cuenta de provisión de comisiones pendientes. En el sistema Legacy, la cuenta 25011501001 (COMISIÓN POR ADMINISTRACIÓN) registraba el pasivo por comisiones causadas no pagadas. Esta cuenta no fue migrada ni se creó una equivalente en SIFI. El único saldo relacionado con comisiones en SIFI es $1,796,916 en Cta 51151801001 (Negocios Fiduciarios), que corresponde a gasto del período parcial 2024, no al acumulado de comisiones por pagar. Las 69 facturas pendientes por $90.9M COP del Estado de Cuentas NO tienen reflejo en el pasivo contable del nuevo sistema SIFI, creando un gap de aproximadamente $89M entre la posición financiera real y los registros del sistema contable vigente. Esto afecta la razonabilidad de los estados financieros que se presentan a la SFC en las rendiciones de cuentas.",
+      "regla_citada": "NIC 1 / NIIF para PYMES Sección 3: los estados financieros deben presentar razonablemente la situación financiera. Los saldos de apertura en un nuevo sistema deben reflejar la posición completa de activos, pasivos y patrimonio. Todo pasivo cierto (facturas emitidas no pagadas) debe estar registrado.",
+      "variable_aplicada": "Saldos SIFI migrados: Cta 51151801001=$1,796,916 (Db, gasto) | Cta 25909501009=$120,264,119 (Cr, operación hotelera) | Cta 35050501001=$455,059,411 (Cr, aportes) | Cta 35100501001=$438,890,127 (Db, restitución) | Cta 39100001001=$134,485,081 (Db, pérdidas acum.) | Cta 39200001001=$1,765,246 (Db, pérdida ejercicio). Cuenta NO migrada: 25011501001 (comisión por pagar).",
+      "calculo_esperado": {
+        "Pasivo_por_comisiones_en_SIFI": "≥ $90,894,362 (= 69 facturas pendientes del EdC)",
+        "Registrado_en_SIFI": "$0 en cuenta de provisión de comisiones."
+      },
+      "evidencia_encontrada": [
+        "AuxiliarContable44764_sifi.txt: 8 líneas de saldos iniciales (comprobante 906), NINGUNA es cuenta de provisión de comisiones",
+        "Post-migración: SOLO movimientos tipo 914 (CIERRE FONDO INVERSIÓN) por centavos",
+        "Legacy Cta 25011501001 tenía movimientos activos hasta 2022, pero su saldo no fue trasladado."
+      ],
+      "conclusion": "Error crítico de migración contable que subestima los pasivos del fideicomiso en ~$89M. Los estados financieros de SIFI no reflejan la deuda real por comisiones fiduciarias. Requiere asiento de corrección inmediato y revisión del proceso de migración para otros fideicomisos.",
+      "riesgo": "ALTA - ANOMALIA",
+      "documentos_fuente": [
+        "AuxiliarContable44764_sifi.txt (comprobante 906, 31/08/2024)",
+        "AuxiliarContable44764.txt (Cta 25011501001 en Legacy)",
+        "Estado de Cuentas 44764 (69 facturas pendientes = $90.9M)"
+      ],
+      "impacto_economico": 89097446
+    },
+    {
+      "id": "H-010",
+      "tipo": "INCONSISTENCIA_FUENTES",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "MEDIA",
+      "area": "CONTABILIDAD",
+      "titulo": "Triple inconsistencia factura RCJ-390665: existe en Rendición y EdC (recaudos) pero sin registro SIFI",
+      "descripcion_operativa": "La factura/cobro RCJ-390665 por $3,686,639 del 10/04/2025 (documento de pago 56405, pagador Rafael Fernando Albornoz Bueno NIT 19448634) aparece en la Rendición H1-2025 como comisión cobrada pero presenta inconsistencias cruzadas: (1) En el Estado de Cuentas aparece en la sección de RECAUDOS (fila 278) asociada a factura FC70-56405 pagada por Albornoz Bueno, pero NO aparece como factura causada en la sección de comisiones. (2) En el auxiliar SIFI no existe registro contable alguno de este cobro para 2025 (cero asientos de comisión post-migración). (3) El monto de $3,686,639 no corresponde a 1 SMMLV ($1,693,965) ni a 2 SMMLV ($3,387,930) ni a 3 SMMLV ($5,081,895), sugiriendo que puede ser un cobro por concepto diferente (posiblemente cancelación de usufructo, similar a la serie FC70 de 2024). Esta triple inconsistencia confirma que el quiebre contable post-migración SIFI no es una falla técnica aislada sino un problema de proceso operativo que afecta la integridad de la información financiera.",
+      "regla_citada": "Principio de consistencia de fuentes contables: un cobro real debe reflejarse simultáneamente en (1) factura emitida, (2) recaudo registrado, (3) asiento contable de causación/pago. Circular 007/1996 SFC: la rendición debe coincidir con los registros internos.",
+      "variable_aplicada": "RCJ-390665: $3,686,639, fecha 10/04/2025, doc pago 56405, pagador NIT 19448634 (Albornoz Bueno). SMMLV 2025: $1,423,500. Verificación: $3,686,639 ÷ $1,423,500 = 2.59 SMMLV (no coincide con ninguna tarifa contractual estándar).",
+      "calculo_esperado": {
+        "Asientos_y_registros": "Factura causada + recaudo registrado + asiento SIFI = 3 registros coincidentes."
+      },
+      "evidencia_encontrada": [
+        "Rendición pág",
+        "6: 'RCJ-->390665, pago doc 56405, 10-abr-2025, $3,686,639'",
+        "EdC recaudos fila 278: 'RCJ-390665, NIT 19448634, ALBORNOZ BUENO, $3,686,639, FC70-56405'",
+        "SIFI: 0 registros comisión 2025",
+        "EdC causaciones: FC70-56405 NO encontrada en sección de facturas emitidas."
+      ],
+      "conclusion": "Cobro confirmado en 2 de 3 fuentes (Rendición + EdC recaudos) pero sin registro contable ni factura formal de causación. Falla de proceso post-migración SIFI que afecta la integridad del ciclo facturación-recaudo-contabilización.",
+      "riesgo": "MEDIA - CONSISTENCIA",
+      "documentos_fuente": [
+        "Rendición H1-2025 pág. 6 (comisiones cobradas)",
+        "Estado de Cuentas 44764 fila 278 (recaudos)",
+        "AuxiliarContable44764_sifi.txt (0 registros 2025)"
+      ],
+      "impacto_economico": 3686639
+    },
+    {
+      "id": "H-011",
+      "tipo": "DISCREPANCIA_MONTO",
+      "categoria": "CONCILIACION",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Período transicional 2016: facturación a 2.5 SMLMV sin soporte contractual",
+      "descripcion_operativa": "Durante el período enero 2016 a junio 2017, las facturas FL-1868 a FL-3783 facturan a una tarifa de aproximadamente 2.5 SMMLV + IVA, que no corresponde ni a la tarifa contractual de 3 SMMLV ni a la tarifa posterior de 1 SMMLV. No existe otrosí ni documento que justifique esta tarifa intermedia. El diferencial frente al contractual de 3 SMMLV genera un impacto de $4.8M COP en 18 meses. Este período transicional sugiere que la reducción tarifaria fue gradual: primero de 3 a 2.5 SMMLV (2016-H1 2017), luego a 1 SMMLV (desde julio 2017), reforzando la hipótesis de un acuerdo verbal no documentado.",
+      "regla_citada": "Contrato FA-2594, Cl. 16.5: mínimo 3 SMMLV/mes + IVA. Ningún otrosí modifica esta tarifa.",
+      "variable_aplicada": "SMMLV 2016: $689,455. SMMLV 2017-H1: $737,717. Facturado: ~2.5 SMMLV. Contractual: 3 SMMLV.",
+      "calculo_esperado": {
+        "Diferencial_esperado": "18 meses × 0.5 SMMLV diferencial × 1.19 IVA promedio ≈ $4,798,603."
+      },
+      "evidencia_encontrada": [
+        "EdC: FL-1868 ($1,999,417 = 2.5×$689,455×1.16)",
+        "FL-3783 ($2,194,709 = 2.5×$737,717×1.19)",
+        "Patrón consistente en 18 facturas",
+        "Contrato: 3 SMMLV sin modificación."
+      ],
+      "conclusion": "Subfacturación parcial anterior a la reducción total a 1 SMMLV. Sugiere decisión comercial no formalizada. Impacto menor relativo ($4.8M) pero refuerza patrón de subfacturación sistémica.",
+      "riesgo": "ALTA - CONCILIACION",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764 (facturas FL-1868 a FL-3783)",
+        "Contrato FA-2594 Cl. 16.5"
+      ],
+      "impacto_economico": 4798603
+    },
+    {
+      "id": "H-012",
+      "tipo": "OPORTUNIDAD_REVENUE",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "ALTA",
+      "area": "FACTURACION",
+      "titulo": "Comisión por suscripción del CCP (Cl. 16.2): $3M + IVA posiblemente no cobrada",
+      "descripcion_operativa": "La Cláusula 16.2 del contrato establece una comisión única de $3,000,000 + IVA por la suscripción del Contrato de Cuentas en Participación (CCP) entre el fideicomiso y el operador hotelero. Se verificó que la comisión de suscripción del CONTRATO FIDUCIARIO (Cl. 16.1) SÍ fue cobrada: factura FB-31909 por $3,480,000 ($3M × 1.16 IVA) pagada el 20/08/2014 con concepto 'COMISIÓN POR ESTRUCTURACIÓN'. Sin embargo, NO se encontró factura equivalente para la suscripción del CCP (Cl. 16.2), que es una comisión DIFERENTE. El CCP no fue proporcionado en el acervo documental, por lo que no se puede determinar su fecha de firma. Si el CCP existe y se firmó, la comisión de $3,480,000 (con IVA 16%) o $3,570,000 (con IVA 19%) debió facturarse y no se evidencia en el Estado de Cuentas.",
+      "regla_citada": "Contrato FA-2594, Cl. 16.2: 'Por la suscripción del contrato de cuentas en participación: el fideicomitente reconocerá a la Fiduciaria la suma de $3,000,000 más IVA'. Es DIFERENTE a la Cl. 16.1 (suscripción del contrato fiduciario).",
+      "variable_aplicada": "$3,000,000 + IVA vigente a la fecha de firma del CCP. Si firmado en 2014: $3,480,000. Si firmado post-2017: $3,570,000.",
+      "calculo_esperado": {
+        "Comision_unica": "1 factura × $3,480,000 (o $3,570,000)."
+      },
+      "evidencia_encontrada": [
+        "EdC: FB-31909 pagada 20/08/2014 = comisión Cl",
+        "16.1 (estructuración contrato fiducia)",
+        "FB-31910 = comisión mensual julio 2014 (3 SMMLV × 1.16)",
+        "NO se encontró tercera factura de 2014 por concepto CCP",
+        "Rendición pág",
+        "6 transcribe Cl",
+        "16.2 como vigente."
+      ],
+      "conclusion": "La comisión del contrato fiduciario (Cl. 16.1) sí se cobró (FB-31909). La del CCP (Cl. 16.2) no se verificó. Requiere confirmar existencia del CCP y buscar facturación correspondiente.",
+      "riesgo": "ALTA - REVENUE",
+      "documentos_fuente": [
+        "Contrato FA-2594 Cl. 16.1 y 16.2",
+        "Estado de Cuentas 44764 (FB-31909 pagada)",
+        "Rendición H1-2025 pág. 6"
+      ],
+      "impacto_economico": 3480000
+    },
+    {
+      "id": "H-013",
+      "tipo": "ANOMALIA_CONTABLE",
+      "categoria": "ANOMALIA",
+      "estado": "ABIERTO",
+      "severidad": "MEDIA",
+      "area": "CONTABILIDAD",
+      "titulo": "Pago registrado en auxiliar Legacy (CR-83887, $1,783,182) pero factura aparece impaga en EdC",
+      "descripcion_operativa": "En el auxiliar contable Legacy se registra un pago de $1,783,182 el 03/04/2024 (comprobante tipo 800155413) referenciando la factura CR-83887. Sin embargo, en el Estado de Cuentas esta factura por $1,044,586 aparece como PENDIENTE de pago. Adicionalmente, el monto del pago contable ($1,783,182) excede el valor de la factura ($1,044,586) en $738,596, sugiriendo una aplicación cruzada de pagos a múltiples facturas que no fue correctamente imputada en el sistema de facturación. Esto evidencia un desacople entre el módulo contable (Legacy) y el módulo de cartera (Estado de Cuentas) del ERP fiduciario.",
+      "regla_citada": "Principio de consistencia contable: todo pago registrado en el auxiliar debe tener su contrapartida en el sistema de cartera/facturación. Los pagos deben imputarse exactamente a la factura correspondiente.",
+      "variable_aplicada": "Pago contable: $1,783,182. Factura CR-83887: $1,044,586. Diferencia: $738,596 (70.7% excedente).",
+      "calculo_esperado": {
+        "Relacion": "Pago = Valor factura (1:1)",
+        "O_si_hay_aplicacin_mltiple__facturas": "pago."
+      },
+      "evidencia_encontrada": [
+        "Auxiliar Legacy: Cta 25011501001, Db $1,783,182, 03/04/2024, ref CR-83887",
+        "EdC: CR-83887, estado PENDIENTE, monto $1,044,586",
+        "Diferencia $738,596 no imputada."
+      ],
+      "conclusion": "Desacople contable-cartera que requiere conciliación manual. El pago existió contablemente pero no se reflejó en el EdC. Posible aplicación parcial a múltiples facturas no rastreada.",
+      "riesgo": "MEDIA - ANOMALIA",
+      "documentos_fuente": [
+        "AuxiliarContable44764.txt (pago 03/04/2024)",
+        "Estado de Cuentas 44764 (CR-83887 pendiente)"
+      ],
+      "impacto_economico": 738596
+    },
+    {
+      "id": "H-014",
+      "tipo": "PAGO_PARCIAL_INCOMPLETO",
+      "categoria": "CONCILIACION",
+      "estado": "ABIERTO",
+      "severidad": "MEDIA",
+      "area": "FACTURACION",
+      "titulo": "Factura FC70-43769 con pago parcial: $567,665 de $1,044,586 — saldo pendiente $476,921",
+      "descripcion_operativa": "La factura FC70-43769 por $1,044,586 COP tiene un único recaudo parcial de $567,665 (RCJ-345934 del 06/04/2024), dejando un saldo pendiente de $476,921 COP (45.7% de la factura). No se registran recaudos adicionales posteriores. Este es el único caso de pago parcial entre las 163 facturas del Estado de Cuentas.",
+      "regla_citada": "Estado de Cuentas 44764: factura debe estar 100% cubierta para clasificarse como PAGADA.",
+      "variable_aplicada": "FC70-43769: Total=$1,044,586. Recaudo RCJ-345934=$567,665. Saldo=$476,921.",
+      "calculo_esperado": {
+        "Recaudo_final": "Recaudo = Total factura ($1,044,586)."
+      },
+      "evidencia_encontrada": [
+        "EdC sección recaudos: RCJ-345934, 06/04/2024, $567,665, asociado a FC70-43769",
+        "No hay más recaudos para esta factura."
+      ],
+      "conclusion": "Pago parcial al 54.3% sin gestión de cobro del remanente. Saldo $476,921 se suma a la cartera vencida.",
+      "riesgo": "MEDIA - CONCILIACION",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764"
+      ],
+      "impacto_economico": 476921
+    },
+    {
+      "id": "H-015",
+      "tipo": "OPORTUNIDAD_REVENUE",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "MEDIA",
+      "area": "FACTURACION",
+      "titulo": "Posibles comisiones de cesión de derechos no cobradas (4 beneficiarios registrados en 2024)",
+      "descripcion_operativa": "El Estado de Cuentas muestra recaudos en 2024 de beneficiarios no presentes en períodos anteriores: Rafael Fernando Albornoz Bueno (NIT 19448634), Ricardo Escallón Wainwaring (NIT 79146337), J Escallón y CIA S en C (NIT 800199355), y Bermón SAS (NIT 860402350). Estos pagos mediante facturas serie FC70 sugieren cesiones de derechos o incorporaciones de nuevos beneficiarios. Si hubo cesiones, la comisión contractual aplicable sería de 0.5 SMMLV por cesión (regla estándar del mercado fiduciario), estimando $3,094,000 en 4 cesiones a tarifa 2024.",
+      "regla_citada": "Práctica de mercado fiduciario: comisión por cesión de derechos ~0.5 SMMLV. Contrato FA-2594 no establece tarifa explícita de cesión pero la Cl. 16 permite comisiones por eventos (categoría POR_EVENTO).",
+      "variable_aplicada": "4 beneficiarios nuevos × 0.5 SMMLV 2024 × 1.19 = 4 × $773,500 = $3,094,000.",
+      "calculo_esperado": {
+        "Ingresos_estimados_por_cesion": "Si hubo cesiones: 4 × $773,500 = $3,094,000."
+      },
+      "evidencia_encontrada": [
+        "EdC recaudos 2024: NIT 19448634, 79146337, 800199355, 860402350 — no aparecen en recaudos previos",
+        "Facturas FC70 series altas (43768-56405)."
+      ],
+      "conclusion": "Requiere verificar documentos de cesión. Si se celebraron, la comisión por evento no fue facturada.",
+      "riesgo": "MEDIA - REVENUE",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764 (recaudos 2024-2025)"
+      ],
+      "impacto_economico": 3094000
+    },
+    {
+      "id": "H-016",
+      "tipo": "INFORMATIVO",
+      "categoria": "CONCILIACION",
+      "estado": "ABIERTO",
+      "severidad": "BAJA",
+      "area": "FACTURACION",
+      "titulo": "Saldo a favor de Ricardo Escallón Wainwaring por $2,988,791 pendiente de aplicar",
+      "descripcion_operativa": "El Estado de Cuentas registra un saldo a favor del beneficiario Ricardo Escallón Wainwaring (NIT 79146337) por $2,988,791 COP (documento SAF-25013 del 26/08/2025, referencia FC70-48044). Este saldo corresponde a un pago recibido que no ha sido aplicado a ninguna factura específica. El resumen del EdC lo incluye en 'SALDOS A FAVOR PDTES' y lo resta del total deuda, resultando en Total Deuda = $157,825,181 (= $232.9M causados - $145.1M pagados + $69.9M intereses - $3M saldo a favor).",
+      "regla_citada": "Estado de Cuentas 44764, sección 'Saldos a Favor', fila 299.",
+      "variable_aplicada": "SAF-25013: $2,988,791, NIT 79146337, 26/08/2025.",
+      "calculo_esperado": {
+        "Aplicacion_saldo_a_favor": "Aplicación a factura pendiente más antigua del mismo beneficiario."
+      },
+      "evidencia_encontrada": [
+        "EdC fila 299: SAF-25013, Escallón Wainwaring, $2,988,791, ref FC70-48044",
+        "Fila 306: 'SALDOS A FAVOR PDTES = $2,988,791'",
+        "Fila 307: 'TOTAL DEUDA = $157,825,181'."
+      ],
+      "conclusion": "Saldo a favor pendiente de imputación. No afecta los hallazgos de cartera pero requiere gestión operativa de aplicación.",
+      "riesgo": "BAJA - CONCILIACION",
+      "documentos_fuente": [
+        "Estado de Cuentas 44764 (fila 299-300, 306-307)"
+      ],
+      "impacto_economico": 2988791
+    }
+  ],
+  "eventosTimeline": [
+    {
+      "tipo": "CONSTITUCION",
+      "fecha": "2014-02-17",
+      "titulo": "Constitución del Fideicomiso Hotel Urban Royal 26",
+      "descripcion": "Firma del contrato de fiducia mercantil FA-2594 entre Construcciones Futura 2000 S.A. y Acción Sociedad Fiduciaria S.A. Patrimonio inicial $1,500,000.",
+      "metadatos": {
+        "escritura": "EP elevada a escritura pública",
+        "notaria": "Bogotá D.C."
+      }
+    },
+    {
+      "tipo": "NUEVA_REGLA",
+      "fecha": "2014-02-17",
+      "titulo": "Regla de comisión original: 3 SMLMV/mes mínimo (0.8% pagos)",
+      "descripcion": "Cláusula 16.5 establece comisión del 0.8% de pagos a beneficiarios con piso de 3 SMLMV mensuales + IVA 16%",
+      "metadatos": {
+        "clausula": "16.5",
+        "tarifa": "3 SMLMV"
+      }
+    },
+    {
+      "tipo": "NUEVA_REGLA",
+      "fecha": "2016-01-01",
+      "titulo": "Reducción de tarifa observada a 2.5 SMLMV (sin otrosí)",
+      "descripcion": "Las facturas FL-1934 en adelante muestran comisión de 2.5 SMLMV + IVA 16%. Sin documento soporte.",
+      "metadatos": {
+        "tarifa_anterior": "3 SMLMV",
+        "tarifa_nueva": "2.5 SMLMV"
+      }
+    },
+    {
+      "tipo": "NUEVA_REGLA",
+      "fecha": "2017-01-01",
+      "titulo": "Cambio normativo IVA: 16% → 19%",
+      "descripcion": "Ley 1819 de 2016 (Reforma Tributaria) incrementa tarifa general IVA a 19%.",
+      "metadatos": {
+        "norma": "Ley 1819 de 2016"
+      }
+    },
+    {
+      "tipo": "NUEVA_REGLA",
+      "fecha": "2017-07-01",
+      "titulo": "Reducción de tarifa observada a 1 SMLMV (sin otrosí)",
+      "descripcion": "Desde factura FL-3784 se factura 1 SMLMV + IVA 19%. Reducción del 67% vs contrato original. Sin documento soporte.",
+      "metadatos": {
+        "tarifa_anterior": "2.5 SMLMV",
+        "tarifa_nueva": "1 SMLMV"
+      }
+    },
+    {
+      "tipo": "HALLAZGO_DETECTADO",
+      "fecha": "2020-03-26",
+      "titulo": "Inicio del período de impago de comisiones mensuales",
+      "descripcion": "Factura CR-77173 es la primera sin recaudo. Coincide con inicio pandemia COVID-19.",
+      "metadatos": {
+        "factura": "CR-77173",
+        "monto": 1044586
+      }
+    },
+    {
+      "tipo": "CAMBIO_FIDEICOMITENTE",
+      "fecha": "2024-04-01",
+      "titulo": "Aparición de nuevos beneficiarios (BERMON SAS, J ESCALLON Y CIA)",
+      "descripcion": "Nuevos NIT en facturas de cancelación de usufructo. Posible cesión de derechos no registrada formalmente.",
+      "metadatos": {
+        "nuevos_nit": "9016458662, 8600421864"
+      }
+    },
+    {
+      "tipo": "CONCILIACION_EJECUTADA",
+      "fecha": "2026-02-25",
+      "titulo": "Auditoría Inicial con extracción de contrato por visión",
+      "descripcion": "Ejecución de auditoría completa con lectura de contrato mediante modelo de visión multimodal. Impacto económico total detectado: ~$405M COP (subfacturación $243.6M + cartera vencida $90.9M + intereses $67.5M + CCP $3.5M).",
+      "metadatos": {
+        "herramienta": "Claude Vision",
+        "paginas_analizadas": 19
+      }
+    },
+    {
+      "tipo": "CONCILIACION_EJECUTADA",
+      "fecha": "2025-07-16",
+      "titulo": "Rendición H1-2025 confirma tarifa 3 SMMLV sin modificación",
+      "descripcion": "La rendición semestral firmada por el Rep. Legal y Contador transcribe íntegramente la Cl. 16 del contrato, incluyendo tarifa de 3 SMMLV. No menciona otrosí ni modificación alguna. Las facturas pendientes se emiten a 1 SMMLV.",
+      "metadatos": {
+        "firmante": "EDWARD ALFONSO GONZALEZ GONZALEZ",
+        "contador": "JORGE ENRIQUE PARRADO RODRIGUEZ T.P. 85923-T"
+      }
+    },
+    {
+      "tipo": "HALLAZGO_DETECTADO",
+      "fecha": "2026-02-25",
+      "titulo": "Fideicomiso insolvente: activo $192K vs pasivo $120M",
+      "descripcion": "Rendición H1-2025 confirma insolvencia del patrimonio autónomo. Operador Hotelero adeuda $120M al fideicomiso.",
+      "metadatos": {
+        "activo": 192696,
+        "pasivo": 120264119,
+        "patrimonio": -120071423
+      }
+    }
+  ],
+  "entradasConocimiento": [
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "Tarifa contractual original vs tarifa observada",
+      "contenido": "El contrato de fiducia FA-2594 (Cl. 16.5) establece la comisión mensual como el 0.8% de los pagos realizados a beneficiarios, con un PISO de 3 SMLMV/mes. La tarifa se ha reducido dos veces sin otrosí documentado: a 2.5 SMLMV en enero 2016 y a 1 SMLMV en julio 2017. La subfacturación acumulada desde julio 2017 supera los $243M COP. Adicionalmente, la Cl. 16.2 establece una comisión única de $3M por la suscripción del CCP que posiblemente no fue cobrada.",
+      "metadatos": {
+        "criticidad": "MAXIMA",
+        "requiereAccion": true
+      }
+    },
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "Mecanismo de cobro contractual reforzado",
+      "contenido": "El contrato establece múltiples mecanismos de cobro: (1) Descuento directo del patrimonio autónomo con autorización irrevocable (Cl. 16). (2) Si no hay recursos, facturación pagadera en 5 días corrientes. (3) Intereses de mora a tasa máxima legal (Cl. 16 Parágrafo 1 y Cl. Décima Quinta). (4) El derecho de remuneración subsiste hasta la liquidación del contrato. (5) En liquidación, las comisiones pendientes deben ser aprobadas y canceladas (Cl. 21.4).",
+      "metadatos": {
+        "clausulas": "16, 16-Par1, 15, 21.4"
+      }
+    },
+    {
+      "tipo": "CONTEXTO_OPERATIVO",
+      "titulo": "Estructura tripartita del negocio fiduciario",
+      "contenido": "El fideicomiso tiene 3 actores: (1) FIDEICOMITENTE: Construcciones Futura 2000 S.A. (promotor/vendedor, pierde calidad al transferir unidades). (2) BENEFICIARIOS: compradores de las 118 suites, quienes ceden usufructo al fideicomiso. (3) OPERADOR HOTELERO: Sociedad Operadora Urban Royal Calle 26 S.A.S., gestiona el hotel mediante CCP. Los costos y comisiones fiduciarias son cargo de la operación hotelera. La Asamblea de Beneficiarios es el máximo órgano (quórum: 40% de derechos).",
+      "metadatos": {
+        "operador": "SOCIEDAD OPERADORA URBAN ROYAL CALLE 26 S.A.S."
+      }
+    },
+    {
+      "tipo": "DOCUMENTO_FUENTE",
+      "titulo": "Extracción exitosa del contrato por visión multimodal",
+      "contenido": "El PDF del contrato estaba almacenado como archivo ZIP de 38 imágenes JPEG (19 páginas de contenido + reversos en blanco). Se extrajo completamente usando modelo de visión Claude. Páginas clave: 1 (partes y antecedentes), 5 (definiciones), 7 (objeto), 11 (beneficiarios y cesión), 13 (obligaciones fiduciaria), 15 (obligaciones beneficiarios), 25 (gastos y costos), 27 (REMUNERACIÓN - cláusula central), 29 (terminación y liquidación), 37 (firmas). Confianza de extracción: 0.98.",
+      "metadatos": {
+        "metodo": "Vision multimodal",
+        "paginas": 19,
+        "calidad": "Alta"
+      }
+    },
+    {
+      "tipo": "PRECEDENTE_CONTABLE",
+      "titulo": "Impacto económico total de hallazgos: ~$405M COP",
+      "contenido": "Resumen de impacto económico detectado: (1) Subfacturación por tarifa reducida sin otrosí (3→1 SMLMV, 101 meses): $243.6M. (2) Cartera vencida de comisiones facturadas no recaudadas (69 facturas): $90.9M. (3) Intereses de mora contractuales no cobrados (estimado): $67.5M. (4) Comisión por suscripción CCP posiblemente no facturada: $3.5M. (5) Subfacturación 2016 (2.5 vs 3 SMLMV): $4.8M. TOTAL POTENCIAL: ~$410M COP. NOTA: Si no existe otrosí que justifique la reducción tarifaria, este es posiblemente el mayor hallazgo de fuga de revenue.",
+      "metadatos": {
+        "total_potencial": 410000000,
+        "confianza": 0.85
+      }
+    },
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "CONFIRMACIÓN DEFINITIVA: No existe otrosí - Rendición transcribe tarifa original",
+      "contenido": "La Rendición de Cuentas H1-2025, documento oficial de la fiduciaria dirigido a beneficiarios y reportado a la Superintendencia Financiera, transcribe textualmente la Cláusula 16 del contrato en su Sección 14. El numeral 5 dice: 'La comisión de la fiduciaria equivaldría al 0.8% de los pagos realizados a los beneficiarios con un mínimo mensual de 3SMMLV'. Si existiera un otrosí modificando esta tarifa, la rendición debería reflejar la tarifa MODIFICADA, no la original. La fiduciaria tiene obligación legal de reportar las condiciones contractuales VIGENTES en la rendición (Circular 007/1996 SFC). El hecho de que transcriba 3 SMMLV confirma que esta sigue siendo la tarifa contractual vigente.",
+      "metadatos": {
+        "confianza": 0.98,
+        "fuente": "Rendición H1-2025 pág. 6"
+      }
+    },
+    {
+      "tipo": "CONTEXTO_OPERATIVO",
+      "titulo": "Estructura financiera del fideicomiso al 30/06/2025",
+      "contenido": "ACTIVO: $192,696 (inversiones en carteras colectivas). PASIVO: $120,264,119 (deuda con operador hotelero SOCIEDAD OPERADORA URBAN ROYAL CALLE 26 SAS, NIT 900399903). PATRIMONIO: -$120,071,423. Acreedores fiduciarios: $455,059,411. Pérdidas acumuladas: $136,247,078. El fideicomiso no genera ingresos operativos; la operación hotelera es gestionada externamente. La única fuente de flujo son los rendimientos de las inversiones ($6,758 en H1-2025). CERO movimientos de ingreso/egreso en el período. 11 beneficiarios registrados.",
+      "metadatos": {
+        "fecha_corte": "2025-06-30",
+        "operador_hotelero_nit": "900399903",
+        "deuda_operador": 120264119
+      }
+    },
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "Comisiones cobradas históricas por año (de Rendición pág. 7)",
+      "contenido": "2014: $5,623,680 | 2015: $0 | 2016: $48,658,722 | 2017: $17,832,706 | 2018: $15,649,141 | 2019: $9,854,580 | 2020: $0 | 2021: $0 | 2022: $8,257,637 | 2023: $0 | 2024: $19,608,586 | 2025-H1: $3,686,639. TOTAL HISTÓRICO COBRADO: ~$129,171,691. NOTA: El monto anómalo de 2016 ($48.7M) sugiere cobro retroactivo de 2015 + 2016 o facturación acumulada del período 2.5 SMLMV. Años con $0: 2015, 2020, 2021, 2023.",
+      "metadatos": {
+        "total_historico_cobrado": 129171691
+      }
+    }
+  ],
+  "auditLogs": [
+    {
+      "accion": "CREAR",
+      "entidad": "CONCILIACION",
+      "entidadId": "AUDIT-INICIAL-44764-V2",
+      "cambios": {
+        "estadoAnterior": "NO_EXISTIA",
+        "nuevoEstado": "EN_PROGRESO"
+      }
+    },
+    {
+      "accion": "ACTUALIZAR",
+      "entidad": "CONCILIACION",
+      "entidadId": "AUDIT-INICIAL-44764-V2",
+      "cambios": {
+        "estadoAnterior": "EN_PROGRESO",
+        "nuevoEstado": "COMPLETADA"
+      }
+    },
+    {
+      "accion": "ACTUALIZAR",
+      "entidad": "REGLAS_COMISION",
+      "entidadId": "CL-16.5",
+      "cambios": {
+        "estadoAnterior": "INFERIDO_DE_FACTURAS (confianza 0.75)",
+        "nuevoEstado": "EXTRAIDO_DE_CONTRATO_VISION (confianza 0.98)"
+      }
+    }
+  ],
+  "variablesMacroeconomicas": [
+    {
+      "codigo": "SMMLV",
+      "nombre": "Salario Mínimo Mensual Legal Vigente",
+      "periodicidad": "ANUAL",
+      "unidad": "COP",
+      "fuenteOficial": "Gobierno Nacional de Colombia",
+      "valoresHistoricosVariable": [
+        {
+          "valor": 616000,
+          "vigenciaDesde": "2014-01-01",
+          "vigenciaHasta": "2014-12-31",
+          "normaLegal": "Decreto 3068 de 2013"
+        },
+        {
+          "valor": 644350,
+          "vigenciaDesde": "2015-01-01",
+          "vigenciaHasta": "2015-12-31",
+          "normaLegal": "Decreto 2731 de 2014"
+        },
+        {
+          "valor": 689454,
+          "vigenciaDesde": "2016-01-01",
+          "vigenciaHasta": "2016-12-31",
+          "normaLegal": "Decreto 2552 de 2015"
+        },
+        {
+          "valor": 737717,
+          "vigenciaDesde": "2017-01-01",
+          "vigenciaHasta": "2017-12-31",
+          "normaLegal": "Decreto 2209 de 2016"
+        },
+        {
+          "valor": 781242,
+          "vigenciaDesde": "2018-01-01",
+          "vigenciaHasta": "2018-12-31",
+          "normaLegal": "Decreto 2269 de 2017"
+        },
+        {
+          "valor": 828116,
+          "vigenciaDesde": "2019-01-01",
+          "vigenciaHasta": "2019-12-31",
+          "normaLegal": "Decreto 2451 de 2018"
+        },
+        {
+          "valor": 877803,
+          "vigenciaDesde": "2020-01-01",
+          "vigenciaHasta": "2020-12-31",
+          "normaLegal": "Decreto 2360 de 2019"
+        },
+        {
+          "valor": 908526,
+          "vigenciaDesde": "2021-01-01",
+          "vigenciaHasta": "2021-12-31",
+          "normaLegal": "Decreto 1785 de 2020"
+        },
+        {
+          "valor": 1000000,
+          "vigenciaDesde": "2022-01-01",
+          "vigenciaHasta": "2022-12-31",
+          "normaLegal": "Decreto 1724 de 2021"
+        },
+        {
+          "valor": 1160000,
+          "vigenciaDesde": "2023-01-01",
+          "vigenciaHasta": "2023-12-31",
+          "normaLegal": "Decreto 2613 de 2022"
+        },
+        {
+          "valor": 1300000,
+          "vigenciaDesde": "2024-01-01",
+          "vigenciaHasta": "2024-12-31",
+          "normaLegal": "Decreto 2292 de 2023"
+        },
+        {
+          "valor": 1423500,
+          "vigenciaDesde": "2025-01-01",
+          "vigenciaHasta": "2025-12-31",
+          "normaLegal": "Decreto 1827 de 2024"
+        }
+      ]
+    },
+    {
+      "codigo": "IVA",
+      "nombre": "Impuesto al Valor Agregado - Tarifa General",
+      "periodicidad": "ANUAL",
+      "unidad": "PORCENTAJE",
+      "fuenteOficial": "DIAN / Estatuto Tributario Colombia",
+      "valoresHistoricosVariable": [
+        {
+          "valor": 16,
+          "vigenciaDesde": "2014-01-01",
+          "vigenciaHasta": "2016-12-31",
+          "normaLegal": "Estatuto Tributario Art. 468 (antes de Ley 1819)"
+        },
+        {
+          "valor": 19,
+          "vigenciaDesde": "2017-01-01",
+          "vigenciaHasta": "2025-12-31",
+          "normaLegal": "Ley 1819 de 2016 Art. 184 (Reforma Tributaria)"
+        }
+      ]
+    }
+  ],
+  "enumsSugeridos": [
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "SUSCRIPCION_CCP",
+      "justificacion": "El contrato define una comisión única específica por la suscripción del Contrato de Cuentas en Participación (Cl. 16.2), que es diferente a la suscripción del contrato de fiducia. Este tipo es recurrente en fideicomisos con operador hotelero.",
+      "frecuenciaDetectada": 1
+    },
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "ASISTENCIA_ASAMBLEA",
+      "justificacion": "El contrato diferencia la comisión por asistencia a Comité (1 SMLMV) de la asistencia a Asamblea de Beneficiarios (2 SMLMV). El ENUM ASISTENCIA_COMITE existe pero no cubre asambleas.",
+      "frecuenciaDetectada": 1
+    },
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "INFORME_ESPECIAL",
+      "justificacion": "El contrato establece comisión por informes especiales (diferentes a rendición semestral) de 0.5 SMLMV. No encaja en categorías existentes.",
+      "frecuenciaDetectada": 1
+    },
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "CANCELACION_USUFRUCTO",
+      "justificacion": "Las facturas FC70 de 2024 cobran por cancelación de usufructo/escrituración pública. Es un evento recurrente en fideicomisos inmobiliarios.",
+      "frecuenciaDetectada": 8
+    }
+  ],
+  "facturas": [
+    {
+      "numeroFactura": "FB-31909",
+      "fecha": "2014-07-29",
+      "concepto": "COMISION FIDUCIARIA POR ESTRUCTURACION DE :           3,000,000.00",
+      "monto": 3000000,
+      "iva": 480000,
+      "total": 3480000,
+      "estado": "PAGADA",
+      "periodoContable": "2014-07",
+      "codigoSuper": "44764",
+      "terceroNit": "800200571",
+      "terceroNombre": "CONSTRUCCIONES FUTURA 2000 SA",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2014-08-20",
+          "monto": 3480000,
+          "referencia": "RCJ-44949",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FB-31910",
+      "fecha": "2014-07-29",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 3 SMLV, MES: JULIO     -2014",
+      "monto": 1848000,
+      "iva": 295680,
+      "total": 2143680,
+      "estado": "PAGADA",
+      "periodoContable": "2014-07",
+      "codigoSuper": "44764",
+      "terceroNit": "800200571",
+      "terceroNombre": "CONSTRUCCIONES FUTURA 2000 SA",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2014-09-12",
+          "monto": 2143680,
+          "referencia": "RCJ-46045",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-1868",
+      "fecha": "2016-02-29",
+      "concepto": "COMISION FIDUCIARIA",
+      "monto": 21263550,
+      "iva": 3402168,
+      "total": 24665718,
+      "estado": "PAGADA",
+      "periodoContable": "2016-02",
+      "codigoSuper": "44764",
+      "terceroNit": "800200571",
+      "terceroNombre": "CONSTRUCCIONES FUTURA 2000 SA",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-02-29",
+          "monto": 23119380,
+          "referencia": "RCJ-76918",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2016-03-29",
+          "monto": 1546338,
+          "referencia": "RCJ-78551",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2016-03-29",
+          "monto": 1999417,
+          "referencia": "RCJ-78552",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2016-03-29",
+          "monto": 1760711,
+          "referencia": "RCJ-78553",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2016-10-31",
+          "monto": 238706,
+          "referencia": "RCJ-95334",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-1868",
+      "fecha": "2016-02-29",
+      "concepto": "COMISION FIDUCIARIA ENERO 2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-02",
+      "codigoSuper": "44764",
+      "terceroNit": "800200571",
+      "terceroNombre": "CONSTRUCCIONES FUTURA 2000 SA",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-1868",
+      "fecha": "2016-02-29",
+      "concepto": "COMISION FIDUCIARIA FEBRERO 2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-02",
+      "codigoSuper": "44764",
+      "terceroNit": "800200571",
+      "terceroNombre": "CONSTRUCCIONES FUTURA 2000 SA",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-1934",
+      "fecha": "2016-03-07",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: MARZO     -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-03-29",
+          "monto": 1999417,
+          "referencia": "RCJ-78550",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-2017",
+      "fecha": "2016-04-08",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: ABRIL     -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-10-31",
+          "monto": 1999417,
+          "referencia": "RCJ-95329",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-2125",
+      "fecha": "2016-05-10",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: MAYO      -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-10-31",
+          "monto": 1999417,
+          "referencia": "RCJ-95330",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-2237",
+      "fecha": "2016-06-07",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: JUNIO     -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-10-31",
+          "monto": 1999417,
+          "referencia": "RCJ-95331",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-2982",
+      "fecha": "2016-11-17",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: AGOSTO    -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-11-18",
+          "monto": 1999417,
+          "referencia": "RCJ-96312",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2016-11-18",
+          "monto": 1999417,
+          "referencia": "RCJ-96313",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2016-11-18",
+          "monto": 1999417,
+          "referencia": "RCJ-96314",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-2982",
+      "fecha": "2016-11-17",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: SEPTIEMBRE-2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-2982",
+      "fecha": "2016-11-17",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: JULIO     -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-2985",
+      "fecha": "2016-11-21",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: OCTUBRE   -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-11-22",
+          "monto": 1999417,
+          "referencia": "RCJ-96709",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-2986",
+      "fecha": "2016-11-21",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: NOVIEMBRE -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-12-21",
+          "monto": 1999417,
+          "referencia": "RCJ-99809",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3057",
+      "fecha": "2016-12-06",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: DICIEMBRE -2016",
+      "monto": 1723635,
+      "iva": 275782,
+      "total": 1999417,
+      "estado": "PAGADA",
+      "periodoContable": "2016-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2016-12-21",
+          "monto": 1999417,
+          "referencia": "RCJ-99810",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3159",
+      "fecha": "2017-01-10",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: ENERO     -2017",
+      "monto": 1844293,
+      "iva": 350416,
+      "total": 2194709,
+      "estado": "PAGADA",
+      "periodoContable": "2017-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-01-31",
+          "monto": 2194709,
+          "referencia": "RCJ-103170",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3242",
+      "fecha": "2017-02-08",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: FEBRERO   -2017",
+      "monto": 1844293,
+      "iva": 350416,
+      "total": 2194709,
+      "estado": "PAGADA",
+      "periodoContable": "2017-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-02-22",
+          "monto": 2194709,
+          "referencia": "RCJ-104550",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3323",
+      "fecha": "2017-02-28",
+      "concepto": "RECALCULO DE COMISIONES FIDUCIARIAS AÑO 2016",
+      "monto": 807300,
+      "iva": 153387,
+      "total": 960687,
+      "estado": "PAGADA",
+      "periodoContable": "2017-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-03-30",
+          "monto": 960687,
+          "referencia": "NC-4099",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3384",
+      "fecha": "2017-03-07",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: MARZO     -2017",
+      "monto": 1844293,
+      "iva": 350416,
+      "total": 2194709,
+      "estado": "PAGADA",
+      "periodoContable": "2017-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-03-23",
+          "monto": 485895,
+          "referencia": "RCJ-108073",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-06-01",
+          "monto": 1040225,
+          "referencia": "RCJ-114383",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-06-15",
+          "monto": 125814,
+          "referencia": "RCJ-115232",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-06-23",
+          "monto": 542775,
+          "referencia": "NC-4296",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-06-23",
+          "monto": 1651934,
+          "referencia": "NC-4297",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3409",
+      "fecha": "2017-03-17",
+      "concepto": "ASAMBLEA GENERAL DE BENEFICIARIOS 17 DE MARZO DE 2017",
+      "monto": 1475434,
+      "iva": 280332,
+      "total": 1755766,
+      "estado": "PAGADA",
+      "periodoContable": "2017-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-03-21",
+          "monto": 1755766,
+          "referencia": "RCJ-107711",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3423",
+      "fecha": "2017-03-30",
+      "concepto": "RECALCULO DE COMISIONES FIDUCIARIAS AÑO 2016",
+      "monto": 786948,
+      "iva": 149520,
+      "total": 936468,
+      "estado": "PAGADA",
+      "periodoContable": "2017-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-06-23",
+          "monto": 936468,
+          "referencia": "SAF-5484",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3488",
+      "fecha": "2017-04-17",
+      "concepto": "COMISION FIDUCIARIA FIJA: 2.5 SMLV, ABRIL-2017",
+      "monto": 1844293,
+      "iva": 350416,
+      "total": 2194709,
+      "estado": "PAGADA",
+      "periodoContable": "2017-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-06-23",
+          "monto": 2194709,
+          "referencia": "NC-4296",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3595",
+      "fecha": "2017-05-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 2.5 SMLV, MAYO-2017",
+      "monto": 1844293,
+      "iva": 350416,
+      "total": 2194709,
+      "estado": "PAGADA",
+      "periodoContable": "2017-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-06-23",
+          "monto": 2194709,
+          "referencia": "NC-4296",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3784",
+      "fecha": "2017-06-23",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 1 SMLV, MES: MARZO     -2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-06-30",
+          "monto": 715466,
+          "referencia": "SAF-5484",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-07-10",
+          "monto": 877883,
+          "referencia": "NC-4682",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3785",
+      "fecha": "2017-06-23",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-07-10",
+          "monto": 877883,
+          "referencia": "NC-4607",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3786",
+      "fecha": "2017-06-23",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-07-10",
+          "monto": 877883,
+          "referencia": "NC-4323",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3792",
+      "fecha": "2017-06-27",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-07-10",
+          "monto": 877883,
+          "referencia": "NC-4369",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "P053-1070",
+      "fecha": "2017-07-10",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 1 SMLV, MES: MARZO     -2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-07-10",
+          "monto": 715466,
+          "referencia": "SAF-5875",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-09-27",
+          "monto": 162417,
+          "referencia": "NC-4990",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-09-27",
+          "monto": 715466,
+          "referencia": "NC-4991",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "P053-1071",
+      "fecha": "2017-07-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 877883,
+          "referencia": "RCJ-124666",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "P053-1072",
+      "fecha": "2017-07-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 877883,
+          "referencia": "RCJ-124667",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "P053-1277",
+      "fecha": "2017-07-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 877883,
+          "referencia": "RCJ-124668",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "P053-1346",
+      "fecha": "2017-07-12",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 877883,
+          "referencia": "RCJ-124669",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3870",
+      "fecha": "2017-08-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 877883,
+          "referencia": "RCJ-124664",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-3949",
+      "fecha": "2017-09-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 877883,
+          "referencia": "RCJ-124665",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4008",
+      "fecha": "2017-09-22",
+      "concepto": "INTERESES MORA  FACTURS ABRIL A AGOSTO 2017",
+      "monto": 173261,
+      "iva": 32920,
+      "total": 206181,
+      "estado": "PAGADA",
+      "periodoContable": "2017-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-26",
+          "monto": 206181,
+          "referencia": "RCJ-124670",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4012",
+      "fecha": "2017-09-27",
+      "concepto": "COMISION FIDUCIARIA FIJA DE: 2.5 SMLV, MES: MARZO     -2017",
+      "monto": 1844293,
+      "iva": 350416,
+      "total": 2194709,
+      "estado": "PAGADA",
+      "periodoContable": "2017-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-09-28",
+          "monto": 715466,
+          "referencia": "SAF-6405",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2017-09-29",
+          "monto": 1479243,
+          "referencia": "RCJ-125247",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4088",
+      "fecha": "2017-10-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2017-11-21",
+          "monto": 877883,
+          "referencia": "NC-5314",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4158",
+      "fecha": "2017-11-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-01-31",
+          "monto": 877883,
+          "referencia": "RCJ-136123",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4256",
+      "fecha": "2017-11-21",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-01-31",
+          "monto": 877883,
+          "referencia": "RCJ-136125",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4297",
+      "fecha": "2017-12-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2017",
+      "monto": 737717,
+      "iva": 140166,
+      "total": 877883,
+      "estado": "PAGADA",
+      "periodoContable": "2017-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-01-31",
+          "monto": 877883,
+          "referencia": "RCJ-136124",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4428",
+      "fecha": "2018-01-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-01-31",
+          "monto": 877883,
+          "referencia": "RCJ-136126",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2018-03-28",
+          "monto": 51795,
+          "referencia": "RCJ-141405",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4532",
+      "fecha": "2018-02-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-04-10",
+          "monto": 929678,
+          "referencia": "NC-5678",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4666",
+      "fecha": "2018-03-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-04-10",
+          "monto": 929678,
+          "referencia": "NC-5678",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4702",
+      "fecha": "2018-03-28",
+      "concepto": "COMISION FIDUCIARIA POR ASAMBLEA DE BENEFICIRIOS REALIZADA EL DIA  01 DE MARZO DE 2018",
+      "monto": 1562484,
+      "iva": 296872,
+      "total": 1859356,
+      "estado": "PAGADA",
+      "periodoContable": "2018-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-04-10",
+          "monto": 1859356,
+          "referencia": "NC-5678",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4777",
+      "fecha": "2018-04-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-04-30",
+          "monto": 929678,
+          "referencia": "RCJ-144584",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4727",
+      "fecha": "2018-04-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-04-27",
+          "monto": 1859356,
+          "referencia": "RCJ-144067",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2018-04-27",
+          "monto": 929678,
+          "referencia": "RCJ-144068",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2018-04-27",
+          "monto": 929678,
+          "referencia": "RCJ-144069",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4727",
+      "fecha": "2018-04-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-4727",
+      "fecha": "2018-04-10",
+      "concepto": "COMISION FIDUCIARIA POR ASAMBLEA DE BENEFICIRIOS REALIZADA EL DIA  01 DE MARZO DE 2018",
+      "monto": 1562484,
+      "iva": 296872,
+      "total": 1859356,
+      "estado": "PAGADA",
+      "periodoContable": "2018-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-4846",
+      "fecha": "2018-05-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-05-31",
+          "monto": 929678,
+          "referencia": "RCJ-147191",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-4965",
+      "fecha": "2018-06-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-09-13",
+          "monto": 929678,
+          "referencia": "NC-5870",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5050",
+      "fecha": "2018-07-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-09-13",
+          "monto": 929678,
+          "referencia": "NC-5870",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5169",
+      "fecha": "2018-08-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-09-13",
+          "monto": 929678,
+          "referencia": "NC-5870",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5313",
+      "fecha": "2018-09-13",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-09-24",
+          "monto": 929678,
+          "referencia": "RCJ-156569",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2018-09-24",
+          "monto": 929678,
+          "referencia": "RCJ-156570",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2018-09-24",
+          "monto": 929678,
+          "referencia": "RCJ-156571",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5313",
+      "fecha": "2018-09-13",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-5313",
+      "fecha": "2018-09-13",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-5339",
+      "fecha": "2018-09-19",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-10-23",
+          "monto": 929678,
+          "referencia": "RCJ-159522",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5397",
+      "fecha": "2018-10-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-10-29",
+          "monto": 929678,
+          "referencia": "RCJ-160164",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5488",
+      "fecha": "2018-11-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-11-30",
+          "monto": 929678,
+          "referencia": "NC-5996",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5604",
+      "fecha": "2018-12-11",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2018-12-28",
+          "monto": 929678,
+          "referencia": "RCJ-165730",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2018-12-28",
+          "monto": 929678,
+          "referencia": "RCJ-165731",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5604",
+      "fecha": "2018-12-11",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2018",
+      "monto": 781242,
+      "iva": 148436,
+      "total": 929678,
+      "estado": "PAGADA",
+      "periodoContable": "2018-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FL-5690",
+      "fecha": "2019-01-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-03-21",
+          "monto": 985458,
+          "referencia": "RCJ-172670",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FL-5793",
+      "fecha": "2019-02-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-03-27",
+          "monto": 985458,
+          "referencia": "RCJ-173249",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-98",
+      "fecha": "2019-03-20",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-04-12",
+          "monto": 985458,
+          "referencia": "NC-6208",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-555",
+      "fecha": "2019-03-29",
+      "concepto": "COMISION FIDUCIARIA POR ASAMBLEA DE BENEFICIRIOS REALIZADA EL DIA  22 DE MARZO DE 2019",
+      "monto": 1656232,
+      "iva": 314684,
+      "total": 1970916,
+      "estado": "PAGADA",
+      "periodoContable": "2019-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-04-12",
+          "monto": 1970916,
+          "referencia": "NC-6209",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-906",
+      "fecha": "2019-04-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-04-26",
+          "monto": 985458,
+          "referencia": "RCJ-176590",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-1070",
+      "fecha": "2019-04-12",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-04-26",
+          "monto": 985458,
+          "referencia": "RCJ-176589",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-1071",
+      "fecha": "2019-04-12",
+      "concepto": "COMISION FIDUCIARIA POR ASAMBLEA DE BENEFICIRIOS REALIZADA EL DIA  22 DE MARZO DE 2019",
+      "monto": 1656232,
+      "iva": 314684,
+      "total": 1970916,
+      "estado": "PAGADA",
+      "periodoContable": "2019-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-05-27",
+          "monto": 1970916,
+          "referencia": "RCJ-179259",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-1408",
+      "fecha": "2019-05-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-05-27",
+          "monto": 985458,
+          "referencia": "RCJ-179258",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-1951",
+      "fecha": "2019-06-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-06-25",
+          "monto": 985458,
+          "referencia": "RCJ-181625",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-2615",
+      "fecha": "2019-07-05",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-09-24",
+          "monto": 985458,
+          "referencia": "RCJ-189438",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-3260",
+      "fecha": "2019-08-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2019-09-24",
+          "monto": 985458,
+          "referencia": "RCJ-189439",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-4148",
+      "fecha": "2019-09-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-27",
+          "monto": 985458,
+          "referencia": "RCJ-281463",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-4796",
+      "fecha": "2019-10-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-27",
+          "monto": 985458,
+          "referencia": "RCJ-281464",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-5205",
+      "fecha": "2019-11-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2019-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-27",
+          "monto": 985458,
+          "referencia": "RCJ-281465",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "CR-77173",
+      "fecha": "2020-03-26",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1802771,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-78435",
+      "fecha": "2020-04-24",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1779691,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-79737",
+      "fecha": "2020-05-28",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1753124,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-81204",
+      "fecha": "2020-06-24",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1732088,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-81305",
+      "fecha": "2020-07-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULY-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1719629,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-85069",
+      "fecha": "2020-09-18",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1650867,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-85364",
+      "fecha": "2020-10-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1648233,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-87822",
+      "fecha": "2020-11-27",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1610704,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-89044",
+      "fecha": "2020-12-28",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PENDIENTE",
+      "periodoContable": "2020-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1044586,
+      "interesesMora": 1587436,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-90365",
+      "fecha": "2021-01-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1618152,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-91578",
+      "fecha": "2021-02-25",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1597094,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-92855",
+      "fecha": "2021-03-30",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1571511,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-94213",
+      "fecha": "2021-04-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1548378,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-95518",
+      "fecha": "2021-05-31",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1523780,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-96840",
+      "fecha": "2021-06-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1501506,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-98158",
+      "fecha": "2021-07-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1478453,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-99394",
+      "fecha": "2021-08-30",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1453851,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-100057",
+      "fecha": "2021-09-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1445428,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-101798",
+      "fecha": "2021-10-13",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1420233,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-103461",
+      "fecha": "2021-11-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1383866,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-104672",
+      "fecha": "2021-12-23",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2021",
+      "monto": 908526,
+      "iva": 172620,
+      "total": 1081146,
+      "estado": "PENDIENTE",
+      "periodoContable": "2021-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1081146,
+      "interesesMora": 1365125,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-105807",
+      "fecha": "2022-01-28",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1471009,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-106995",
+      "fecha": "2022-02-24",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1446730,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-108207",
+      "fecha": "2022-03-28",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1417484,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-109511",
+      "fecha": "2022-04-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1387284,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-109670",
+      "fecha": "2022-05-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1376751,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-111645",
+      "fecha": "2022-06-14",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1342292,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-112685",
+      "fecha": "2022-07-13",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1312429,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-26626",
+      "fecha": "2022-07-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2019",
+      "monto": 828116,
+      "iva": 157342,
+      "total": 985458,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-29",
+          "monto": 220581,
+          "referencia": "RCJ-281955",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2022-08-03",
+          "monto": 764877,
+          "referencia": "RCJ-282485",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-26627",
+      "fecha": "2022-07-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-29",
+          "monto": 302923,
+          "referencia": "RCJ-281956",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2022-08-03",
+          "monto": 741663,
+          "referencia": "RCJ-282486",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-26628",
+      "fecha": "2022-07-29",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-29",
+          "monto": 324493,
+          "referencia": "RCJ-281957",
+          "medioPago": "BANCO"
+        },
+        {
+          "fecha": "2022-08-03",
+          "monto": 720093,
+          "referencia": "RCJ-282487",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-26730",
+      "fecha": "2022-07-30",
+      "concepto": "INTERESES SOBRE CAPITAL",
+      "monto": 554260,
+      "iva": 105309,
+      "total": 659569,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-30",
+          "monto": 659569,
+          "referencia": "RCJ-281742",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2022-07-30",
+          "monto": 105308,
+          "referencia": "RCJ-281743",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2022-07-31",
+          "monto": 1.3800000000000001,
+          "referencia": "NCT-2303",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-26730",
+      "fecha": "2022-07-30",
+      "concepto": "INTERESES SOBRE IVA - NO TIENE IVA",
+      "monto": 88495,
+      "iva": 16814,
+      "total": 105309.38,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-26731",
+      "fecha": "2022-07-30",
+      "concepto": "INTERESES SOBRE CAPITAL",
+      "monto": 537437,
+      "iva": 102113,
+      "total": 639550,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-30",
+          "monto": 639550,
+          "referencia": "RCJ-281744",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2022-07-30",
+          "monto": 102113,
+          "referencia": "RCJ-281745",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2022-07-31",
+          "monto": 0.1,
+          "referencia": "NCT-2318",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-26731",
+      "fecha": "2022-07-30",
+      "concepto": "INTERESES SOBRE IVA - NO TIENE IVA",
+      "monto": 85809,
+      "iva": 16304,
+      "total": 102113.1,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-26732",
+      "fecha": "2022-07-30",
+      "concepto": "INTERESES SOBRE CAPITAL",
+      "monto": 521807,
+      "iva": 99143,
+      "total": 620950,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2022-07-30",
+          "monto": 620950,
+          "referencia": "RCJ-281746",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2022-07-30",
+          "monto": 99143,
+          "referencia": "RCJ-281747",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2022-07-31",
+          "monto": 0.25,
+          "referencia": "NCT-2319",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-26732",
+      "fecha": "2022-07-30",
+      "concepto": "INTERESES SOBRE IVA - NO TIENE IVA",
+      "monto": 83314,
+      "iva": 15830,
+      "total": 99143.25,
+      "estado": "PAGADA",
+      "periodoContable": "2022-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-113354",
+      "fecha": "2022-08-14",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1278273,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-114982",
+      "fecha": "2022-09-14",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1243451,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-116158",
+      "fecha": "2022-10-14",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1208218,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-117129",
+      "fecha": "2022-11-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1175210,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-118201",
+      "fecha": "2022-12-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2022",
+      "monto": 1000000,
+      "iva": 190000,
+      "total": 1190000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2022-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1190000,
+      "interesesMora": 1137774,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-119429",
+      "fecha": "2023-01-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 1276242,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-120075",
+      "fecha": "2023-02-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 1223116,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-121164",
+      "fecha": "2023-03-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 1178288,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-122261",
+      "fecha": "2023-04-11",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 1119489,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-123378",
+      "fecha": "2023-05-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 1075020,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-124447",
+      "fecha": "2023-06-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 1018483,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-125574",
+      "fecha": "2023-07-11",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 964298,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-126656",
+      "fecha": "2023-08-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 918866,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-128047",
+      "fecha": "2023-09-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 872900,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-128675",
+      "fecha": "2023-10-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 827557,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-129643",
+      "fecha": "2023-11-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 783832,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-130562",
+      "fecha": "2023-12-11",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2023",
+      "monto": 1160000,
+      "iva": 220400,
+      "total": 1380400,
+      "estado": "PENDIENTE",
+      "periodoContable": "2023-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1380400,
+      "interesesMora": 739513,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-131578",
+      "fecha": "2024-01-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 786507,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-132523",
+      "fecha": "2024-02-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 742896,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-133710",
+      "fecha": "2024-03-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 702432,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-43768",
+      "fecha": "2024-04-06",
+      "concepto": "Intereses Sobre Capital",
+      "monto": 880808,
+      "iva": 167354,
+      "total": 1048162,
+      "estado": "PAGADA",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-04-06",
+          "monto": 167355,
+          "referencia": "RCJ-345933",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2024-04-06",
+          "monto": 1048162,
+          "referencia": "RCJ-345933",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-43768",
+      "fecha": "2024-04-06",
+      "concepto": "Intereses Sobre IVA - No tiene IVA",
+      "monto": 140634,
+      "iva": 26721,
+      "total": 167355,
+      "estado": "PAGADA",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-43769",
+      "fecha": "2024-04-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2020",
+      "monto": 877803,
+      "iva": 166783,
+      "total": 1044586,
+      "estado": "PARCIAL",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 476921,
+      "interesesMora": 204171,
+      "recaudos": [
+        {
+          "fecha": "2024-04-06",
+          "monto": 567665,
+          "referencia": "RCJ-345934",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-43890",
+      "fecha": "2024-04-08",
+      "concepto": "Intereses Sobre Capital",
+      "monto": 9952,
+      "iva": 1891,
+      "total": 11842.83,
+      "estado": "PAGADA",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-04-08",
+          "monto": 1891.17,
+          "referencia": "RCJ-346645",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        },
+        {
+          "fecha": "2024-04-08",
+          "monto": 11842.83,
+          "referencia": "RCJ-346645",
+          "medioPago": "DESCUENTO_PATRIMONIO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-43890",
+      "fecha": "2024-04-08",
+      "concepto": "Intereses Sobre IVA - No tiene IVA",
+      "monto": 1589,
+      "iva": 302,
+      "total": 1891.17,
+      "estado": "PAGADA",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-134650",
+      "fecha": "2024-04-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 658158,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-44446",
+      "fecha": "2024-04-15",
+      "concepto": "COBRO DE FACTURA POR ESCRITURA PUBLICA 10 POR USUFRUCTO",
+      "monto": 1855907,
+      "iva": 352622,
+      "total": 2208529,
+      "estado": "PAGADA",
+      "periodoContable": "2024-04",
+      "codigoSuper": "44764",
+      "terceroNit": "860402350",
+      "terceroNombre": "BERMON SAS",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-04-17",
+          "monto": 2208529,
+          "referencia": "RCJ-348515",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "CR-135691",
+      "fecha": "2024-05-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 617041,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-136726",
+      "fecha": "2024-06-11",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 575553,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-137724",
+      "fecha": "2024-07-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 539439,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-138706",
+      "fecha": "2024-08-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 503608,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-48044",
+      "fecha": "2024-08-22",
+      "concepto": "CANCELACION DE USUFRUCTO HABITACION 805",
+      "monto": 2511589,
+      "iva": 477202,
+      "total": 2988791,
+      "estado": "PAGADA",
+      "periodoContable": "2024-08",
+      "codigoSuper": "44764",
+      "terceroNit": "79146337",
+      "terceroNombre": "ESCALLON WAINWARING RICARDO",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-09-26",
+          "monto": 2988791,
+          "referencia": "RCJ-365069",
+          "medioPago": "PSE"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-48042",
+      "fecha": "2024-08-22",
+      "concepto": "CANCELACION DE USUFRUCTO DE LA HABITACION 710",
+      "monto": 1980075,
+      "iva": 376214,
+      "total": 2356289,
+      "estado": "PAGADA",
+      "periodoContable": "2024-08",
+      "codigoSuper": "44764",
+      "terceroNit": "800199355",
+      "terceroNombre": "J ESCALLON Y CIA S EN C",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-09-06",
+          "monto": 2356289,
+          "referencia": "RCJ-362824",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-48043",
+      "fecha": "2024-08-22",
+      "concepto": "CANCELACION DE USUFRUCTO HABITACION 1109",
+      "monto": 2511589,
+      "iva": 477202,
+      "total": 2988791,
+      "estado": "PAGADA",
+      "periodoContable": "2024-08",
+      "codigoSuper": "44764",
+      "terceroNit": "800199355",
+      "terceroNombre": "J ESCALLON Y CIA S EN C",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-09-06",
+          "monto": 2988791,
+          "referencia": "RCJ-362825",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "CR-139698",
+      "fecha": "2024-09-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 464553,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-48785",
+      "fecha": "2024-09-27",
+      "concepto": "Intereses Sobre Capital",
+      "monto": 25487,
+      "iva": 4843,
+      "total": 30330,
+      "estado": "PAGADA",
+      "periodoContable": "2024-09",
+      "codigoSuper": "44764",
+      "terceroNit": "79146337",
+      "terceroNombre": "ESCALLON WAINWARING RICARDO",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2024-09-27",
+          "monto": 4843,
+          "referencia": "RCJ-365068",
+          "medioPago": "PSE"
+        },
+        {
+          "fecha": "2024-09-27",
+          "monto": 30330,
+          "referencia": "RCJ-365068",
+          "medioPago": "PSE"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-48785",
+      "fecha": "2024-09-27",
+      "concepto": "Intereses Sobre IVA - No tiene IVA",
+      "monto": 4070,
+      "iva": 773,
+      "total": 4843,
+      "estado": "PAGADA",
+      "periodoContable": "2024-09",
+      "codigoSuper": "44764",
+      "terceroNit": "79146337",
+      "terceroNombre": "ESCALLON WAINWARING RICARDO",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-140657",
+      "fecha": "2024-10-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 427530,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-141582",
+      "fecha": "2024-11-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 392046,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-142479",
+      "fecha": "2024-12-09",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, DICIEMBRE-2024",
+      "monto": 1300000,
+      "iva": 247000,
+      "total": 1547000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2024-12",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1547000,
+      "interesesMora": 358293,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-143369",
+      "fecha": "2025-01-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ENERO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-01",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 354982,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-144608",
+      "fecha": "2025-02-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, FEBRERO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-02",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 320759,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-145194",
+      "fecha": "2025-03-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MARZO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-03",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 288057,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-146191",
+      "fecha": "2025-04-07",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, ABRIL-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-04",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 251131,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-56405",
+      "fecha": "2025-04-10",
+      "concepto": "CANCELACION DE USUFRUCTO EN SUITE 610,615 Y 809 COMISION ESCRITURA 013 TRECE",
+      "monto": 3098016,
+      "iva": 588623,
+      "total": 3686639,
+      "estado": "PAGADA",
+      "periodoContable": "2025-04",
+      "codigoSuper": "44764",
+      "terceroNit": "19448634",
+      "terceroNombre": "RAFAEL FERNANDO ALBORNOZ BUENO",
+      "saldoPendiente": 0,
+      "interesesMora": 0,
+      "recaudos": [
+        {
+          "fecha": "2025-04-23",
+          "monto": 3686639,
+          "referencia": "RCJ-390665",
+          "medioPago": "BANCO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "CR-147122",
+      "fecha": "2025-05-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, MAYO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-05",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 213632,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-148011",
+      "fecha": "2025-06-10",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JUNIO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-06",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 174261,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-148900",
+      "fecha": "2025-07-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, JULIO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-07",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 141792,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-150158",
+      "fecha": "2025-08-08",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, AGOSTO-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-08",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 105390,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-150672",
+      "fecha": "2025-09-05",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, SEPTIEMBRE-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-09",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 72637,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-151626",
+      "fecha": "2025-10-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, OCTUBRE-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-10",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 37156,
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "CR-152495",
+      "fecha": "2025-11-06",
+      "concepto": "COMISION FIDUCIARIA FIJA: 1 SMLV, NOVIEMBRE-2025",
+      "monto": 1423500,
+      "iva": 270465,
+      "total": 1693965,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-11",
+      "codigoSuper": "44764",
+      "terceroNit": "44764",
+      "terceroNombre": "FA-2594 FIDEICOMISO HOTEL URBAN ROYAL 26",
+      "saldoPendiente": 1693965,
+      "interesesMora": 1157,
+      "recaudos": []
+    }
+  ],
+  "conciliaciones": [
+    {
+      "periodo": "2014-07 a 2025-11",
+      "tipo": "AUDITORIA_INICIAL",
+      "estado": "COMPLETADA",
+      "resumen": {
+        "totalAnalizado": 163,
+        "discrepanciasEncontradas": 69,
+        "facturasPagadas": 94,
+        "facturasPendientes": 68,
+        "facturasParciales": 1,
+        "montoTotalCausado": 232955001.73,
+        "montoPendienteRecaudo": 90894362,
+        "tarifaContractual_Cl16_5": "3 SMLMV/mes (mínimo)",
+        "tarifaObservadaDesde2017": "1 SMLMV/mes",
+        "impactoSubfacturacion": 243594662,
+        "impactoCarteraVencida": 90894362,
+        "impactoInteresesMora": 67500000,
+        "impactoTotalEstimado": 401989024
+      },
+      "resultadosConciliacion": []
+    }
+  ],
+  "movimientosContables": [],
+  "resumen_hallazgos": {
+    "total_hallazgos": 16,
+    "distribucion_severidad": {
+      "ALTA": 11,
+      "MEDIA": 4,
+      "BAJA": 1,
+      "INFORMATIVO": 0
+    }
+  }
+}

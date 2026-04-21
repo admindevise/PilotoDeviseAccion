@@ -1,0 +1,2159 @@
+{
+  "fideicomiso": {
+    "codigoPrincipal": "FA-6593",
+    "nombre": "FIDEICOMISO ALTOS DEL TIO CONEJO",
+    "fiduciariaAdmin": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+    "fechaConstitucion": "2018-10-10",
+    "tipologia": "FA",
+    "estado": "ACTIVO",
+    "descripcion": "Fideicomiso de administración y pagos (originalmente constituido como fiducia mercantil en garantía denominado FIDEICOMISO GARANTÍA ALTOS DEL TÍO CONEJO). Transformado a administración y pagos mediante Otrosí Integral suscrito en noviembre 2025. Finalidad: administrar bienes inmuebles y recursos provenientes de operación de crédito externo con LAAD AMERICAS NV como acreedor vinculado, atender servicio de la deuda y mantener fondo de reserva."
+  },
+  "codigosFideicomiso": [
+    {
+      "codigo": "80240",
+      "tipo": "PRINCIPAL",
+      "vigenciaDesde": "2018-10-10",
+      "vigenciaHasta": "2025-11-24",
+      "motivoCambio": "Código original asignado al FIDEICOMISO GARANTÍA ALTOS DEL TIO CONEJO (FG-447) bajo tipología de garantía. Vigente desde constitución hasta migración por Otrosí Integral."
+    },
+    {
+      "codigo": "127817",
+      "tipo": "PRINCIPAL",
+      "vigenciaDesde": "2025-11-24",
+      "vigenciaHasta": null,
+      "motivoCambio": "Nuevo código asignado tras suscripción de Otrosí Integral que transforma el fideicomiso a Administración y Pagos (FA-6593). Oficina: Barranquilla."
+    }
+  ],
+  "fideicomitentes": [
+    {
+      "nombre": "ALTOS DEL TIO CONEJO S.A.S.",
+      "nit": "900545216-8",
+      "tipo": "FIDEICOMITENTE",
+      "vigenciaDesde": "2018-10-10",
+      "documentoFuente": "Contrato de Fiducia Mercantil original / Otrosí Integral 202511112400038165"
+    },
+    {
+      "nombre": "ALTOS DEL TIO CONEJO S.A.S.",
+      "nit": "900545216-8",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2018-10-10",
+      "documentoFuente": "Otrosí Integral 202511112400038165 - Cláusula Décima Primera"
+    },
+    {
+      "nombre": "LAAD AMERICAS NV",
+      "nit": "900850728",
+      "tipo": "BENEFICIARIO",
+      "vigenciaDesde": "2018-10-10",
+      "documentoFuente": "Otrosí Integral 202511112400038165 - Cláusula Vigésima (Acreedor Vinculado)"
+    }
+  ],
+  "documentos": [
+    {
+      "tipo": "OTROSI_FIDUCIA",
+      "formatoOriginal": "PDF",
+      "nombreArchivo": "OTROSI_202511112400038165.pdf",
+      "rutaAlmacenamiento": "/mnt/project/OTROSI_202511112400038165.pdf",
+      "contextoUsuario": null,
+      "clasificacion": {
+        "confidence": 0.98
+      }
+    },
+    {
+      "tipo": "ESTADO_CUENTA_COMISIONES",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "ESTADO_CUENTAS_80240.xlsx",
+      "rutaAlmacenamiento": "/mnt/project/ESTADO_CUENTAS_80240.xlsx",
+      "contextoUsuario": "Estado de cuenta de comisiones del código SuperFinanciera 80240 (FG-447). Generado 24-11-2025.",
+      "clasificacion": {
+        "confidence": 0.99
+      }
+    },
+    {
+      "tipo": "ESTADO_CUENTA_COMISIONES",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "ESTADO_CUENTAS_127817.xlsx",
+      "rutaAlmacenamiento": "/mnt/project/ESTADO_CUENTAS_127817.xlsx",
+      "contextoUsuario": "Estado de cuenta de comisiones del código SuperFinanciera 127817 (FA-6593). Generado 24-11-2025.",
+      "clasificacion": {
+        "confidence": 0.99
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "AuxiliarContable80240.txt",
+      "rutaAlmacenamiento": "/mnt/project/AuxiliarContable80240.txt",
+      "contextoUsuario": "Auxiliar contable del ERP Legacy para código 80240. Período: 2020 en adelante.",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "AuxiliarContable80240_Sifi.txt",
+      "rutaAlmacenamiento": "/mnt/project/AuxiliarContable80240_Sifi.txt",
+      "contextoUsuario": "Auxiliar contable del ERP SIFI para código 80240. Período: agosto 2024 en adelante.",
+      "clasificacion": {
+        "confidence": 0.95
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "AuxiliarContable127817.txt",
+      "rutaAlmacenamiento": "/mnt/project/AuxiliarContable127817.txt",
+      "contextoUsuario": "Auxiliar contable del ERP Legacy para código 127817. Solo registros de noviembre 2025.",
+      "clasificacion": {
+        "confidence": 0.9
+      }
+    },
+    {
+      "tipo": "AUXILIAR_CONTABLE",
+      "formatoOriginal": "XLSX",
+      "nombreArchivo": "AuxiliarContable127817_sifi.txt",
+      "rutaAlmacenamiento": "/mnt/project/AuxiliarContable127817_sifi.txt",
+      "contextoUsuario": "Auxiliar contable del ERP SIFI para código 127817. Solo registros de noviembre 2025.",
+      "clasificacion": {
+        "confidence": 0.9
+      }
+    }
+  ],
+  "contratos": [
+    {
+      "tipo": "CONTRATO_FIDUCIA",
+      "numero": "S/N",
+      "fechaFirma": "2018-10-10",
+      "fechaVigencia": "2018-10-10",
+      "resumen": "Contrato de Fiducia Mercantil en Garantía constitutivo del FIDEICOMISO GARANTÍA ALTOS DEL TÍO CONEJO. Comisión mensual: 1.5 SMLV. Comisión estructuración: $2,000,000 COP. Inmuebles fideicomitidos con folios de matrícula 100-74864, 100-55647, 100-92794, 100-92727, 100-90477, 100-92804, 100-23631 y 100-86627.",
+      "partes": [
+        {
+          "nombre": "ALTOS DEL TIO CONEJO S.A.S.",
+          "rol": "FIDEICOMITENTE"
+        },
+        {
+          "nombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+          "rol": "FIDUCIARIA"
+        }
+      ]
+    },
+    {
+      "tipo": "OTROSI_FIDUCIA",
+      "numero": "202511112400038165",
+      "fechaFirma": "2025-11-07",
+      "fechaVigencia": "2025-11-07",
+      "resumen": "Otrosí Integral que transforma el contrato de fiducia mercantil en garantía a un contrato de fiducia mercantil de administración y pagos. Cambia denominación a FIDEICOMISO ALTOS DEL TIO CONEJO. Nueva comisión por modificación: $8,000,000 COP (única vez). Nueva comisión mensual: 2 SMLMV con incremento anual por IPC. Incluye comisiones eventuales por incumplimiento (10 SMLMV), venta de inmuebles (3% o 1%), giros al exterior ($1,000,000/USD 100,000), cesiones (1 SMLMV), acompañamiento procesal (5 SMLMV), revisión documentos (1 SMMLV), y cesión posición fiduciaria (3 SMMLV).",
+      "partes": [
+        {
+          "nombre": "ALTOS DEL TIO CONEJO S.A.S.",
+          "rol": "FIDEICOMITENTE"
+        },
+        {
+          "nombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+          "rol": "FIDUCIARIA"
+        }
+      ]
+    }
+  ],
+  "reglasComision": [
+    {
+      "tipo": "INICIAL_ESTRUCTURACION",
+      "nombre": "Comisión por estructuración - Contrato Original",
+      "formula": "$2,000,000 COP + IVA",
+      "formulaDetalle": {
+        "base": "FIJO",
+        "multiplicador": 2000000,
+        "tipo": "PESOS"
+      },
+      "periodicidad": "UNICA",
+      "condiciones": "Pagadera al momento de suscripción del contrato original",
+      "clausulaFuente": "Inferida del Estado de Cuentas FA-20947",
+      "documentoFuente": "Contrato de Fiducia original (Oct 2018)",
+      "vigenciaDesde": "2018-10-10",
+      "vigenciaHasta": "2025-11-06",
+      "confianzaExtraccion": 0.85
+    },
+    {
+      "tipo": "ADMINISTRACION_MENSUAL",
+      "nombre": "Comisión fija mensual 1.5 SMLV",
+      "formula": "1.5 × SMLMV_vigente + IVA 19%",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 1.5,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Pagadera mensualmente desde la constitución del fideicomiso",
+      "clausulaFuente": "Contrato original - Cláusula de Remuneración",
+      "documentoFuente": "Contrato de Fiducia original (Oct 2018)",
+      "vigenciaDesde": "2018-10-10",
+      "vigenciaHasta": "2025-11-06",
+      "confianzaExtraccion": 0.9
+    },
+    {
+      "tipo": "INICIAL_ESTRUCTURACION",
+      "nombre": "Comisión por estructuración y modificación - Otrosí Integral",
+      "formula": "$8,000,000 COP + IVA 19%",
+      "formulaDetalle": {
+        "base": "FIJO",
+        "multiplicador": 8000000,
+        "tipo": "PESOS"
+      },
+      "periodicidad": "UNICA",
+      "condiciones": "Pagadera por una sola vez al momento de suscripción del Otrosí Integral",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 1.1",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "ADMINISTRACION_MENSUAL",
+      "nombre": "Comisión mensual 2 SMLMV con incremento IPC",
+      "formula": "2 × SMLMV_vigente + IVA 19%. Incremento anual = IPC año anterior. Incluye hasta 5 giros nacionales/mes. Giro adicional: $60,000 COP.",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 2,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Pagadera desde la fecha de firma del Otrosí hasta la liquidación del fideicomiso. Incluye administración de bienes inmuebles.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 2.1.1",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.98
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por incumplimiento servicio de la deuda",
+      "formula": "10 × SMLMV_vigente + IVA 19% mensual",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 10,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Aplica al primer requerimiento de incumplimiento por parte del Acreedor Vinculado. Cesa al subsanarse el incumplimiento.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.1",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "VARIABLE_MONETIZACION",
+      "nombre": "Comisión por venta de inmuebles (gestionada por fiduciaria)",
+      "formula": "3% × valor_de_venta + IVA 19%",
+      "formulaDetalle": {
+        "base": "PORCENTAJE_VENTA",
+        "multiplicador": 0.03,
+        "tipo": "PORCENTUAL"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Aplica cuando el comprador sea gestionado por la fiduciaria.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.2",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "VARIABLE_MONETIZACION",
+      "nombre": "Comisión por venta de inmuebles (gestionada por tercero) o dación en pago",
+      "formula": "1% × valor_de_transferencia + IVA 19%",
+      "formulaDetalle": {
+        "base": "PORCENTAJE_VENTA",
+        "multiplicador": 0.01,
+        "tipo": "PORCENTUAL"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Aplica cuando la venta sea gestionada por persona diferente a la fiduciaria o en caso de dación en pago al acreedor vinculado.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.2",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por recepción/giro de recursos del exterior",
+      "formula": "$1,000,000 COP por cada USD 100,000 o fracción + IVA 19%",
+      "formulaDetalle": {
+        "base": "FIJO_POR_TRAMO",
+        "multiplicador": 1000000,
+        "tipo": "PESOS_POR_USD100K"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Pagaderos de manera previa a la realización del giro o recepción.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.3",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "SUSCRIPCION_OTROSI",
+      "nombre": "Comisión por suscripción de otrosí",
+      "formula": "Según pacto previo entre las partes",
+      "formulaDetalle": {
+        "base": "VARIABLE",
+        "multiplicador": 0,
+        "tipo": "PACTADO"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Se generará por la suscripción de cada otrosí; valor a pactar previamente.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.4",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.95
+    },
+    {
+      "tipo": "ACOMPANAMIENTO_PROCESAL",
+      "nombre": "Comisión por acompañamiento procesal",
+      "formula": "5 × SMLMV_vigente + IVA 19% mensual",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 5,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Aplica cuando el fideicomiso o la fiduciaria sean demandados o deban iniciar proceso judicial. Fideicomitente debe contratar abogados.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.5",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "CESION_DERECHOS",
+      "nombre": "Comisión por registro de cesión de fideicomitente-beneficiario",
+      "formula": "1 × SMLMV_vigente + IVA 19%",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 1,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Por cada cesión registrada. Si la cesión es a título de dación en pago, aplica comisión del numeral 3.2 (1%).",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.6",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por revisión/suscripción de documentos",
+      "formula": "1 × SMMLV_vigente + IVA 19%",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 1,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Aplica para poderes, certificaciones, coadyuvancias, memoriales, etc. Pago previo a la revisión o suscripción.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.7",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "OTRA",
+      "nombre": "Comisión por cesión de posición contractual de la fiduciaria",
+      "formula": "3 × SMMLV_vigente + IVA 19%",
+      "formulaDetalle": {
+        "base": "SMLMV",
+        "multiplicador": 3,
+        "tipo": "SALARIOS_MINIMOS"
+      },
+      "periodicidad": "POR_EVENTO",
+      "condiciones": "Aplica cuando Acción Fiduciaria ceda su posición contractual a otra sociedad fiduciaria.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.8",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.97
+    },
+    {
+      "tipo": "COMISION_FONDOS",
+      "nombre": "Comisión por fondos de inversión",
+      "formula": "Según reglamentos del fondo (Fondo Acción Uno / Acción 1525)",
+      "formulaDetalle": {
+        "base": "REGLAMENTO_FONDO",
+        "multiplicador": 0,
+        "tipo": "VARIABLE"
+      },
+      "periodicidad": "MENSUAL",
+      "condiciones": "Aplica mientras existan recursos invertidos en los Fondos administrados por Acción Fiduciaria.",
+      "clausulaFuente": "Cláusula Vigésimo Sexta, numeral 3.9",
+      "documentoFuente": "Otrosí Integral 202511112400038165",
+      "vigenciaDesde": "2025-11-07",
+      "vigenciaHasta": null,
+      "confianzaExtraccion": 0.95
+    }
+  ],
+  "convencionesFideicomiso": [
+    {
+      "tipo": "CONTABLE",
+      "nombre": "Flujo contable de comisión fiduciaria - Código 80240 (Legacy)",
+      "descripcion": "En el ERP Legacy, la comisión se contabiliza como cargo a cuenta 35101002009 (COMISION FIDUCIARIA) con contrapartida en 25011501001 (COMISION POR ADMINISTRACION). El pago sale de 13020501001 (FONDO COMUN ORDINARIO) vía egreso sin cheque. Se evidencia causación directa al gasto sin paso por anticipo.",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "35101002009",
+        "cuentaAnticipo": "25011501001"
+      },
+      "vigenciaDesde": "2018-10-10",
+      "vigenciaHasta": "2024-08-31",
+      "registradoPor": "SISTEMA-AUDITORIA-INICIAL"
+    },
+    {
+      "tipo": "CONTABLE",
+      "nombre": "Flujo contable de comisión fiduciaria - Código 80240 (SIFI)",
+      "descripcion": "En la migración al ERP SIFI (agosto 2024), se realizó un cargue de saldos iniciales con un saldo de comisión fiduciaria de $9,664,905 en cuenta 35101002009. No se observan nuevos movimientos de causación de comisión en este código durante el período SIFI; la comisión se factura y recauda a nivel corporativo.",
+      "parametros": {
+        "flujoContable": "EXTERNO",
+        "cuentaComision": "35101002009",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2024-08-31",
+      "vigenciaHasta": null,
+      "registradoPor": "SISTEMA-AUDITORIA-INICIAL"
+    },
+    {
+      "tipo": "OPERATIVA",
+      "nombre": "Cambio de tipología y código por Otrosí Integral",
+      "descripcion": "El fideicomiso cambió de tipología FG (Garantía, código 80240, FG-447) a FA (Administración y Pagos, código 127817, FA-6593) en noviembre 2025. La contabilidad del nuevo código muestra solo movimientos de transferencia de bienes inmuebles (restituciones). No se evidencia causación contable de la comisión en los auxiliares del código 127817.",
+      "parametros": {
+        "flujoContable": "EXTERNO",
+        "cuentaComision": "N/A",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2025-11-24",
+      "vigenciaHasta": null,
+      "registradoPor": "SISTEMA-AUDITORIA-INICIAL"
+    },
+    {
+      "tipo": "OPERATIVA",
+      "nombre": "Facturación masiva retroactiva de comisiones adeudadas",
+      "descripcion": "Se detecta patrón de facturación acumulada: (1) En enero 2022 se facturaron 10 meses atrasados (abr-2020 a feb-2021). (2) En agosto 2021 se facturaron 4 meses atrasados (jul-oct 2020). (3) En enero 2025 se facturó un bloque de 47 meses (mar-2021 a ene-2025) por $92,871,338 en una sola factura FC70-53857. Esto indica períodos prolongados sin facturación oportuna.",
+      "parametros": {
+        "flujoContable": "DIRECTO",
+        "cuentaComision": "N/A",
+        "cuentaAnticipo": "N/A"
+      },
+      "vigenciaDesde": "2020-04-01",
+      "vigenciaHasta": null,
+      "registradoPor": "SISTEMA-AUDITORIA-INICIAL"
+    }
+  ],
+  "movimientosContables": [
+    {
+      "origenERP": "SIFI",
+      "fecha": "2024-08-31",
+      "cuenta": "35101002009",
+      "nombreCuenta": "COMISION FIDUCIARIA",
+      "terceroNit": "800155413",
+      "terceroNombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+      "tipoComprobante": "906",
+      "numeroComprobante": "1444",
+      "concepto": "CARGUE DE SALDOS INICIALES",
+      "debito": 9664905,
+      "credito": 0,
+      "saldo": 9664905,
+      "periodoContable": "2024-08"
+    },
+    {
+      "origenERP": "LEGACY",
+      "fecha": "2022-04-29",
+      "cuenta": "35101002009",
+      "nombreCuenta": "COMISION FIDUCIARIA",
+      "terceroNit": "800155413",
+      "terceroNombre": "ACCION SOCIEDAD FIDUCIARIA S.A.",
+      "tipoComprobante": "906",
+      "numeroComprobante": "136",
+      "concepto": "PAGO COMISION FIDUCIARIA FACT NO FC20-28687",
+      "debito": 74105,
+      "credito": 0,
+      "saldo": 0,
+      "periodoContable": "2022-04"
+    }
+  ],
+  "facturas": [
+    {
+      "numeroFactura": "FA-20947",
+      "fecha": "2018-10-22",
+      "concepto": "COMISION FIDUCIARIA POR ESTRUCTURACION DE: 2000000 VALOR CORRESPONDIENTE A: OCTUBRE-2018",
+      "monto": 2000000,
+      "iva": 380000,
+      "total": 2380000,
+      "estado": "PAGADA",
+      "periodoContable": "2018-10",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2018-11-30",
+          "monto": 2380000,
+          "referencia": "RCJ-163352",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FA-20948",
+      "fecha": "2018-10-22",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, OCTUBRE-2018",
+      "monto": 820304,
+      "iva": 155858,
+      "total": 976162,
+      "estado": "PAGADA",
+      "periodoContable": "2018-10",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-01-31",
+          "monto": 976162,
+          "referencia": "RCJ-168664",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FA-21108",
+      "fecha": "2018-11-08",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, NOVIEMBRE-2018",
+      "monto": 1171863,
+      "iva": 222654,
+      "total": 1394517,
+      "estado": "PAGADA",
+      "periodoContable": "2018-11",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2018-11-30",
+          "monto": 1394517,
+          "referencia": "RCJ-163353",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FA-21357",
+      "fecha": "2018-11-12",
+      "concepto": "COMISIÓN POR MONETIZACÓN",
+      "monto": 981023,
+      "iva": 186394,
+      "total": 1167417,
+      "estado": "PAGADA",
+      "periodoContable": "2018-11",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-01-31",
+          "monto": 1167417,
+          "referencia": "RCJ-168665",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FA-21775",
+      "fecha": "2018-12-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, DICIEMBRE-2018",
+      "monto": 1171863,
+      "iva": 222654,
+      "total": 1394517,
+      "estado": "PAGADA",
+      "periodoContable": "2018-12",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-01-31",
+          "monto": 1394517,
+          "referencia": "RCJ-168666",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FA-22188",
+      "fecha": "2019-01-09",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ENERO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-01",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-01-31",
+          "monto": 1478187,
+          "referencia": "RCJ-168667",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FA-22625",
+      "fecha": "2019-02-08",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, FEBRERO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-02",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-05-23",
+          "monto": 1478187,
+          "referencia": "RCJ-179007",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-378",
+      "fecha": "2019-03-20",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MARZO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-03",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-04-30",
+          "monto": 800000,
+          "referencia": "RCJ-177243",
+          "medioPago": "ACH"
+        },
+        {
+          "fecha": "2019-07-19",
+          "monto": 678187,
+          "referencia": "RCJ-184017",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-762",
+      "fecha": "2019-04-09",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ABRIL-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-04",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-07-19",
+          "monto": 1478187,
+          "referencia": "RCJ-184018",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-1927",
+      "fecha": "2019-06-10",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MAYO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-05",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-06-10",
+          "monto": 1478187,
+          "referencia": "SAF-8900",
+          "medioPago": "AJUSTE_SALDO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-2359",
+      "fecha": "2019-06-10",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, JUNIO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-06",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-07-19",
+          "monto": 1478187,
+          "referencia": "RCJ-184019",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-3089",
+      "fecha": "2019-07-19",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, JULIO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-07",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-11-30",
+          "monto": 1478187,
+          "referencia": "RCJ-196250",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-3386",
+      "fecha": "2019-08-08",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, AGOSTO-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-08",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-12-23",
+          "monto": 1478187,
+          "referencia": "RCJ-197515",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-3906",
+      "fecha": "2019-09-06",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, SEPTIEMBRE-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-09",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-12-30",
+          "monto": 1478187,
+          "referencia": "RCJ-198806",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-4736",
+      "fecha": "2019-10-09",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, OCTUBRE-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-10",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-12-30",
+          "monto": 1478187,
+          "referencia": "RCJ-198810",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-6170",
+      "fecha": "2019-12-31",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, NOVIEMBRE-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-11",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-12-30",
+          "monto": 1478187,
+          "referencia": "RCJ-198805",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-6171",
+      "fecha": "2019-12-31",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, DICIEMBRE-2019",
+      "monto": 1242174,
+      "iva": 236013,
+      "total": 1478187,
+      "estado": "PAGADA",
+      "periodoContable": "2019-12",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2019-12-30",
+          "monto": 1478187,
+          "referencia": "RCJ-198809",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-6282",
+      "fecha": "2020-01-10",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ENERO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-01",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2020-07-08",
+          "monto": 1566879,
+          "referencia": "RCJ-212999",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-6809",
+      "fecha": "2020-02-10",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, FEBRERO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-02",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2021-02-16",
+          "monto": 1566879,
+          "referencia": "RCJ-230999",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-7375",
+      "fecha": "2020-03-09",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MARZO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-03",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 1566879,
+          "referencia": "RCJ-263046",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-22068",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ABRIL-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-04",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 1566879,
+          "referencia": "RCJ-263047",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-22069",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MAYO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-05",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 1566879,
+          "referencia": "RCJ-263048",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-22070",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, JUNIO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-06",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 1566879,
+          "referencia": "RCJ-263049",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-24291",
+      "fecha": "2021-08-12",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, JULIO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-07",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2021-08-12",
+          "monto": 1566879,
+          "referencia": "RCJ-246932",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-24292",
+      "fecha": "2021-08-12",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, AGOSTO-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-08",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2021-08-12",
+          "monto": 1566879,
+          "referencia": "RCJ-246933",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-24293",
+      "fecha": "2021-08-12",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, SEPTIEMBRE-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-09",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2021-08-12",
+          "monto": 1566879,
+          "referencia": "RCJ-246934",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-24294",
+      "fecha": "2021-08-12",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, OCTUBRE-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-10",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2021-08-12",
+          "monto": 299363,
+          "referencia": "RCJ-246935",
+          "medioPago": "ACH"
+        },
+        {
+          "fecha": "2022-01-13",
+          "monto": 1267516,
+          "referencia": "RCJ-263045",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-28684",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, NOVIEMBRE-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-11",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 1566879,
+          "referencia": "RCJ-263043",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-28685",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, DICIEMBRE-2020",
+      "monto": 1316705,
+      "iva": 250174,
+      "total": 1566879,
+      "estado": "PAGADA",
+      "periodoContable": "2020-12",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 1566879,
+          "referencia": "RCJ-263044",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-28686",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ENERO-2021",
+      "monto": 1362789,
+      "iva": 258930,
+      "total": 1621719,
+      "estado": "PAGADA",
+      "periodoContable": "2021-01",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-01-31",
+          "monto": 1621719,
+          "referencia": "RCJ-381079",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-28687",
+      "fecha": "2022-01-13",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, FEBRERO-2021",
+      "monto": 1362789,
+      "iva": 258930,
+      "total": 1621719,
+      "estado": "PAGADA",
+      "periodoContable": "2021-02",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-05-03",
+          "monto": 74105,
+          "referencia": "RCJ-273629",
+          "medioPago": "ACH"
+        },
+        {
+          "fecha": "2025-01-31",
+          "monto": 1547614,
+          "referencia": "RCJ-381080",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-62189",
+      "fecha": "2025-02-07",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MARZO-2021",
+      "monto": 1362789,
+      "iva": 258930,
+      "total": 1621719,
+      "estado": "PAGADA",
+      "periodoContable": "2021-03",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-02-17",
+          "monto": 1621719,
+          "referencia": "NC2-6008",
+          "medioPago": "NOTA_CREDITO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-62190",
+      "fecha": "2025-02-07",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ABRIL-2021",
+      "monto": 1362789,
+      "iva": 258930,
+      "total": 1621719,
+      "estado": "PAGADA",
+      "periodoContable": "2021-04",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-02-17",
+          "monto": 1621719,
+          "referencia": "NC2-6009",
+          "medioPago": "NOTA_CREDITO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC20-28688",
+      "fecha": "2022-01-13",
+      "concepto": "INTERESES DE MORA",
+      "monto": 538119,
+      "iva": 0,
+      "total": 538119,
+      "estado": "PAGADA",
+      "periodoContable": "2022-01",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2022-01-13",
+          "monto": 538119,
+          "referencia": "SAF-14279",
+          "medioPago": "AJUSTE_SALDO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-53806",
+      "fecha": "2025-01-31",
+      "concepto": "INTERES DE MORA",
+      "monto": 6459328,
+      "iva": 0,
+      "total": 6459328,
+      "estado": "PAGADA",
+      "periodoContable": "2025-01",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-01-31",
+          "monto": 6459328,
+          "referencia": "RCJ-381081",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-53857",
+      "fecha": "2025-01-31",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MARZO 2021 HASTA ENERO 2025",
+      "monto": 78043141,
+      "iva": 14828197,
+      "total": 92871338,
+      "estado": "PAGADA",
+      "periodoContable": "2025-01",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-01-31",
+          "monto": 92871338,
+          "referencia": "RCJ-381082",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-54165",
+      "fecha": "2025-02-07",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, FEBRERO-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PAGADA",
+      "periodoContable": "2025-02",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-02-10",
+          "monto": 1,
+          "referencia": "SAF-23384",
+          "medioPago": "AJUSTE_SALDO"
+        },
+        {
+          "fecha": "2025-02-28",
+          "monto": 2540947,
+          "referencia": "RCJ-384887",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-55046",
+      "fecha": "2025-03-07",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MARZO-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PAGADA",
+      "periodoContable": "2025-03",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-03-10",
+          "monto": 1,
+          "referencia": "SAF-23657",
+          "medioPago": "AJUSTE_SALDO"
+        },
+        {
+          "fecha": "2025-04-25",
+          "monto": 2540947,
+          "referencia": "RCJ-390977",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-56087",
+      "fecha": "2025-04-07",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, ABRIL-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PAGADA",
+      "periodoContable": "2025-04",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-04-28",
+          "monto": 1,
+          "referencia": "SAF-24040",
+          "medioPago": "AJUSTE_SALDO"
+        },
+        {
+          "fecha": "2025-08-15",
+          "monto": 2540947,
+          "referencia": "RCJ-405774",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-57090",
+      "fecha": "2025-05-08",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, MAYO-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PAGADA",
+      "periodoContable": "2025-05",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-08-15",
+          "monto": 2540948,
+          "referencia": "RCJ-405775",
+          "medioPago": "ACH"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-58048",
+      "fecha": "2025-06-10",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, JUNIO-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PAGADA",
+      "periodoContable": "2025-06",
+      "codigoSuper": "80240",
+      "recaudos": [
+        {
+          "fecha": "2025-08-15",
+          "monto": 2540947.5,
+          "referencia": "RCJ-405776",
+          "medioPago": "ACH"
+        },
+        {
+          "fecha": "2025-08-31",
+          "monto": 0.5,
+          "referencia": "NCT-4226",
+          "medioPago": "NOTA_CREDITO"
+        }
+      ]
+    },
+    {
+      "numeroFactura": "FC70-60547",
+      "fecha": "2025-08-20",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, JULIO-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-07",
+      "codigoSuper": "80240",
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-60548",
+      "fecha": "2025-08-20",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, AGOSTO-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-08",
+      "codigoSuper": "80240",
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-61020",
+      "fecha": "2025-09-05",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, SEPTIEMBRE-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-09",
+      "codigoSuper": "80240",
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-62148",
+      "fecha": "2025-10-06",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, OCTUBRE-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-10",
+      "codigoSuper": "80240",
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-63138",
+      "fecha": "2025-11-06",
+      "concepto": "COMISION FIJA MENSUAL: 1.5 SMLV, NOVIEMBRE-2025",
+      "monto": 2135250,
+      "iva": 405698,
+      "total": 2540948,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-11",
+      "codigoSuper": "80240",
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-63567",
+      "fecha": "2025-11-24",
+      "concepto": "COMISION FIDUCIARIA POR ESTRUCTURACION DE: 8000000 VALOR CORRESPONDIENTE A: NOVIEMBRE-2025",
+      "monto": 8000000,
+      "iva": 1520000,
+      "total": 9520000,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-11",
+      "codigoSuper": "127817",
+      "recaudos": []
+    },
+    {
+      "numeroFactura": "FC70-63568",
+      "fecha": "2025-11-24",
+      "concepto": "COMISION FIJA MENSUAL: 2 SMLV, NOVIEMBRE-2025",
+      "monto": 1898000,
+      "iva": 360620,
+      "total": 2258620,
+      "estado": "PENDIENTE",
+      "periodoContable": "2025-11",
+      "codigoSuper": "127817",
+      "recaudos": []
+    }
+  ],
+  "conciliaciones": [
+    {
+      "periodo": "2018-10 a 2025-11",
+      "tipo": "AUDITORIA_INICIAL",
+      "estado": "COMPLETADA",
+      "resumen": {
+        "totalAnalizado": 85,
+        "discrepanciasEncontradas": 6
+      },
+      "resultadosConciliacion": [
+        {
+          "periodo": "2018-10",
+          "estado": "CONCILIADO",
+          "montoEsperado": 3356162,
+          "montoRegistrado": 3356162,
+          "discrepancia": 0,
+          "confianza": 0.95,
+          "evidencia": {
+            "fuenteRegla": "Contrato original: Estructuración $2M + 1.5 SMLV Oct-2018 parcial",
+            "fuenteContable": "Estado Cuentas 80240: FA-20947 + FA-20948"
+          },
+          "razonamiento": "Comisión de estructuración ($2,380,000 inc IVA) + comisión mensual parcial octubre ($976,162 inc IVA). SMLMV 2018 = $781,242. 1.5 × $781,242 = $1,171,863. La factura de octubre cubre un período parcial (22-31 oct). Montos concilian con recaudos.",
+          "variableMacro": {
+            "codigo": "SMMLV",
+            "valor": 781242,
+            "anio": 2018
+          }
+        },
+        {
+          "periodo": "2025-02",
+          "estado": "CONCILIADO",
+          "montoEsperado": 2540948,
+          "montoRegistrado": 2540948,
+          "discrepancia": 0,
+          "confianza": 0.99,
+          "evidencia": {
+            "fuenteRegla": "Contrato original: 1.5 SMLMV 2025",
+            "fuenteContable": "Estado Cuentas 80240: FC70-54165"
+          },
+          "razonamiento": "1.5 × SMLMV 2025 ($1,423,500) = $2,135,250 + IVA 19% ($405,698) = $2,540,948. Factura coincide exactamente. Pagada en su totalidad.",
+          "variableMacro": {
+            "codigo": "SMMLV",
+            "valor": 1423500,
+            "anio": 2025
+          }
+        },
+        {
+          "periodo": "2025-11",
+          "estado": "DISCREPANCIA",
+          "montoEsperado": 3387930,
+          "montoRegistrado": 2258620,
+          "discrepancia": -1129310,
+          "confianza": 0.75,
+          "evidencia": {
+            "fuenteRegla": "Otrosí Integral: 2 SMLMV + IVA 19%",
+            "fuenteContable": "Estado Cuentas 127817: FC70-63568"
+          },
+          "razonamiento": "Según Otrosí Integral, la comisión mensual es 2 × SMLMV 2025 ($1,423,500) = $2,847,000 + IVA 19% = $3,387,930. Sin embargo, la factura FC70-63568 registra $2,258,620. Diferencia de -$1,129,310. Posible prorrateo por firma del Otrosí el 7-nov-2025 (24 de 30 días), lo que daría $2,847,000 × 24/30 = $2,277,600 + IVA = $2,710,344, que tampoco coincide. Requiere verificación del cálculo aplicado.",
+          "variableMacro": {
+            "codigo": "SMMLV",
+            "valor": 1423500,
+            "anio": 2025
+          }
+        }
+      ]
+    }
+  ],
+  "hallazgos": [
+    {
+      "id": "H-001",
+      "tipo": "COMISION_NO_RECAUDADA",
+      "categoria": "REVENUE",
+      "estado": "ABIERTO",
+      "severidad": "CRITICO",
+      "area": "FACTURACION",
+      "titulo": "Comisiones fiduciarias pendientes de cobro consolidadas — códigos 80240 y 127817",
+      "descripcion_operativa": "Se identificaron comisiones fiduciarias causadas y no cobradas por un total consolidado de $24,483,360 COP, distribuidas así: código 80240 (FG-447) acumula $12,704,740 en 5 facturas mensuales de julio a noviembre 2025 (FC70-60547, FC70-60548, FC70-61020, FC70-62148, FC70-63138, cada una por $2,540,948 a tarifa de 1.5 SMLMV + IVA 19%), más $435,085 en intereses de mora calculados al 24-nov-2025, para un subtotal exigible de $13,139,825. El código 127817 (FA-6593) acumula $11,778,620 en 2 facturas: FC70-63567 por comisión de estructuración ($9,520,000 = $8,000,000 + IVA 19%) y FC70-63568 por comisión mensual noviembre ($2,258,620 = 2 SMLMV + IVA), ambas emitidas el 24-nov-2025 y sin ningún recaudo registrado. El patrón de impago del fideicomitente Altos del Tío Conejo S.A.S. (NIT 900545216-8) es recurrente: históricamente ha acumulado deuda por meses o años antes de pagar en bloques masivos. El último pago masivo fue en enero 2025 por $99,330,666. Desde entonces, las facturas de febrero a junio 2025 se pagaron con demora promedio de 2-4 meses, y a partir de julio 2025 no se ha recibido ningún pago.",
+      "regla_citada": "Cláusula Vigésimo Sexta del Otrosí Integral 202511112400038165 — numerales 1.1 (estructuración: $8,000,000), 2.1.1 (mensual: 2 SMLMV). Parágrafo Segundo (mora: intereses a tasa máxima legal). Parágrafo Quinto (solidaridad fideicomiso + fideicomitente). Parágrafo Sexto (mérito ejecutivo de certificación).",
+      "variable_aplicada": "SMLMV 2025 = $1,423,500; IVA = 19%; Multiplicador código 80240: 1.5 SMLMV; Multiplicador código 127817: 2 SMLMV; Estructuración: $8,000,000 fijo.",
+      "calculo_esperado": {
+        "Código 80240": "5 × (1.5 × $1,423,500 × 1.19) = 5 × $2,540,948 = $12,704,740 + intereses mora $435,085 = $13,139,825.",
+        "Código 127817": "($8,000,000 × 1.19) + (2 × $1,423,500 × 1.19) = $9,520,000 + $2,258,620 = $11,778,620.",
+        "NOTA": "La factura FC70-63568 presenta una discrepancia de $1,129,310 vs el cálculo teórico de $3,387,930."
+      },
+      "evidencia_encontrada": [
+        "Estado de Cuentas 80240: columna 'Saldo Pendiente' muestra $2,540,948 para cada una de las facturas FC70-60547 a FC70-63138.",
+        "Sección de Recaudos no registra ningún pago contra estas facturas.",
+        "Estado de Cuentas 127817: ambas facturas (FC70-63567 y FC70-63568) tienen saldo pendiente igual al total causado ($9,520,000 y $2,258,620 respectivamente).",
+        "Sección de Recaudos vacía.",
+        "Auxiliares contables de ambos códigos no muestran movimientos de pago en cuentas 25011501001 ni 13020501001 para estos períodos."
+      ],
+      "conclusion": "El impago acumulado de $24,483,360 ($24,918,445 incluyendo intereses de mora) representa un riesgo de revenue material. Se recomienda: (1) Activar la prelación de giros (Cl. 21) para descuento automático de la comisión antes de cualquier giro al acreedor vinculado LAAD Americas NV. (2) Emitir certificación ejecutiva (Parágrafo Sexto) para cobro judicial si el pago no se recibe en 30 días. (3) Anular la factura FC70-63138 del código 80240 por doble facturación con FC70-63568 (ver hallazgo aparte), lo que reduciría el pendiente real a $22,377,497. (4) Verificar el cálculo de FC70-63568 contra la fórmula de 2 SMLMV (discrepancia de $1,129,310).",
+      "riesgo": "COMISION NO RECAUDADA",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_80240.xlsx — facturas FC70-60547, FC70-60548, FC70-61020, FC70-62148, FC70-63138 + intereses mora $435,085",
+        "ESTADO_CUENTAS_127817.xlsx — facturas FC70-63567 ($9,520,000) y FC70-63568 ($2,258,620)",
+        "OTROSI_202511112400038165.pdf — Cl. 26 numerales 1.1 y 2.1.1, Parágrafos 2°, 5° y 6°",
+        "Devise Auditoría D1 — confirma el total de $24,483,360 con 3 evidencias documentales"
+      ],
+      "impacto_economico": 24918445,
+      "reglaAplicada": {
+        "version": "Otrosí Integral 202511112400038165 (código 127817) + Contrato Original (código 80240)",
+        "clausula": "Vigésimo Sexta — numeral 1.1 (estructuración), numeral 2.1.1 (mensual), Parágrafo Segundo (mora)",
+        "formula": "Código 80240: 1.5 × SMLMV × 1.19 por mes. Código 127817: 2 × SMLMV × 1.19 (mensual) + $8,000,000 × 1.19 (estructuración única)"
+      },
+      "variableMacro": {
+        "codigo": "SMMLV",
+        "valor": 1423500,
+        "anio": 2025
+      },
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-002",
+      "tipo": "INCONSISTENCIA_FUENTES",
+      "categoria": "CONCILIACION",
+      "estado": "ABIERTO",
+      "severidad": "CRITICO",
+      "area": "FACTURACION",
+      "titulo": "Doble facturación de comisión mensual noviembre 2025 en dos códigos de fideicomiso",
+      "descripcion_operativa": "Se detecta que el período noviembre 2025 tiene facturación de comisión mensual en AMBOS códigos del fideicomiso simultáneamente: (1) Código 80240: factura FC70-63138 por $2,540,948 (fórmula antigua 1.5 SMLMV × $1,423,500 × 1.19), emitida el 06-nov-2025. (2) Código 127817: factura FC70-63568 por $2,258,620 (fórmula nueva 2 SMLMV + IVA), emitida el 24-nov-2025. Ambas se encuentran pendientes de pago y cubren el mismo período (noviembre 2025). Si ambas se cobran, el fideicomitente pagaría $4,799,568 por un solo mes de comisión, cuando el máximo contractualmente exigible es $3,387,930 (2 × $1,423,500 × 1.19). Este hallazgo NO fue detectado por la auditoría externa Devise.",
+      "regla_citada": "Otrosí Integral 202511112400038165 — considerandos: 'el presente otrosí sustituye integralmente el contrato anterior'. Cláusula Vigésimo Sexta numeral 2.1.1: comisión mensual de 2 SMLMV 'pagadera desde la fecha de firma del presente documento'.",
+      "variable_aplicada": "SMLMV 2025 = $1,423,500; IVA = 19%; Fecha firma Otrosí = 07-nov-2025 (Esperanza Cárdenas) / 10-nov-2025 (Mauricio Bustillo); Fecha FC70-63138 = 06-nov-2025 (UN DÍA ANTES de la firma).",
+      "calculo_esperado": {
+        "Regla Validada": "A partir del 07-nov-2025, solo debe aplicar la comisión de 2 SMLMV del código 127817.",
+        "Problema FC70-63138": "La factura FC70-63138 del código 80240 se emitió el 06-nov-2025 (antes de la firma), pero cubre todo noviembre 2025. Debió anularse o prorratearse.",
+        "Comisión correcta noviembre": "(6/30 × 1.5 × $1,423,500 × 1.19) + (24/30 × 2 × $1,423,500 × 1.19) = $508,190 + $2,710,344 = $3,218,534."
+      },
+      "evidencia_encontrada": [
+        "Estado Cuentas 80240: fila con FC70-63138, fecha 06-nov-2025, saldo pendiente $2,540,948, descripción 'COMISION FIJA MENSUAL: 1.5 SMLV, NOVIEMBRE-2025'.",
+        "Estado Cuentas 127817: fila con FC70-63568, fecha 24-nov-2025, saldo pendiente $2,258,620, descripción 'COMISION FIJA MENSUAL: 2 SMLV, NOVIEMBRE-2025'.",
+        "Ninguna nota crédito ni anulación registrada en ninguno de los dos estados de cuenta."
+      ],
+      "conclusion": "Se requiere acción correctiva inmediata: (1) Opción A — Anular FC70-63138 completamente y ajustar FC70-63568 al valor mensual correcto de $3,387,930. (2) Opción B — Emitir nota crédito parcial contra FC70-63138 dejándola en $508,190 (6 días de noviembre a tarifa antigua) y ajustar FC70-63568 a $2,710,344 (24 días a tarifa nueva). (3) Recomendación: Opción A es más limpia operativamente. El sobrecobro potencial si no se corrige es de $1,411,638 a $2,540,948.",
+      "riesgo": "INCONSISTENCIA FUENTES",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_80240.xlsx — FC70-63138 por $2,540,948 (06-nov-2025)",
+        "ESTADO_CUENTAS_127817.xlsx — FC70-63568 por $2,258,620 (24-nov-2025)",
+        "OTROSI_202511112400038165.pdf — firma electrónica 07-nov-2025 (fideicomitente) y 10-nov-2025 (fiduciaria), considerandos de sustitución integral"
+      ],
+      "impacto_economico": 4799568,
+      "reglaAplicada": {
+        "version": "Otrosí Integral 202511112400038165",
+        "clausula": "Considerandos (sustitución integral) + Vigésimo Sexta numeral 2.1.1",
+        "formula": "2 × SMLMV × 1.19 = 2 × $1,423,500 × 1.19 = $3,387,930 (mensual completo)"
+      },
+      "variableMacro": {
+        "codigo": "SMMLV",
+        "valor": 1423500,
+        "anio": 2025
+      },
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-003",
+      "tipo": "DISCREPANCIA_MONTO",
+      "categoria": "CONCILIACION",
+      "estado": "ABIERTO",
+      "severidad": "CRITICO",
+      "area": "FACTURACION",
+      "titulo": "Monto de comisión mensual 2 SMLMV (código 127817) no coincide con cálculo contractual",
+      "descripcion_operativa": "La factura FC70-63568 del código 127817 cobra la comisión mensual de noviembre 2025 por $2,258,620, pero el cálculo contractual de 2 SMLMV + IVA 19% arroja $3,387,930. La diferencia es de -$1,129,310 (subfacturado en un 33.3%). No existe documentación que justifique un prorrateo, descuento o exoneración parcial. Si se trata de un prorrateo por los 24 días (07-nov a 30-nov), el cálculo sería $3,387,930 × 24/30 = $2,710,344, que tampoco coincide con el monto facturado. Este hallazgo NO fue detectado por la auditoría externa Devise.",
+      "regla_citada": "Otrosí Integral — Cláusula Vigésimo Sexta numeral 2.1.1: 'Una suma mensual equivalente a DOS SALARIOS MÍNIMOS LEGALES MENSUALES VIGENTES (2SMLMV), pagadera desde la fecha de firma del presente documento'.",
+      "variable_aplicada": "SMLMV 2025 = $1,423,500; IVA = 19%; Multiplicador = 2; Fecha firma = 07-nov-2025.",
+      "calculo_esperado": {
+        "Detalle": "Mes completo: 2 × $1,423,500 = $2,847,000 base × 1.19 = $3,387,930 total. Prorrateo 24/30: $3,387,930 × 0.80 = $2,710,344. Prorrateo 17/30 (del 07 al 24-nov, fecha factura): $3,387,930 × 0.567 = $1,919,755. NINGÚN prorrateo razonable produce $2,258,620."
+      },
+      "evidencia_encontrada": [
+        "Estado Cuentas 127817: FC70-63568 muestra comisión causada = $2,258,620, saldo pendiente = $2,258,620, descripción = 'COMISION FIJA MENSUAL: 2 SMLV, NOVIEMBRE-2025'.",
+        "Verificación inversa: $2,258,620 / 1.19 = $1,898,000 base; $1,898,000 / 2 = $949,000.",
+        "Este valor NO corresponde a ningún SMLMV vigente (2025 = $1,423,500; 2024 = $1,300,000).",
+        "Hipótesis alternativa: $2,258,620 / 1.19 / 1.5 = $1,264,064 — tampoco coincide con SMLMV alguno."
+      ],
+      "conclusion": "El monto facturado no es explicable por ninguna combinación razonable de SMLMV vigente, multiplicador contractual ni prorrateo temporal. Se requiere aclaración del área comercial o de facturación para determinar la base de cálculo utilizada. Si es un error, la fiduciaria deja de cobrar $1,129,310 en este mes y potencialmente en todos los meses futuros si el error se replica. Revenue anual en riesgo: $1,129,310 × 12 = $13,551,720.",
+      "riesgo": "DISCREPANCIA MONTO",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_127817.xlsx — FC70-63568 por $2,258,620",
+        "OTROSI_202511112400038165.pdf — Cl. 26 numeral 2.1.1 (2 SMLMV)",
+        "Decreto 2292 de 2023 — SMLMV 2025 = $1,423,500"
+      ],
+      "impacto_economico": 1129310,
+      "reglaAplicada": {
+        "version": "Otrosí Integral 202511112400038165",
+        "clausula": "Vigésimo Sexta numeral 2.1.1",
+        "formula": "2 × SMLMV_2025 × 1.19 = 2 × $1,423,500 × 1.19 = $3,387,930"
+      },
+      "variableMacro": {
+        "codigo": "SMMLV",
+        "valor": 1423500,
+        "anio": 2025
+      },
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-004",
+      "tipo": "ANOMALIA_CONTABLE",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "CRITICO",
+      "area": "CONTABILIDAD",
+      "titulo": "Transferencia contable de 8 inmuebles entre patrimonios autónomos por $110,070,000",
+      "descripcion_operativa": "En noviembre 2025, como parte de la transformación del fideicomiso de Garantía (código 80240) a Administración y Pagos (código 127817), se ejecutó una transferencia contable masiva de 8 bienes inmuebles fideicomitidos ubicados en Manizales, Caldas, por un valor total de $110,070,000 ($13,758,750 por inmueble). La operación se registró mediante 32 asientos contables en comprobante tipo 906 (NOTAS CONTABLES) por el usuario BBENITEZ el 25-nov-2025: en el código 80240 se realizaron 8 créditos a EDIFICIOS (18010401001) y 8 débitos a APORTES EN ESPECIE (35051501001) con concepto 'RESTITUCION A TITULO DE FIDUCIA'; simultáneamente en el código 127817 se registraron 8 débitos a EDIFICIOS y 8 créditos a APORTES EN ESPECIE con concepto 'EDIFICACIONES'. El impacto patrimonial consolidado es NEUTRAL (los inmuebles salen de un código e ingresan al otro), pero la magnitud del movimiento ($110M) y la naturaleza de la operación requieren validación de completitud. Hallazgo identificado por auditoría Devise y validado contra auxiliares contables.",
+      "regla_citada": "Otrosí Integral 202511112400038165 — Cláusula Sexta (Bienes Inmuebles: 8 folios de matrícula) y Cláusula Tercera (Objeto del Contrato: administración de bienes fideicomitidos). Cláusula 23.2 (Práctica de Avalúos: periodicidad bienal). PUC Fiduciario: cuenta 18010401001 (EDIFICIOS) grupo Propiedad Planta y Equipo, cuenta 35051501001 (APORTES EN ESPECIE) grupo Patrimonio.",
+      "variable_aplicada": "8 inmuebles × $13,758,750/inmueble = $110,070,000. Folios de matrícula inmobiliaria: 100-74864, 100-55647, 100-92794, 100-92727, 100-90477, 100-92804, 100-23631, 100-86627. Valor catastral/avalúo vigente desde cargue SIFI ago-2024.",
+      "calculo_esperado": {
+        "Código 80240 Post-transferencia": "saldo EDIFICIOS (18010401001) = $0, saldo APORTES EN ESPECIE (35051501001) = $0.",
+        "Código 127817 Post-transferencia": "saldo EDIFICIOS (18010401001) = $110,070,000 (Db), saldo APORTES EN ESPECIE (35051501001) = -$110,070,000 (Cr).",
+        "Verificación": "saldo inicial 80240 en SIFI (31/08/2024) fue Db $110,070,000 en cuenta 18010401001 y Cr -$110,070,000 en cuenta 35051501001. Restando 8 × $13,758,750 = $110,070,000, el saldo resultante es $0 en ambas cuentas."
+      },
+      "evidencia_encontrada": [
+        "AuxiliarContable80240_Sifi.txt: (a) Cargue saldos iniciales 31/08/2024 — Db 18010401001 $110,070,000, Cr 35051501001 -$110,070,000.",
+        "(b) 25/11/2025 — 8 créditos consecutivos a 18010401001 por $13,758,750 (comprobantes 906, secuencias 2-16, concepto RESTITUCION), 8 débitos a 35051501001 por $13,758,750.",
+        "AuxiliarContable127817_sifi.txt: 25/11/2025 — 8 débitos a 18010401001 por $13,758,750 (concepto EDIFICACIONES/[folio matrícula]), 8 créditos a 35051501001 por -$13,758,750.",
+        "Total: 32 asientos contables, todos por usuario BBENITEZ, todos del 25/11/2025."
+      ],
+      "conclusion": "La transferencia contable está correctamente ejecutada: los débitos y créditos cuadran entre códigos, los 8 predios están individualizados por folio de matrícula, y el saldo residual del código 80240 es $0. Sin embargo, se identifican 2 riesgos residuales: (1) REGISTRO PÚBLICO — No es posible verificar desde los auxiliares contables si las 8 escrituras públicas de transferencia se otorgaron ante la Oficina de Instrumentos Públicos de Manizales. Si no se completó el registro, existiría un descalce entre la contabilidad (inmuebles en código 127817) y la situación jurídica real (titularidad aún en el PA del código 80240). (2) ACTUALIZACIÓN DE AVALÚO — El valor de $13,758,750 por inmueble se mantiene sin cambio desde al menos agosto 2024. La Cláusula 23.2 del Otrosí exige avalúo comercial cada 2 años, autorizado por el Acreedor Vinculado. No se evidencia actualización.",
+      "riesgo": "ANOMALIA CONTABLE",
+      "documentos_fuente": [
+        "AuxiliarContable80240_Sifi.txt — cargue saldos iniciales 31/08/2024 (18010401001 = $110,070,000) + 8 restituciones 25/11/2025",
+        "AuxiliarContable127817_sifi.txt — 8 ingresos EDIFICACIONES 25/11/2025 por $13,758,750 cada uno",
+        "OTROSI_202511112400038165.pdf — Cláusula Sexta (folios matrícula), Cláusula 23.2 (avalúos bienales)",
+        "Devise Auditoría D2 — Reclasificación contable aportes en especie ($110,070,000, 3 evidencias)"
+      ],
+      "impacto_economico": 0,
+      "reglaAplicada": {
+        "version": "PUC Fiduciario + Otrosí Integral",
+        "clausula": "Cuenta 18010401001 (EDIFICIOS), Cuenta 35051501001 (APORTES EN ESPECIE), Cláusula Sexta y 23.2",
+        "formula": "8 predios × $13,758,750 = $110,070,000. Impacto neto = $0 (transferencia neutral)"
+      },
+      "variableMacro": null,
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-005",
+      "tipo": "ANOMALIA_CONTABLE",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "MEDIO",
+      "area": "CONTABILIDAD",
+      "titulo": "Ausencia de causación contable de comisiones en auxiliares del código 127817",
+      "descripcion_operativa": "A pesar de que el código 127817 tiene 2 facturas emitidas por un total de $11,778,620 (FC70-63567 por estructuración $9,520,000 y FC70-63568 por mensual $2,258,620), los auxiliares contables de este código (AuxiliarContable127817.txt y AuxiliarContable127817_sifi.txt) NO registran ningún asiento de causación de comisión fiduciaria. Los únicos movimientos existentes son los 16 asientos de transferencia de inmuebles (8 Db a EDIFICIOS + 8 Cr a APORTES EN ESPECIE). No existe causación en las cuentas esperadas: 35101002009 (COMISION FIDUCIARIA) ni 25011501001 (COMISION POR ADMINISTRACION). Esto podría deberse a que el código fue creado recientemente (noviembre 2025) y la causación de comisiones se procesa a nivel corporativo, pero genera una anomalía en la trazabilidad contable del patrimonio autónomo.",
+      "regla_citada": "Circular Básica Contable CE100/1995 (SFC) — los patrimonios autónomos deben llevar contabilidad separada que refleje todos sus ingresos, egresos, activos, pasivos y patrimonio. La comisión fiduciaria es un gasto del patrimonio autónomo que debe causarse contablemente.",
+      "variable_aplicada": "Cuentas esperadas según precedente del código 80240 en ERP Legacy: Db 35101002009 (COMISION FIDUCIARIA) / Cr 25011501001 (COMISION POR ADMINISTRACION). Tercero esperado: NIT 800155413 (Acción Sociedad Fiduciaria S.A.).",
+      "calculo_esperado": {
+        "FC70-63567 ($9,520,000)": "debió generarse Db 35101002009 $9,520,000 / Cr 25011501001 $9,520,000.",
+        "FC70-63568 ($2,258,620)": "debió generarse Db 35101002009 $2,258,620 / Cr 25011501001 $2,258,620.",
+        "Total causación esperada": "$11,778,620 en ambas cuentas."
+      },
+      "evidencia_encontrada": [
+        "AuxiliarContable127817_sifi.txt contiene SOLO movimientos del 25/11/2025 en cuentas 18010401001 y 35051501001 (transferencia de inmuebles).",
+        "Búsqueda de cadena '35101002009' en el archivo: 0 resultados.",
+        "Búsqueda de '25011501001': 0 resultados.",
+        "Búsqueda de 'COMISION': 0 resultados.",
+        "AuxiliarContable127817.txt (Legacy): archivo sin registros de comisión, solo contiene saldos iniciales de inmuebles."
+      ],
+      "conclusion": "La ausencia de causación contable no significa necesariamente que la comisión no se haya causado. Es posible que en el ERP SIFI, la comisión se registre a nivel corporativo de la fiduciaria y no en los auxiliares del patrimonio autónomo (hipótesis consistente con lo observado en el código 80240 post-migración). Sin embargo, esto viola el principio de contabilidad separada de patrimonios autónomos y dificulta la conciliación contable. Se recomienda verificar con el área de contabilidad si la causación se procesa en un módulo corporativo diferente, y solicitar el cruce con los registros corporativos para cerrar la trazabilidad.",
+      "riesgo": "ANOMALIA CONTABLE",
+      "documentos_fuente": [
+        "AuxiliarContable127817_sifi.txt — solo movimientos de inmuebles, sin causación de comisión",
+        "AuxiliarContable127817.txt — sin registros relevantes de comisión",
+        "ESTADO_CUENTAS_127817.xlsx — confirma facturación por $11,778,620",
+        "AuxiliarContable80240.txt — precedente de causación en Legacy (cuentas 35101002009 y 25011501001)"
+      ],
+      "impacto_economico": 11778620,
+      "reglaAplicada": {
+        "version": "Circular Básica Contable CE100/1995 + PUC Fiduciario",
+        "clausula": "Contabilidad separada de patrimonios autónomos, cuentas 35101002009 y 25011501001",
+        "formula": "Db 35101002009 = Cr 25011501001 = monto factura (base + IVA)"
+      },
+      "variableMacro": null,
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-006",
+      "tipo": "INFORMATIVO",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "MEDIO",
+      "area": "CONTABILIDAD",
+      "titulo": "Migración de sistema contable Legacy a SIFI — riesgo en continuidad de causación de comisiones",
+      "descripcion_operativa": "En agosto 2024 se ejecutó la migración del sistema contable Legacy al ERP SIFI para el fideicomiso código 80240 (FG-447). El sistema Legacy contenía 619 registros contables del período enero 2020 a agosto 2024 y reflejaba un flujo contable completo de comisión fiduciaria (causación en cuentas 35101002009/25011501001, pago en 13020501001, costos bancarios en 51151201001, GMF en 51400501005). El sistema SIFI cargó saldos iniciales el 31-ago-2024, migrando correctamente el saldo de $9,664,905 en cuenta 35101002009 (COMISION FIDUCIARIA) correspondiente a comisiones causadas pendientes de pago. Post-migración, el SIFI acumula 1,005 registros (ago-2024 a nov-2025) pero NO presenta nuevos asientos de causación de comisión fiduciaria, lo que sugiere un cambio en la convención contable donde la comisión se procesa a nivel corporativo y no en los auxiliares del patrimonio autónomo.",
+      "regla_citada": "Circular Básica Contable CE100/1995 — continuidad y consistencia de políticas contables entre períodos. Decreto 2420/2015 — marco normativo contable NIIF. PUC Fiduciario — cuentas clase 3 (Patrimonio) y clase 5 (Gastos) de patrimonios autónomos.",
+      "variable_aplicada": "Sistema Legacy: 619 registros (2020-01 a 2024-08). Sistema SIFI: 1,005 registros (2024-08 a 2025-11). Saldo migrado cuenta 35101002009 = $9,664,905. Fecha corte: 31-ago-2024.",
+      "calculo_esperado": {
+        "Regla General": "Saldo final Legacy en cada cuenta PUC debe ser igual al saldo inicial SIFI.",
+        "Cuenta 35101002009": "verificado $9,664,905 coincide.",
+        "Cuentas de activos (13020501001, 18010401001)": "verificados los saldos iniciales SIFI coinciden con los montos históricos.",
+        "Post-migración": "deberían continuar los asientos de causación mensual de comisión; sin embargo, no se observan nuevos registros en 35101002009 ni 25011501001."
+      },
+      "evidencia_encontrada": [
+        "AuxiliarContable80240.txt (Legacy): último registro de comisión fiduciaria en cuenta 35101002009 con tercero 800155413.",
+        "AuxiliarContable80240_Sifi.txt: cargue saldos iniciales 31/08/2024 con 35101002009 = $9,664,905, sin nuevos movimientos de causación posteriores.",
+        "Devise confirma: 619 registros pre-SIFI + 1,005 post-SIFI = 1,624 total."
+      ],
+      "conclusion": "La migración de saldos es correcta y verificable. El riesgo principal es la DISCONTINUIDAD en la causación contable de comisiones post-migración: desde septiembre 2024 hasta noviembre 2025 (14 meses) no hay nuevos asientos de comisión en los auxiliares del código 80240, a pesar de que se emitieron y cobraron facturas por valor de $109,467,934 en ese período. Esto implica que la conciliación contable del patrimonio autónomo está incompleta y requiere validación con el módulo corporativo del ERP SIFI. Se recomienda solicitar al área de contabilidad el reporte de causaciones corporativas del código 80240 para cruzar con las facturas del estado de cuenta.",
+      "riesgo": "INFORMATIVO",
+      "documentos_fuente": [
+        "AuxiliarContable80240.txt — 619 registros Legacy, flujo completo de comisión",
+        "AuxiliarContable80240_Sifi.txt — 1,005 registros SIFI, cargue saldos iniciales 31/08/2024, saldo 35101002009 = $9,664,905",
+        "ESTADO_CUENTAS_80240.xlsx — facturas feb-2025 a nov-2025 ($109,467,934 post-migración)",
+        "Devise Auditoría D3 — Migración SIFI (2 evidencias, conteo de registros)"
+      ],
+      "impacto_economico": 0,
+      "reglaAplicada": {
+        "version": "Circular Básica Contable CE100/1995 + Decreto 2420/2015",
+        "clausula": "Principio de continuidad contable y contabilidad separada de patrimonios autónomos",
+        "formula": "Saldo final Legacy = Saldo inicial SIFI por cada cuenta PUC"
+      },
+      "variableMacro": null,
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-007",
+      "tipo": "INFORMATIVO",
+      "categoria": "CONSISTENCIA",
+      "estado": "ABIERTO",
+      "severidad": "MEDIO",
+      "area": "OPERATIVA",
+      "titulo": "Transformación contractual del fideicomiso de Garantía a Administración y Pagos — validación de continuidad operativa",
+      "descripcion_operativa": "El fideicomiso se transformó de tipología FG (Garantía, código SFC 80240, código interno FG-447, oficina Dirección General) a tipología FA (Administración y Pagos, código SFC 127817, código interno FA-6593, oficina Barranquilla) mediante Otrosí Integral firmado electrónicamente el 07-nov-2025 (Esperanza Emilia Cárdenas Vinasco, C.C. 24.305.693, representante legal de Altos del Tío Conejo S.A.S.) y el 10-nov-2025 (Mauricio Alberto Bustillo Cabrera, C.C. 1.129.576.322, representante legal de Acción Sociedad Fiduciaria S.A.). El Otrosí sustituye INTEGRALMENTE el contrato original, cambiando la naturaleza del fideicomiso de irrevocable de garantía a irrevocable de administración y pagos, con objeto ampliado que incluye administración de bienes y recursos, servicio de la deuda a LAAD Americas NV, fondo de reserva, y explotación económica de los inmuebles. Se creó el código 127817 en la Superintendencia Financiera y se migraron los 8 inmuebles. El estado de cuenta histórico del código 80240 contiene 98 registros (46 facturas + 48 recaudos + saldos) acumulados desde octubre 2018, mientras que el código 127817 contiene apenas 6 registros (2 facturas + encabezados).",
+      "regla_citada": "Otrosí Integral 202511112400038165 — Considerandos y Cláusula de Vigencia. Código de Comercio Arts. 1226-1244 (fiducia mercantil). Decreto 663/1993 Art. 146 (deberes del fiduciario). Circular Básica Jurídica CE029/2014 — reporte de negocios fiduciarios a la Superintendencia Financiera.",
+      "variable_aplicada": "Código anterior: 80240 (FG-447). Código nuevo: 127817 (FA-6593). Fecha efectiva transformación: 07-10 nov-2025. Registros código anterior: 98. Registros código nuevo: 6. Sobre electrónico: E4FBDA6F5-8E94-4690-963B-72E06A09D510.",
+      "calculo_esperado": {
+        "El código 80240 debe quedar con": "(a) $0 en activos inmobiliarios. (b) Facturas jul-oct 2025 cobradas ($10,163,792). (c) Factura nov-2025 (FC70-63138) anulada por doble facturación. (d) Intereses de mora recalculados excluyendo noviembre.",
+        "Cierre Operativo 80240": "Una vez cobradas las facturas pendientes y anulada la de noviembre, el código debe cerrarse operativamente.",
+        "El código 127817 debe tener": "(a) 8 inmuebles por $110,070,000. (b) Facturación mensual operando a 2 SMLMV + IVA desde diciembre 2025 en adelante. (c) Comisión de estructuración cobrada ($9,520,000)."
+      },
+      "evidencia_encontrada": [
+        "Otrosí Integral confirma transformación con firma electrónica de ambas partes.",
+        "Estados de Cuenta muestran operación dual: 98 registros en código 80240 con 5 facturas pendientes ($12,704,740) y 6 registros en código 127817 con 2 facturas pendientes ($11,778,620).",
+        "Auxiliares contables confirman transferencia de 8 inmuebles completada el 25-nov-2025.",
+        "Devise aporta: conteo de registros (98 anteriores + 6 nuevos) y referencia exacta del sobre electrónico E4FBDA6F5-8E94-4690-963B-72E06A09D510."
+      ],
+      "conclusion": "La transformación contractual es un evento verificado y jurídicamente válido. Sin embargo, la ejecución operativa presenta 3 riesgos materializados no detectados por la auditoría Devise: (1) Doble facturación noviembre 2025 por $4,799,568 (FC70-63138 + FC70-63568). (2) Discrepancia en monto de FC70-63568 por $1,129,310 respecto al cálculo de 2 SMLMV. (3) Intereses de mora cruzados entre códigos por $435,085. Impacto total de estos riesgos: $6,363,963. Se requiere ejecutar el protocolo de corte limpio documentado en la Base de Conocimiento: anular FC70-63138, verificar monto de FC70-63568, cobrar facturas jul-oct 80240, y cerrar operativamente el código 80240.",
+      "riesgo": "INFORMATIVO",
+      "documentos_fuente": [
+        "OTROSI_202511112400038165.pdf — sobre electrónico E4FBDA6F5-8E94-4690-963B-72E06A09D510, firma electrónica 07/10-nov-2025",
+        "ESTADO_CUENTAS_80240.xlsx — 98 registros históricos, 5 facturas pendientes",
+        "ESTADO_CUENTAS_127817.xlsx — 6 registros, 2 facturas pendientes",
+        "AuxiliarContable80240_Sifi.txt y AuxiliarContable127817_sifi.txt — transferencia inmuebles 25-nov-2025",
+        "Devise Auditoría D4 — Transformación fideicomiso (2 evidencias)"
+      ],
+      "impacto_economico": 0,
+      "reglaAplicada": {
+        "version": "Otrosí Integral 202511112400038165 + Código de Comercio",
+        "clausula": "Considerandos (sustitución integral) + Cláusula de Vigencia",
+        "formula": "N/A — hallazgo de cambio contractual / continuidad operativa"
+      },
+      "variableMacro": null,
+      "resolucionesHallazgo": []
+    },
+    {
+      "id": "H-008",
+      "tipo": "GAP_TEMPORAL",
+      "categoria": "CONCILIACION",
+      "estado": "RESUELTO",
+      "severidad": "MEDIO",
+      "area": "FACTURACION",
+      "titulo": "Facturación masiva retroactiva de 47 meses en una sola factura (marzo 2021 a enero 2025) — precedente resuelto",
+      "descripcion_operativa": "Entre marzo de 2021 y enero de 2025 (47 meses consecutivos), la fiduciaria no emitió facturas mensuales de comisión al fideicomiso código 80240. La deuda acumulada de $92,871,338 COP fue facturada retroactivamente el 31-ene-2025 en una sola factura masiva (FC70-53857), junto con intereses de mora por $6,459,328 (FC70-53806). Ambas fueron recaudadas el mismo día vía ACH (recaudos RCJ-381082 y RCJ-381081). Este NO fue un caso aislado: el análisis histórico revela al menos 4 episodios de facturación retroactiva (ago-2021, ene-2022, feb-2025, ene-2025). El patrón sugiere un problema sistémico en el seguimiento comercial del fideicomiso.",
+      "regla_citada": "Cláusula Vigésimo Sexta del contrato original (1.5 SMLMV mensual) y Parágrafo Segundo (intereses de mora a tasa máxima legal). Art. 2536 Código Civil modificado por Ley 791/2002 (prescripción 5 años para obligaciones mercantiles).",
+      "variable_aplicada": "SMLMV por año: 2021=$908,526 (1.5×1.19=$1,621,719/mes), 2022=$1,000,000 ($1,785,000/mes), 2023=$1,160,000 ($2,070,600/mes), 2024=$1,300,000 ($2,320,500/mes), 2025=$1,423,500 ($2,540,948/mes).",
+      "calculo_esperado": {
+        "Comisión acumulada mar-2021 a ene-2025": "10 meses × $1,621,719 (2021) + 12 × $1,785,000 (2022) + 12 × $2,070,600 (2023) + 12 × $2,320,500 (2024) + 1 × $2,540,948 (ene-2025)",
+        "Suma total": "$16,217,190 + $21,420,000 + $24,847,200 + $27,846,000 + $2,540,948 = $92,871,338.",
+        "VERIFICADO": "coincide exactamente con el monto de FC70-53857."
+      },
+      "evidencia_encontrada": [
+        "Estado Cuentas 80240: FC70-53857 emitida 31/01/2025 por $92,871,338 con descripción 'COMISION FIJA MENSUAL: 1.5 SMLV, MARZO 2021 HASTA ENERO 2025'.",
+        "Recaudo RCJ-381082 por $92,871,338 el mismo 31/01/2025.",
+        "FC70-53806 por intereses de mora $6,459,328, recaudo RCJ-381081 por $6,459,328 el 31/01/2025."
+      ],
+      "conclusion": "El hallazgo está RESUELTO en cuanto al cobro de la deuda acumulada. Sin embargo, establece un PRECEDENTE CRÍTICO para la gestión futura: la fiduciaria perdió costo de oportunidad financiero por 4 años, y estuvo a 13 meses de que las comisiones más antiguas prescribieran. Los procedimientos de mitigación (alerta temprana, facturación preventiva máxima 2 meses, activación de descuento automático) están documentados en la Base de Conocimiento.",
+      "riesgo": "GAP TEMPORAL",
+      "documentos_fuente": [
+        "ESTADO_CUENTAS_80240.xlsx — FC70-53857 ($92,871,338) y FC70-53806 ($6,459,328), recaudos RCJ-381082 y RCJ-381081",
+        "ESTADO_CUENTAS_80240.xlsx — episodios previos: FC20-24291 a FC20-24294 (ago-2021), FC20-28684 a FC20-28688 (ene-2022)",
+        "OTROSI_202511112400038165.pdf — Cl. 26 Parágrafo 2° (mora a tasa máxima legal)"
+      ],
+      "impacto_economico": 0,
+      "reglaAplicada": {
+        "version": "Contrato Original FG-447",
+        "clausula": "Vigésimo Sexta — 1.5 SMLMV mensual + Parágrafo 2° (mora)",
+        "formula": "Σ(1.5 × SMLMV_año × 1.19) para cada mes de marzo 2021 a enero 2025 = $92,871,338"
+      },
+      "variableMacro": {
+        "codigo": "SMMLV",
+        "valor": 1423500,
+        "anio": 2025
+      },
+      "resolucionesHallazgo": [
+        {
+          "tipo": "RESUELTO_CON_EXPLICACION",
+          "explicacion": "Factura FC70-53857 emitida el 31-ene-2025 cubriendo los 47 meses acumulados por $92,871,338. Recaudada el mismo día vía ACH (RCJ-381082). Intereses de mora de $6,459,328 también cobrados el 31-ene-2025 (FC70-53806, recaudo RCJ-381081). Total recuperado: $99,330,666. Procedimientos de mitigación implementados para evitar recurrencia.",
+          "resueltoPorId": "sistema_auditoria_claude"
+        }
+      ]
+    }
+  ],
+  "eventosTimeline": [
+    {
+      "tipo": "CONSTITUCION",
+      "fecha": "2018-10-10",
+      "titulo": "Constitución del Fideicomiso Garantía Altos del Tío Conejo",
+      "descripcion": "Suscripción del contrato de fiducia mercantil en garantía. Código Super: 80240, Código interno: FG-447.",
+      "metadatos": {
+        "codigoSuper": "80240",
+        "codigoInterno": "FG-447",
+        "tipologia": "FG"
+      }
+    },
+    {
+      "tipo": "OTROSI",
+      "fecha": "2025-11-07",
+      "titulo": "Otrosí Integral - Transformación a Administración y Pagos",
+      "descripcion": "Suscripción del Otrosí Integral que transforma el fideicomiso de garantía a administración y pagos. Nuevo código: 127817 (FA-6593). Nueva comisión: 2 SMLMV mensual + $8M estructuración.",
+      "metadatos": {
+        "codigoSuperNuevo": "127817",
+        "codigoInternoNuevo": "FA-6593",
+        "tipologiaNueva": "FA",
+        "firmaFideicomitente": "2025-11-07",
+        "firmaFiduciaria": "2025-11-10"
+      }
+    },
+    {
+      "tipo": "CAMBIO_CODIGO",
+      "fecha": "2025-11-24",
+      "titulo": "Migración de código 80240 a 127817",
+      "descripcion": "Activación del nuevo código 127817 en sistemas. Primera facturación bajo el nuevo código. Transferencia de bienes inmuebles del código 80240 al 127817.",
+      "metadatos": {
+        "codigoAnterior": "80240",
+        "codigoNuevo": "127817"
+      }
+    },
+    {
+      "tipo": "NUEVA_REGLA",
+      "fecha": "2025-11-07",
+      "titulo": "Cambio de regla de comisión mensual",
+      "descripcion": "La comisión mensual cambia de 1.5 SMLMV (contrato original) a 2 SMLMV con incremento anual por IPC (Otrosí Integral).",
+      "metadatos": {
+        "reglaAnterior": "1.5 SMLMV",
+        "reglaNueva": "2 SMLMV + IPC"
+      }
+    }
+  ],
+  "entradasConocimiento": [
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "Convención de facturación: IVA siempre incluido en el total facturado",
+      "contenido": "Las facturas del Estado de Cuentas incluyen IVA del 19% dentro del monto total 'COMISIONES CAUSADAS'. La base gravable se obtiene dividiendo entre 1.19. Verificado contra SMLMV: $2,540,948 / 1.19 / 1.5 = $1,423,500 = SMLMV 2025. Consistente en todos los períodos.",
+      "metadatos": {
+        "fuente": "ESTADO_CUENTAS_80240.xlsx",
+        "verificadoContra": "SMLMV"
+      }
+    },
+    {
+      "tipo": "CONTEXTO_OPERATIVO",
+      "titulo": "Patrón de pago del fideicomitente: pagos masivos tras acumulación de deuda",
+      "contenido": "El fideicomitente muestra un patrón recurrente de acumulación de facturas sin pago durante meses o años, seguido de pagos masivos. Ejemplos: (1) Ago-2021: pago de 4 facturas acumuladas. (2) Ene-2022: pago de 8 facturas acumuladas. (3) Ene-2025: pago de factura masiva de 47 meses + intereses de mora. Actualmente hay 5 facturas pendientes (Jul-Nov 2025).",
+      "metadatos": {
+        "patronIdentificado": "PAGO_MASIVO_PERIODICO",
+        "riesgoCredito": "ALTO"
+      }
+    },
+    {
+      "tipo": "PRECEDENTE_CONTABLE",
+      "titulo": "Migración de ERP Legacy a SIFI en agosto 2024",
+      "contenido": "En agosto 2024 se migró la contabilidad del ERP Legacy al ERP SIFI para el código 80240. El cargue de saldos iniciales muestra un saldo de comisión fiduciaria de $9,664,905 en cuenta 35101002009. Los auxiliares Legacy cubren desde 2020 hasta el corte de migración; los auxiliares SIFI cubren desde agosto 2024 en adelante.",
+      "metadatos": {
+        "fechaMigracion": "2024-08-31",
+        "saldoComisionMigrado": 9664905
+      }
+    },
+    {
+      "tipo": "DOCUMENTO_FUENTE",
+      "titulo": "Acreedor Vinculado: LAAD AMERICAS NV",
+      "contenido": "LAAD AMERICAS NV (NIT 900850728) es el acreedor vinculado del fideicomiso. La operación de crédito externo asciende hasta USD 200,000. Se evidencia registro de garantía (certificado ORF. 200018 en la contabilidad, cuenta 81109501001 por $977,519,700). El fideicomiso tiene prelación de giros: primero comisiones, luego servicio de la deuda.",
+      "metadatos": {
+        "montoCredito": "USD 200,000",
+        "tipoCredito": "CREDITO_EXTERNO"
+      }
+    }
+  ],
+  "auditLogs": [
+    {
+      "accion": "AUDITORIA_INICIAL_EJECUTADA",
+      "entidad": "fideicomiso",
+      "entidadId": "FA-6593",
+      "cambios": {
+        "estadoAnterior": "NO_AUDITADO",
+        "nuevoEstado": "AUDITADO_COMPLETO"
+      }
+    },
+    {
+      "accion": "HALLAZGO_CREADO",
+      "entidad": "hallazgo",
+      "entidadId": "DOBLE_FACTURACION_NOV2025",
+      "cambios": {
+        "estadoAnterior": "N/A",
+        "nuevoEstado": "ABIERTO"
+      }
+    },
+    {
+      "accion": "HALLAZGO_CREADO",
+      "entidad": "hallazgo",
+      "entidadId": "DISCREPANCIA_MONTO_2SMLV",
+      "cambios": {
+        "estadoAnterior": "N/A",
+        "nuevoEstado": "ABIERTO"
+      }
+    },
+    {
+      "accion": "HALLAZGO_CREADO",
+      "entidad": "hallazgo",
+      "entidadId": "MORA_5_FACTURAS_80240",
+      "cambios": {
+        "estadoAnterior": "N/A",
+        "nuevoEstado": "ABIERTO"
+      }
+    },
+    {
+      "accion": "HALLAZGO_CREADO",
+      "entidad": "hallazgo",
+      "entidadId": "SIN_RECAUDO_127817",
+      "cambios": {
+        "estadoAnterior": "N/A",
+        "nuevoEstado": "ABIERTO"
+      }
+    },
+    {
+      "accion": "HALLAZGO_RESUELTO",
+      "entidad": "hallazgo",
+      "entidadId": "GAP_FACTURACION_47_MESES",
+      "cambios": {
+        "estadoAnterior": "ABIERTO",
+        "nuevoEstado": "RESUELTO"
+      }
+    }
+  ],
+  "variablesMacroeconomicas": [
+    {
+      "codigo": "SMMLV",
+      "nombre": "Salario Mínimo Mensual Legal Vigente Colombia",
+      "periodicidad": "ANUAL",
+      "unidad": "COP",
+      "fuenteOficial": "Gobierno de Colombia - Decreto anual",
+      "valoresHistoricosVariable": [
+        {
+          "valor": 781242,
+          "vigenciaDesde": "2018-01-01",
+          "vigenciaHasta": "2018-12-31",
+          "normaLegal": "Decreto 2269 de 2017"
+        },
+        {
+          "valor": 828116,
+          "vigenciaDesde": "2019-01-01",
+          "vigenciaHasta": "2019-12-31",
+          "normaLegal": "Decreto 2451 de 2018"
+        },
+        {
+          "valor": 877803,
+          "vigenciaDesde": "2020-01-01",
+          "vigenciaHasta": "2020-12-31",
+          "normaLegal": "Decreto 2360 de 2019"
+        },
+        {
+          "valor": 908526,
+          "vigenciaDesde": "2021-01-01",
+          "vigenciaHasta": "2021-12-31",
+          "normaLegal": "Decreto 1785 de 2020"
+        },
+        {
+          "valor": 1000000,
+          "vigenciaDesde": "2022-01-01",
+          "vigenciaHasta": "2022-12-31",
+          "normaLegal": "Decreto 1724 de 2021"
+        },
+        {
+          "valor": 1160000,
+          "vigenciaDesde": "2023-01-01",
+          "vigenciaHasta": "2023-12-31",
+          "normaLegal": "Decreto 2613 de 2022"
+        },
+        {
+          "valor": 1300000,
+          "vigenciaDesde": "2024-01-01",
+          "vigenciaHasta": "2024-12-31",
+          "normaLegal": "Decreto 2292 de 2023"
+        },
+        {
+          "valor": 1423500,
+          "vigenciaDesde": "2025-01-01",
+          "vigenciaHasta": "2025-12-31",
+          "normaLegal": "Decreto 1827 de 2024"
+        }
+      ]
+    },
+    {
+      "codigo": "IVA",
+      "nombre": "Impuesto al Valor Agregado Colombia",
+      "periodicidad": "ANUAL",
+      "unidad": "PORCENTAJE",
+      "fuenteOficial": "DIAN - Estatuto Tributario",
+      "valoresHistoricosVariable": [
+        {
+          "valor": 19,
+          "vigenciaDesde": "2017-01-01",
+          "vigenciaHasta": null,
+          "normaLegal": "Ley 1819 de 2016, Art. 173"
+        }
+      ]
+    }
+  ],
+  "enumsSugeridos": [
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "COMISION_INCUMPLIMIENTO",
+      "justificacion": "El contrato define comisión adicional de 10 SMLMV mensuales por incumplimiento del servicio de la deuda. No encaja en categorías existentes.",
+      "frecuenciaDetectada": 1
+    },
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "COMISION_GIROS_EXTERIOR",
+      "justificacion": "Comisión específica por recepción/giro de recursos del exterior ($1M COP por cada USD 100K). Es un evento recurrente en fideicomisos con crédito externo.",
+      "frecuenciaDetectada": 1
+    },
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "COMISION_REVISION_DOCUMENTOS",
+      "justificacion": "Comisión por revisión/suscripción de documentos (poderes, certificaciones, memoriales). Es un evento operativo estándar en fideicomisos.",
+      "frecuenciaDetectada": 1
+    },
+    {
+      "campo": "reglasComision.tipo",
+      "valorActualUsado": "OTRA",
+      "valorPropuesto": "COMISION_CESION_POSICION_FIDUCIARIA",
+      "justificacion": "Comisión de 3 SMMLV por cesión de la posición contractual de la fiduciaria a otra sociedad. Diferente de CESION_DERECHOS (cesión de fideicomitente/beneficiario).",
+      "frecuenciaDetectada": 1
+    }
+  ],
+  "conocimiento": [
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "Cálculo integral de comisiones: fórmula dual, IVA adicional, IPC compuesto y mérito ejecutivo",
+      "contenido": "Toda comisión de este fideicomiso se rige por cinco principios matemáticos y jurídicos acumulativos que el analista debe verificar simultáneamente en cada factura:\n\n1. FÓRMULA BASE DUAL (dos regímenes según fecha):\n   - ANTES del 07-nov-2025 (Contrato Original FG-447, código 80240): Comisión mensual = 1.5 × SMLMV del año de causación + IVA 19%.\n   - DESDE el 07-nov-2025 (Otrosí Integral FA-6593, código 127817): Comisión mensual = 2 × SMLMV del año de causación + IVA 19%.\n   El valor del SMLMV se toma del año calendario vigente al momento de la CAUSACIÓN, NO de la fecha de facturación. Ejemplo validado: la factura FC70-53857 (emitida 31-ene-2025) cubre marzo-2021 a enero-2025 y aplica SMLMV de cada año respectivo ($908,526 para 2021, $1,000,000 para 2022, $1,160,000 para 2023, $1,300,000 para 2024, $1,423,500 para 2025). Total verificado: $92,871,338 COP.\n\n2. IVA SIEMPRE ADICIONAL (Parágrafo Cuarto, Cl. 26): Las sumas pactadas NO incluyen IVA. El impuesto se cobra según la tarifa vigente al momento de la facturación (19% desde Ley 1819/2016). Fórmula de verificación rápida: TOTAL_FACTURA / 1.19 / multiplicador_SMLMV = SMLMV_del_año ± $1,000 de tolerancia. Si no cuadra → hallazgo DISCREPANCIA_MONTO.\n\n3. INCREMENTO ANUAL POR IPC — CLÁUSULA OCULTA DE SOBRECOSTO (Cl. 26, numeral 2.1.1 del Otrosí): A partir del Otrosí Integral, la comisión mensual de 2 SMLMV se incrementa anualmente en el porcentaje del IPC del año inmediatamente anterior. Esto genera una comisión COMPUESTA: en el primer año es 2 × SMLMV, pero a partir del segundo año NO se recalcula simplemente como 2 × SMLMV_nuevo, sino como VALOR_AÑO_ANTERIOR × (1 + IPC%). Si el IPC supera el porcentaje de incremento del SMLMV, la comisión crece por encima de lo que parecería intuitivamente. Ejemplo hipotético: Si en 2026 el SMLMV sube 9.5% pero el IPC fue 11%, la comisión sería $2,847,000 × 1.11 = $3,160,170 (en vez de $3,122,940 con SMLMV puro). Diferencia anual acumulable: +$37,230 × 12 = $446,760.\n\n4. SOLIDARIDAD Y DESCUENTO AUTOMÁTICO CRUZADO (Parágrafos Segundo y Quinto, Cl. 26): El fideicomiso y el fideicomitente son deudores SOLIDARIOS de todas las comisiones. La fiduciaria puede descontar automáticamente de CUALQUIER producto que administre a favor del fideicomitente o del fideicomiso, incluyendo otros fideicomisos, encargos o fondos. Esta cláusula habilita el cobro cruzado entre patrimonios autónomos del mismo cliente.\n\n5. MÉRITO EJECUTIVO SIN PROCESO DECLARATIVO (Parágrafo Sexto, Cl. 26): La certificación suscrita por el Representante Legal y el Contador de la fiduciaria, donde consten las sumas adeudadas, presta MÉRITO EJECUTIVO contra el fideicomitente y el fideicomiso. Adicionalmente, el fideicomitente está obligado a suscribir pagaré en blanco con carta de instrucciones (Cl. 12, numeral 14). Esto otorga a la fiduciaria dos títulos ejecutivos independientes para cobrar comisiones impagas.",
+      "metadatos": {
+        "origen": "Otrosí Integral 202511112400038165, Cláusula Vigésimo Sexta y Parágrafos 1-7; Cláusula Duodécima numeral 14",
+        "area": "Facturación"
+      },
+      "fuentes": {
+        "contratoPrincipal": "Otrosí Integral 202511112400038165",
+        "clausulasEspecificas": [
+          "Vigésimo Sexta (numerales 1, 2.1.1, Parágrafos 2° al 7°)",
+          "Duodécima numeral 14 (pagaré en blanco)"
+        ],
+        "validacionCruzada": "Estado de Cuentas 80240 (85 facturas históricas) y Estado de Cuentas 127817 (2 facturas)",
+        "facturaTestVerificada": "FC70-53857 por $92,871,338 — validada fórmula multiperíodo contra SMLMV oficial 2021-2025"
+      }
+    },
+    {
+      "tipo": "REGLA_NEGOCIO",
+      "titulo": "Prelación contractual de giros, Fondo de Reserva obligatorio y catálogo de 12 comisiones eventuales",
+      "contenido": "PRELACIÓN DE GIROS (Cl. 21 — norma imperativa del contrato):\nEl controlador fiduciario DEBE respetar sin excepción este orden al autorizar cualquier desembolso del patrimonio autónomo:\n  1° → Comisión fiduciaria, costos y gastos del fideicomiso.\n  2° → Servicio de la deuda al ACREEDOR VINCULADO (LAAD Americas NV, NIT 900850728) según Cuadro Cronológico de Pagos de la Operación de Crédito Externo por USD 200,000.\n  3° → Giros ordenados por el fideicomitente CON autorización previa y escrita del acreedor vinculado, DESPUÉS de provisionar el Fondo de Reserva.\n\nImplicación práctica: si el fideicomiso tiene recursos insuficientes, la comisión fiduciaria se paga ANTES que el crédito en dólares. Si un funcionario gira al acreedor sin haber descontado primero la comisión, viola la prelación contractual.\n\nFONDO DE RESERVA OBLIGATORIO (Cl. 22):\nDebe contener permanentemente:\n  (i) Una suma igual a la CUOTA MÁS PRÓXIMA a pagar de la Operación de Crédito Externo.\n  (ii) Una suma equivalente a SEIS (6) MESES de comisiones fiduciarias.\nCon tarifa vigente (2 SMLMV 2025 + IVA): 6 × ($2,847,000 × 1.19) = $20,327,580 COP.\nSe alimenta con: recursos del crédito externo (inicialmente) y retenciones a compradores de producto agrícola de los bienes inmuebles. Si es insuficiente, el fideicomitente debe aportar en 5 días hábiles.\n\nCATÁLOGO COMPLETO DE 12 COMISIONES EVENTUALES (revenue triggers que requieren monitoreo activo):\n  (a) Estructuración/Modificación: $8,000,000 + IVA — única vez, ya facturada FC70-63567.\n  (b) Mensual ordinaria: 2 SMLMV + IVA, incremento anual IPC.\n  (c) Giros nacionales adicionales: $60,000 COP por cada giro que exceda 5/mes.\n  (d) Incumplimiento deuda: 10 SMLMV/mes + IVA ($14,235,000 + IVA/mes = $16,939,650/mes) — ALTO VALOR, se activa con primer requerimiento del acreedor vinculado.\n  (e) Venta inmuebles gestionada por fiduciaria: 3% del valor de venta + IVA.\n  (f) Venta por tercero o dación en pago: 1% del valor de transferencia + IVA.\n  (g) Giros al/del exterior: $1,000,000 por cada USD 100,000 o fracción + IVA.\n  (h) Otrosí al contrato: valor a pactar + IVA.\n  (i) Acompañamiento procesal: 5 SMLMV/mes + IVA ($7,117,500 + IVA/mes).\n  (j) Cesión fideicomitente-beneficiario: 1 SMLMV + IVA por cesión. Si es a título de dación en pago aplica el 1% de (f).\n  (k) Revisión/suscripción de documentos: 1 SMLMV + IVA — pago previo obligatorio.\n  (l) Cesión posición fiduciaria: 3 SMLMV + IVA.\n  (m) Fondos de inversión colectiva (Acción Uno / Acción 1525): según reglamento del FIC.\n\nALERTA DE SISTEMA REQUERIDA: Cada evento operativo (giro exterior, cesión, notificación de incumplimiento, venta de inmueble, nueva demanda) debe disparar automáticamente una verificación de si se facturó la comisión eventual correspondiente.",
+      "metadatos": {
+        "origen": "Otrosí Integral 202511112400038165, Cláusulas 21, 22 y 26 (numerales 1 a 3.9 y Parágrafos)",
+        "area": "Facturación"
+      },
+      "fuentes": {
+        "contrato": "Otrosí Integral 202511112400038165",
+        "clausulas": [
+          "Vigésimo Primera (prelación)",
+          "Vigésimo Segunda (Fondo de Reserva)",
+          "Vigésimo Sexta numerales 1 a 3.9 (catálogo comisiones)"
+        ],
+        "referenciaNormativa": "Código de Comercio Art. 1234 (obligaciones del fiduciario), Decreto 663/1993 Art. 146 (deberes fiduciarios)"
+      }
+    },
+    {
+      "tipo": "RESOLUCION_HALLAZGO",
+      "titulo": "Protocolo de mitigación ante acumulación masiva de facturas impagadas (precedente 2021-2025)",
+      "contenido": "PROBLEMA GRAVE DETECTADO Y PARCIALMENTE RESUELTO:\n\nEntre marzo de 2021 y enero de 2025 (47 meses consecutivos), la fiduciaria NO facturó oportunamente la comisión mensual de 1.5 SMLMV al fideicomiso código 80240. Esto acumuló una deuda de $92,871,338 COP que fue facturada retroactivamente en una SOLA factura masiva (FC70-53857, emitida 31-ene-2025), junto con intereses de mora por $6,459,328 (factura FC70-53806). Ambas fueron recaudadas el mismo día (31-ene-2025) vía transferencia ACH.\n\nPATRÓN RECURRENTE IDENTIFICADO (4 episodios históricos):\n  Episodio 1 (ago-2021): Facturas FC20-24291 a FC20-24294 cubrieron retroactivamente jul-oct 2020. Recaudadas recién en ago-2021.\n  Episodio 2 (ene-2022): Facturas FC20-28684 a FC20-28688 cubrieron abr-jun 2020 + nov-dic 2020 + ene-feb 2021. Recaudadas en ene-2022.\n  Episodio 3 (feb-2025): Facturas FC70-54045 y FC70-54046 re-facturaron mar-abr 2021, posiblemente por anulación de facturas previas incluidas en el bloque masivo.\n  Episodio 4 (ene-2025): Factura masiva FC70-53857 por $92,871,338 (47 meses). MAYOR INCIDENTE.\n\nIMPACTO ECONÓMICO DEL PATRÓN:\n  - Revenue diferido: $92,871,338 durante casi 4 años sin generar flujo de caja.\n  - Intereses de mora cobrados: $6,459,328 (FC70-53806). Sin embargo, si se hubiera facturado mensualmente con mora individual por mes, el cobro de intereses habría sido significativamente mayor (efecto de capitalización mensual vs cobro acumulado al final).\n  - Costo de oportunidad financiero: recursos que pudieron estar invertidos en FIC.\n  - Riesgo de prescripción: obligaciones mercantiles prescriben en 5 años (Art. 2536 CC, Ley 791/2002). El bloque de 47 meses estuvo dentro del plazo, pero con un margen de solo 13 meses para los períodos más antiguos.\n\nPROCEDIMIENTOS DE MITIGACIÓN OBLIGATORIOS INSTAURADOS:\n  1. ALERTA TEMPRANA: Control mensual automatizado — si al día 15 del mes siguiente NO existe factura de comisión del período anterior → escalamiento a dirección comercial y compliance.\n  2. FACTURACIÓN PREVENTIVA: Nunca acumular más de 2 meses sin facturar. Ante bloqueo operativo (falta de datos, cambio de sistema), emitir factura con base en última tarifa conocida y ajustar después.\n  3. MONITOREO DE PRESCRIPCIÓN: Tabla de control con fecha de causación de cada comisión, fecha de facturación, fecha de vencimiento de prescripción (causación + 5 años), y alerta a los 48 meses.\n  4. DESCUENTO AUTOMÁTICO: Activar la cláusula de descuento automático de recursos del fideicomiso (Parágrafo Segundo, Cl. 26) y la prelación de giros (Cl. 21) para que la comisión se debite ANTES de cualquier otro giro, eliminando la dependencia de la voluntad de pago del fideicomitente.",
+      "metadatos": {
+        "origen": "Estado de Cuentas 80240 — análisis cruzado de columnas Fecha Factura vs Período Causado vs Fecha Recaudo sobre 85 facturas históricas",
+        "area": "Facturación"
+      },
+      "fuentes": {
+        "facturaMasivaReferencia": "FC70-53857 ($92,871,338) — 47 meses acumulados mar-2021 a ene-2025",
+        "interesesMoraReferencia": "FC70-53806 ($6,459,328) — intereses asociados al bloque masivo",
+        "episodiosHistoricos": [
+          "FC20-24291 a FC20-24294 (ago-2021)",
+          "FC20-28684 a FC20-28688 (ene-2022)",
+          "FC70-54045 y FC70-54046 (feb-2025)"
+        ],
+        "recaudosVerificados": [
+          "RCJ-381079 (31-ene-2025)",
+          "RCJ-381080 (31-ene-2025)"
+        ],
+        "clausulaAplicable": "Otrosí Integral Cl. 26 Parágrafo 2° (mora), Cl. 21 (prelación), Cl. 26 Parágrafo 5° (solidaridad)"
+      }
+    },
+    {
+      "tipo": "PRECEDENTE_CONTABLE",
+      "titulo": "Mapeo completo de cuentas PUC fiduciarias, flujo contable de comisión y reglas de conciliación multi-ERP",
+      "contenido": "El fideicomiso ha operado sobre DOS sistemas ERP con convenciones contables distintas, y el analista contable DEBE conocer ambos para rastrear la trazabilidad completa de una comisión desde su causación hasta su recaudo:\n\n══════ ERP LEGACY (vigente oct-2018 a ago-2024, código 80240) ══════\nFLUJO CONTABLE COMPLETO DE UN PAGO DE COMISIÓN:\n  Paso 1 — CAUSACIÓN:\n    Db 35101002009 (COMISION FIDUCIARIA — gasto del patrimonio autónomo)\n    Cr 25011501001 (COMISION POR ADMINISTRACION — pasivo, cuenta puente)\n    Tercero: NIT 800155413 (Acción Sociedad Fiduciaria S.A.)\n    Valor: base + IVA de la comisión del período.\n\n  Paso 2 — PAGO (egreso efectivo):\n    Db 25011501001 (COMISION POR ADMINISTRACION — se cancela el pasivo)\n    Cr 13020501001 (FONDO COMUN ORDINARIO 1 — sale del FCO vinculado a EF1700017260)\n    Comprobante tipo: 46 (EGRESO SIN CHEQUE)\n    Concepto: 'PAGO COMISION FIDUCIARIA FACT NO [número factura]'\n\n  Paso 3 — COSTOS BANCARIOS:\n    Db 51151201001 (SERVICIOS BANCARIOS — gasto del PA)\n    Cr 13020501001 (FONDO COMUN ORDINARIO 1)\n    Incluye: comisión ACH, IVA de servicio bancario.\n    Valor típico: $3,781.51 (costo) + $718.49 (IVA) = $4,500 por operación.\n\n  Paso 4 — GMF (4×1000):\n    Db 51400501005 (GRAVAMEN A LOS MOVIMIENTOS FINANCIEROS)\n    Cr 13020501001 (FONDO COMUN ORDINARIO 1)\n    Valor: 0.4% del monto girado.\n\n══════ ERP SIFI (vigente desde ago-2024, códigos 80240 y 127817) ══════\n  Cargue inicial (31-ago-2024): Se migraron saldos del Legacy al SIFI:\n    - Cuenta 35101002009: Saldo $9,664,905 (comisiones causadas pendientes de pago en el momento del corte).\n    - Cuenta 13020501001: Saldo de fondos disponibles.\n  Post-migración: En el código 80240 bajo SIFI NO se observan nuevos asientos de causación de comisión. La hipótesis operativa es que tras la migración, la facturación se procesa a nivel CORPORATIVO de la fiduciaria (externo al patrimonio autónomo), y el pago se registra como egreso directo.\n\n══════ CÓDIGO 127817 (creado nov-2025) ══════\n  Los auxiliares contables de este código SOLO contienen movimientos de bienes inmuebles:\n    - Db 18010401001 (EDIFICIOS) / Cr 35051501001 (APORTES EN ESPECIE): Ingreso de inmuebles por transferencia fiduciaria.\n    - Operación inversa para restituciones al fideicomitente.\n    - Valor unitario por inmueble: $13,758,750 (8 folios de matrícula inmobiliaria).\n  HALLAZGO ABIERTO: No existe causación contable de la comisión de estructuración ($9,520,000) ni de la mensual ($2,258,620) a pesar de estar ambas facturadas (FC70-63567 y FC70-63568). Clasificado como ANOMALIA_CONTABLE hasta resolución.\n\n══════ REGLA DE CONCILIACIÓN MULTI-SISTEMA ══════\n  Al auditar cualquier período contable, el analista DEBE:\n    (1) Buscar en el auxiliar Legacy (si período ≤ ago-2024) bajo código 80240.\n    (2) Buscar en el auxiliar SIFI (si período ≥ ago-2024) bajo código 80240.\n    (3) Buscar en el auxiliar SIFI bajo código 127817 (si período ≥ nov-2025).\n    (4) Si no encuentra causación en ninguno → verificar si fue 'pago directo' corporativo consultando el Estado de Cuentas de comisiones.\n    (5) Tolerancia de conciliación: $1,000 COP por diferencias de redondeo entre ERP.",
+      "metadatos": {
+        "origen": "AuxiliarContable80240.txt (Legacy), AuxiliarContable80240_Sifi.txt (SIFI), AuxiliarContable127817.txt, AuxiliarContable127817_sifi.txt",
+        "area": "Contabilidad"
+      },
+      "fuentes": {
+        "auxiliarLegacy": "AuxiliarContable80240.txt — movimientos con cuentas 35101002009, 25011501001, 13020501001, 51151201001, 51400501005",
+        "auxiliarSIFI_80240": "AuxiliarContable80240_Sifi.txt — cargue saldos iniciales 31/08/2024, saldo 35101002009 = $9,664,905",
+        "auxiliarSIFI_127817": "AuxiliarContable127817_sifi.txt — solo movimientos 18010401001 y 35051501001 (inmuebles)",
+        "cuentasClaveVerificadas": {
+          "35101002009": "COMISION FIDUCIARIA (gasto PA)",
+          "25011501001": "COMISION POR ADMINISTRACION (pasivo puente)",
+          "13020501001": "FONDO COMUN ORDINARIO 1 (disponible, EF1700017260)",
+          "51151201001": "SERVICIOS BANCARIOS (costos ACH)",
+          "51400501005": "GRAVAMEN MOVIMIENTOS FINANCIEROS (4×1000)",
+          "18010401001": "EDIFICIOS (bienes inmuebles fideicomitidos)",
+          "35051501001": "APORTES EN ESPECIE (contrapartida patrimonio)"
+        }
+      }
+    },
+    {
+      "tipo": "CONTEXTO_OPERATIVO",
+      "titulo": "Protocolo de transición de código por cambio de tipología FG→FA: riesgos de doble cobro y corte limpio",
+      "contenido": "EVENTO CRÍTICO: En noviembre de 2025 se ejecutó una transformación contractual mayor mediante Otrosí Integral. El fideicomiso pasó de:\n  ANTES: Tipología FG (Garantía) — código SFC 80240, código interno FG-447, oficina Dirección General.\n  AHORA: Tipología FA (Administración y Pagos) — código SFC 127817, código interno FA-6593, oficina Barranquilla.\n\nEste cambio genera CUATRO RIESGOS OPERATIVOS que el controlador fiduciario DEBE monitorear permanentemente:\n\n1. RIESGO DE DOBLE FACTURACIÓN — YA MATERIALIZADO:\n   La factura FC70-63138 (código 80240, emitida 06-nov-2025) cobra comisión mensual de noviembre 2025 por $2,540,948 (fórmula antigua: 1.5 × $1,423,500 × 1.19).\n   La factura FC70-63568 (código 127817, emitida 24-nov-2025) también cobra noviembre 2025 por $2,258,620 (fórmula nueva: 2 SMLMV + IVA, posiblemente prorrateado).\n   ACCIÓN REQUERIDA: Anular FC70-63138 o emitir nota crédito. El Otrosí Integral sustituye INTEGRALMENTE el contrato anterior desde su fecha de firma (07-nov-2025). La nueva comisión de 2 SMLMV absorbe y reemplaza la de 1.5 SMLMV.\n\n2. RIESGO DE BIENES INMUEBLES EN TRÁNSITO CONTABLE:\n   Los auxiliares de noviembre 2025 muestran restituciones masivas del código 80240 (Cr 18010401001 EDIFICIOS / Db 35051501001 APORTES EN ESPECIE, $13,758,750 × 8 inmuebles) y simultáneamente ingresos al código 127817 (operación inversa). Si el proceso no se completa para TODOS los 8 folios (100-74864, 100-55647, 100-92794, 100-92727, 100-90477, 100-92804, 100-23631, 100-86627), quedarían inmuebles registrados en ambos códigos o en ninguno, distorsionando el balance del patrimonio autónomo.\n\n3. RIESGO DE INTERESES DE MORA CRUZADOS:\n   Al 24-nov-2025, el código 80240 acumula $435,085 en intereses de mora sobre facturas pendientes de julio a noviembre 2025. Las facturas de julio a octubre ($10,163,792 = 4 × $2,540,948) SON exigibles bajo el contrato original. La de noviembre ($2,540,948) debe anularse por ser posterior al Otrosí. Los intereses de mora correspondientes a noviembre deben recalcularse excluyendo esa factura.\n\n4. INSTRUCCIONES DE CORTE LIMPIO:\n   (a) CÓDIGO 80240 — debe quedar así:\n       → Facturas jul-oct 2025 (FC70-60547, FC70-60548, FC70-61020, FC70-62148): COBRAR ($10,163,792 COP).\n       → Factura nov 2025 (FC70-63138): ANULAR ($2,540,948 COP).\n       → Intereses mora: recalcular excluyendo noviembre.\n       → Meta: saldo comisiones pendientes = $0 al cierre de la transición.\n   (b) CÓDIGO 127817 — debe quedar así:\n       → Factura estructuración (FC70-63567): COBRAR ($9,520,000 COP). Contractualmente debía pagarse al firmar el Otrosí.\n       → Factura mensual nov 2025 (FC70-63568): VALIDAR monto. Cálculo esperado: 2 × $1,423,500 × 1.19 = $3,387,930. Monto facturado: $2,258,620. Discrepancia: -$1,129,310 (posible prorrateo 07-nov a 30-nov = 24/30 días, lo que daría $2,710,344, aún no coincide). Requiere aclaración de área comercial.\n       → Causar contablemente ambas facturas en los auxiliares del código 127817.\n   (c) DEUDA TOTAL REAL CONSOLIDADA:\n       $10,163,792 (4 facturas jul-oct 80240) + $9,520,000 (estructuración 127817) + ~$3,387,930 (mensual nov 127817 corregido) + $435,085 (intereses mora estimados, sujetos a recálculo) ≈ $23,506,807 COP.\n\nNOTA ADICIONAL: La facturación de diciembre 2025 en adelante debe emitirse EXCLUSIVAMENTE bajo el código 127817 con la tarifa de 2 SMLMV + IVA + IPC acumulado. El código 80240 no debe recibir nuevas facturas.",
+      "metadatos": {
+        "origen": "Cruce de Estado de Cuentas 80240 (facturas 52-57) y 127817 (facturas 10-11) con Otrosí Integral 202511112400038165 y auxiliares contables de ambos códigos",
+        "area": "Operativa"
+      },
+      "fuentes": {
+        "estadoCuenta80240": "ESTADO_CUENTAS_80240.xlsx — facturas pendientes FC70-60547 a FC70-63138 e intereses mora",
+        "estadoCuenta127817": "ESTADO_CUENTAS_127817.xlsx — facturas FC70-63567 y FC70-63568",
+        "auxiliaresTransicion": "AuxiliarContable80240_Sifi.txt (restituciones nov-2025) y AuxiliarContable127817_sifi.txt (ingresos inmuebles)",
+        "otrosiIntegral": "OTROSI_202511112400038165.pdf — firma electrónica 07/10-nov-2025, cláusulas de vigencia y transitoriedad",
+        "foliosInmobiliarios": [
+          "100-74864",
+          "100-55647",
+          "100-92794",
+          "100-92727",
+          "100-90477",
+          "100-92804",
+          "100-23631",
+          "100-86627"
+        ]
+      }
+    }
+  ],
+  "resumen_hallazgos": {
+    "total_hallazgos": 8,
+    "impacto_economico_total": 42625943,
+    "hallazgos_por_severidad": {
+      "ALTA": 0,
+      "MEDIA": 0,
+      "BAJA": 0,
+      "INFORMATIVO": 0
+    },
+    "hallazgos_por_area": {
+      "OPERATIVA": 1,
+      "FACTURACION": 4,
+      "CONTABILIDAD": 3,
+      "LEGAL": 0
+    }
+  }
+}
