@@ -1,20 +1,23 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/docker-outside-of-docker-compose
 {
-	"name": "Docker from Docker Compose",
+	"name": "Fideicomiso Platform - Dev Container",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
-	// Use this environment variable if you need to bind mount your local source code into a new container.
+	// Reenvía el folder local al contenedor para bind mount correcto
 	"remoteEnv": {
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
 	},
 
 	"features": {
+		// Node 20 LTS — requerido por el monorepo (ver engines en package.json raíz)
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "20"
 		},
+		// Permite usar el Docker del host desde dentro del contenedor (patrón Docker-outside-of-Docker)
+		// Esto es lo que permite ejecutar `docker compose -f infra/docker-compose.yml up` desde la terminal de VS Code
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
 			"version": "latest",
 			"enableNonRootDocker": "true",
@@ -22,12 +25,39 @@
 		}
 	},
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "corepack enable && pnpm install && pnpm --filter '@fideicomisos/api' exec prisma generate",
+	// Extensiones instaladas automáticamente en el contenedor de desarrollo
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// TypeScript y linting
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				// Claude Code — asistente de Anthropic dentro de VS Code
+				"anthropic.claude-code",
+				// Prisma ORM — syntax highlight, autocompletado en schema.prisma
+				"Prisma.prisma",
+				// Tailwind CSS — clases con IntelliSense en JSX/TSX
+				"bradlc.vscode-tailwindcss",
+				// Docker — ver contenedores, imágenes y compose desde la barra lateral
+				"ms-azuretools.vscode-docker",
+				// REST Client — probar endpoints /api/v1 directamente desde archivos .http
+				"humao.rest-client",
+				// Editor de configuración
+				"EditorConfig.EditorConfig"
+			]
+		}
+	},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	// Ejecutar al crear el contenedor por primera vez:
+	// 1. Activa corepack para usar pnpm sin instalación adicional
+	// 2. Instala todas las dependencias del monorepo
+	// 3. Genera el cliente Prisma (necesario para tipos TypeScript en la API)
+	"postCreateCommand": "corepack enable && pnpm install && pnpm --filter '@fideicomiso/api' exec prisma generate",
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// Puertos de los servicios de la app (se levantan por separado con infra/docker-compose.yml)
+	// Web: 3000, API: 4000, PostgreSQL: 5433, Redis: 6379, Prisma Studio: 5555
+	"forwardPorts": [3000, 4000, 5433, 6379, 5555],
+
+	// El contenedor corre como usuario no-root `vscode` por seguridad
 	// "remoteUser": "root"
 }
