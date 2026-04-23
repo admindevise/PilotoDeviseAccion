@@ -2,7 +2,7 @@ name: Publish Docker images to GHCR
 
 on:
   push:
-    branches: [demo]
+    branches: [prod, main]
     tags:
       - 'v*'
   workflow_dispatch:
@@ -13,6 +13,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
+  DEPLOY_BRANCH: prod
 
 jobs:
   publish:
@@ -45,7 +46,7 @@ jobs:
             type=ref,event=branch
             type=ref,event=tag
             type=sha
-            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/demo' }}
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', env.DEPLOY_BRANCH) }}
 
       - name: Build and push API image
         uses: docker/build-push-action@v6
@@ -67,7 +68,7 @@ jobs:
             type=ref,event=branch
             type=ref,event=tag
             type=sha
-            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/demo' }}
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', env.DEPLOY_BRANCH) }}
 
       - name: Build and push Web image
         uses: docker/build-push-action@v6
@@ -79,3 +80,19 @@ jobs:
           labels: ${{ steps.meta_web.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Trigger Railway deploy (API)
+        if: github.ref == format('refs/heads/{0}', env.DEPLOY_BRANCH) && secrets.RAILWAY_API_DEPLOY_HOOK_URL != ''
+        shell: bash
+        run: |
+          curl -fsS -X POST "$RAILWAY_API_DEPLOY_HOOK_URL"
+        env:
+          RAILWAY_API_DEPLOY_HOOK_URL: ${{ secrets.RAILWAY_API_DEPLOY_HOOK_URL }}
+
+      - name: Trigger Railway deploy (Web)
+        if: github.ref == format('refs/heads/{0}', env.DEPLOY_BRANCH) && secrets.RAILWAY_WEB_DEPLOY_HOOK_URL != ''
+        shell: bash
+        run: |
+          curl -fsS -X POST "$RAILWAY_WEB_DEPLOY_HOOK_URL"
+        env:
+          RAILWAY_WEB_DEPLOY_HOOK_URL: ${{ secrets.RAILWAY_WEB_DEPLOY_HOOK_URL }}
