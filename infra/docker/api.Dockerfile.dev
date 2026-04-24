@@ -19,6 +19,13 @@ COPY . .
 # Prisma client is required for Nest runtime
 RUN pnpm --filter @fideicomiso/api exec prisma generate
 
+# Build required workspace packages for production runtime
+RUN pnpm --filter @fideicomiso/shared build && \
+	pnpm --filter @fideicomiso/ai-engine build && \
+	pnpm --filter @fideicomiso/api build
+
+ENV NODE_ENV=production
+
 EXPOSE 4000
 
-CMD ["pnpm", "--filter", "@fideicomiso/api", "dev"]
+CMD ["sh", "start-prod.sh"]
