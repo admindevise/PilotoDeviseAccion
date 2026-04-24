@@ -1,4 +1,4 @@
-import type { ReglaComision } from '@fideicomiso/shared';
+import { TipoDocumento, type ReglaComision } from '@fideicomiso/shared';
 import { classifyDocument } from '../agents/document-classifier';
 import { extractCommissionRules } from '../agents/contract-extractor';
 import { parseAccountingData } from '../agents/accounting-parser';
@@ -136,14 +136,14 @@ export async function runReconciliationPipeline(
 
       const tipo = result.data.tipo;
       if (
-        tipo === 'CONTRATO_FIDUCIA' ||
-        tipo === 'OTROSI' ||
-        tipo === 'CESION_DERECHOS'
+        tipo === TipoDocumento.CONTRATO_FIDUCIA ||
+        tipo === TipoDocumento.OTROSI_FIDUCIA ||
+        tipo === TipoDocumento.CESION_DERECHOS
       ) {
         contractDocs.push(doc);
       } else if (
-        tipo === 'AUXILIAR_CONTABLE' ||
-        tipo === 'ESTADO_CUENTA_COMISIONES'
+        tipo === TipoDocumento.AUXILIAR_CONTABLE ||
+        tipo === TipoDocumento.ESTADO_CUENTA_COMISIONES
       ) {
         accountingDocs.push(doc);
       }

@@ -1,4 +1,5 @@
 import { type AgentConfig, type AgentResult, Models, callAgent } from '../client';
+import { CategoriaHallazgo, TipoHallazgo } from '@fideicomiso/shared';
 import type {
   RevenueOpportunity,
   ReconciliationResult,
@@ -109,7 +110,9 @@ export async function spotRevenue(
   );
 
   const relevantAnomalies = anomalies.filter(
-    (a) => a.tipo === 'COMISION_NO_COBRADA' || a.categoria === 'FACTURACION',
+    (a) =>
+      a.tipo === TipoHallazgo.COMISION_NO_FACTURADA ||
+      a.categoria === CategoriaHallazgo.REVENUE,
   );
 
   if (relevantResults.length === 0 && relevantAnomalies.length === 0) {
