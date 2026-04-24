@@ -17,10 +17,14 @@ Guía para levantar **frontend + backend + PostgreSQL + Redis** en contenedores,
 
 ## 2) Archivos usados por el setup
 
-- Orquestación: [infra/docker-compose.yml](infra/docker-compose.yml)
+- Orquestación local (dev): [infra/docker-compose.yml](infra/docker-compose.yml)
+- Orquestación despliegue (prod): [infra/docker-compose.prod.yml](infra/docker-compose.prod.yml)
 - Imagen API (dev): [infra/docker/api.Dockerfile.dev](infra/docker/api.Dockerfile.dev)
 - Imagen Web (dev): [infra/docker/web.Dockerfile.dev](infra/docker/web.Dockerfile.dev)
+- Imagen API (prod): [infra/docker/api.Dockerfile.prod](infra/docker/api.Dockerfile.prod)
+- Imagen Web (prod): [infra/docker/web.Dockerfile.prod](infra/docker/web.Dockerfile.prod)
 - Variables ejemplo: [infra/.env.docker.example](infra/.env.docker.example)
+- Variables ejemplo prod: [infra/.env.docker.prod.example](infra/.env.docker.prod.example)
 - Exclusiones de contexto: [.dockerignore](.dockerignore)
 
 ---
@@ -138,6 +142,13 @@ Al finalizar:
 - API: http://localhost:4000/api/v1
 - PostgreSQL host: `localhost:5433`
 - Redis host: `localhost:6379`
+
+Para ejecución en modo producción (sin hot-reload y sin volúmenes de código):
+
+```bash
+cp infra/.env.docker.prod.example infra/.env.docker.prod
+docker compose -f infra/docker-compose.prod.yml --env-file infra/.env.docker.prod up --build -d
+```
 
 ---
 

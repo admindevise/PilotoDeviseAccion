@@ -25,6 +25,7 @@ out/
 .env.*.local
 .env.docker
 infra/.env.docker
+infra/.env.docker.prod
 
 # IDE
 .vscode/

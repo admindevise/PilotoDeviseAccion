@@ -10,17 +10,13 @@ COPY apps/web/package.json apps/web/package.json
 COPY packages/shared/package.json packages/shared/package.json
 COPY packages/ai-engine/package.json packages/ai-engine/package.json
 
-# Railway may set NODE_ENV=production at build time; force dev deps for Next build (Tailwind/PostCSS)
-RUN pnpm install --frozen-lockfile --prod=false
+RUN pnpm install --frozen-lockfile
 
 # Source code
 COPY . .
 
-# Build web app for production
-RUN pnpm --filter @fideicomiso/web build
-
-ENV NODE_ENV=production
+ENV NODE_ENV=development
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "pnpm --filter @fideicomiso/web exec next start --hostname 0.0.0.0 --port ${PORT:-3000}"]
+CMD ["sh", "-c", "pnpm --filter @fideicomiso/web exec next dev --hostname 0.0.0.0 --port ${PORT:-3000}"]

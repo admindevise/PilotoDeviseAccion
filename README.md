@@ -144,6 +144,14 @@ Notas:
 - Las imágenes de app se construyen desde [infra/docker/api.Dockerfile.dev](infra/docker/api.Dockerfile.dev) y [infra/docker/web.Dockerfile.dev](infra/docker/web.Dockerfile.dev).
 - El backend ejecuta `prisma generate` y `prisma db push` al iniciar en modo desarrollo.
 
+Para correr el stack en modo producción con Docker:
+
+```bash
+docker compose -f infra/docker-compose.prod.yml --env-file infra/.env.docker.prod up --build -d
+```
+
+En este modo se usan [infra/docker/api.Dockerfile.prod](infra/docker/api.Dockerfile.prod) y [infra/docker/web.Dockerfile.prod](infra/docker/web.Dockerfile.prod).
+
 ### 2. Base de Datos
 
 ```bash

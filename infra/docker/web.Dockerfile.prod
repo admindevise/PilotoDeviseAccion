@@ -1,6 +1,5 @@
 FROM node:20-slim
 
-RUN apt-get update && apt-get install -y openssl ca-certificates && rm -rf /var/lib/apt/lists/*
 RUN corepack enable
 WORKDIR /workspace
 
@@ -11,13 +10,17 @@ COPY apps/web/package.json apps/web/package.json
 COPY packages/shared/package.json packages/shared/package.json
 COPY packages/ai-engine/package.json packages/ai-engine/package.json
 
-RUN pnpm install --frozen-lockfile
+# Install dev deps too so Next build has full toolchain (Tailwind/PostCSS)
+RUN pnpm install --frozen-lockfile --prod=false
 
 # Source code
 COPY . .
 
-ENV NODE_ENV=development
+# Build web app for production
+RUN pnpm --filter @fideicomiso/web build
 
-EXPOSE 4000
+ENV NODE_ENV=production
 
-CMD ["sh", "-c", "pnpm --filter @fideicomiso/api exec prisma generate && pnpm --filter @fideicomiso/api exec prisma db push && pnpm --filter @fideicomiso/api dev"]
+EXPOSE 3000
+
+CMD ["sh", "-c", "pnpm --filter @fideicomiso/web exec next start --hostname 0.0.0.0 --port ${PORT:-3000}"]
